@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5uLKmxOIZqFk3U6ttqyxh+kiByC84Aas2ZQzBo45CTY=",
+  "Source": "Belle.Api",
+  "BasePath": "_content/Belle.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

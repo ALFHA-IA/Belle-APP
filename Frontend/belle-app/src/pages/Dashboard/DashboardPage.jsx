@@ -22,7 +22,10 @@ import {
 } from 'recharts'
 import { getDashboardStats, getReservas, actualizarEstadoReserva } from '../../services/apiServices'
 
+import { useAuth } from '../../context/AuthContext'
+
 export const DashboardPage = () => {
+  const { usuario } = useAuth()
   const [stats, setStats] = useState(null)
   const [reservasHoy, setReservasHoy] = useState([])
   const [loading, setLoading] = useState(true)
@@ -77,10 +80,10 @@ export const DashboardPage = () => {
             </span>
           </div>
           <h2 className="text-xl font-bold tracking-tight text-[#FAF7F2]">
-            ¡Hola, {stats.usuarioActual?.nombre || 'Luis Joaquin Huamani Hernandez'}! ✨
+            ¡Hola, {usuario?.nombre || 'Usuario'}! ✨
           </h2>
           <p className="text-xs text-[#EAD8CB] mt-0.5">
-            {stats.usuarioActual?.rol || 'Studio Owner'} · Hoy tienes <strong>{stats.citasHoy.total} citas</strong> en Azure SQL.
+            {usuario?.cargo || usuario?.rol || 'Usuario'} · Hoy tienes <strong>{stats.citasHoy.total} citas</strong> en Azure SQL.
           </p>
 
           <div className="mt-4 pt-3 border-t border-white/15 flex items-center justify-between">

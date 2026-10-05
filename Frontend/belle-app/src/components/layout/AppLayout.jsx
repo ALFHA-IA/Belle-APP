@@ -16,22 +16,23 @@ import {
   Lock
 } from 'lucide-react'
 import { BelleChatWidget } from '../chat/BelleChatWidget'
-import { useAuth } from '../../context/AuthContext'
+import { dashboardPorRol, useAuth } from '../../context/AuthContext'
 import { LoginPage } from '../../pages/Auth/LoginPage'
 
 export const AppLayout = () => {
   const location = useLocation()
   const navigate = useNavigate()
-  const { usuario, esAdmin, esCliente, loginRapido, logout } = useAuth()
+  const { usuario, esAdmin, esCliente, esInstructor, loginRapido, logout } = useAuth()
   const [chatAbierto, setChatAbierto] = useState(false)
   const [menuUsuarioAbierto, setMenuUsuarioAbierto] = useState(false)
+  const nombreRol = esAdmin ? 'Administrador' : esInstructor ? 'Instructor(a)' : 'Cliente'
 
   // Si no hay sesión iniciada, mostrar la pantalla de Login
   if (!usuario) {
     return (
       <div className="min-h-screen bg-[#1F1917] flex justify-center items-center sm:p-4">
         <div className="w-full sm:max-w-md h-screen sm:h-[844px] bg-[#FAF7F2] text-[#241E1C] flex flex-col relative overflow-hidden sm:rounded-[40px] shadow-2xl sm:border-[8px] sm:border-[#2C2420]">
-          <LoginPage onLoginExitoso={() => navigate('/')} />
+          <LoginPage onLoginExitoso={(user) => navigate(dashboardPorRol(user.rol))} />
         </div>
       </div>
     )
@@ -39,8 +40,12 @@ export const AppLayout = () => {
 
   const getTituloRuta = () => {
     switch (location.pathname) {
-      case '/':
-        return esAdmin ? 'Studio Dashboard' : 'Mi Portal Alumna'
+      case '/admin':
+        return 'Studio Dashboard'
+      case '/instructor':
+        return 'Panel de Instructor(a)'
+      case '/cliente':
+        return 'Mi Portal Alumna'
       case '/reservas':
         return esAdmin ? 'Agenda & Citas' : 'Mis Clases & Agenda'
       case '/crm':
@@ -54,7 +59,7 @@ export const AppLayout = () => {
     }
   }
 
-  const esRutaSecundaria = location.pathname !== '/'
+  const esRutaSecundaria = !['/admin', '/instructor', '/cliente'].includes(location.pathname)
 
   return (
     <div className="min-h-screen bg-[#1F1917] flex justify-center items-center sm:p-4">
@@ -82,11 +87,11 @@ export const AppLayout = () => {
                 <span className={`text-[9px] px-1.5 py-0.5 rounded-full font-bold ${
                   esAdmin ? 'bg-[#F4ECE3] text-[#6E1C36] border border-[#E3D4C4]' : 'bg-[#EBF5F0] text-[#2D7A58] border border-[#CDE5D8]'
                 }`}>
-                  {esAdmin ? '👑 Admin' : '🌸 Alumna'}
+                  {esAdmin ? '👑 Admin' : esInstructor ? '🧘‍♀️ Instructor(a)' : '👤 Cliente'}
                 </span>
               </h1>
               <p className="text-[10px] text-[#8C7E74] font-medium">
-                {esAdmin ? 'Studio & Management Suite' : 'Belle Barre Member Suite'}
+                {esAdmin ? 'Studio & Management Suite' : esInstructor ? 'Belle Barre Instructor Suite' : 'Belle Barre Member Suite'}
               </p>
             </div>
           </div>
@@ -199,7 +204,7 @@ export const AppLayout = () => {
         </nav>
 
         {/* Modal / Sheet del Asistente Belle AI */}
-        <BelleChatWidget abiertoExterno={chatAbierto} alCerrar={() => setChatAbierto(false)} />
+        <BelleChatWidget key={usuario.id + ':' + usuario.correo} abiertoExterno={chatAbierto} alCerrar={() => setChatAbierto(false)} />
 
         {/* Modal / Bottom Sheet: Selector de Rol y Perfil */}
         {menuUsuarioAbierto && (
@@ -230,7 +235,7 @@ export const AppLayout = () => {
                 <div>
                   <span className="text-[10px] text-[#7A6E65] block">Rol Activo:</span>
                   <span className="text-xs font-bold text-[#241E1C]">
-                    {esAdmin ? '👑 Administrador / Dueño' : '🌸 Alumna Matriculada'}
+                    {nombreRol}
                   </span>
                 </div>
                 <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${

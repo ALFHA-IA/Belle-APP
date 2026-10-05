@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v10.0": {
       "Belle.Api/1.0.0": {
         "dependencies": {
-          "AutoMapper": "13.0.1",
           "BCrypt.Net-Next": "4.0.3",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.Design": "10.0.10",
+          "Microsoft.EntityFrameworkCore.InMemory": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
           "Serilog.AspNetCore": "8.0.3",
           "Swashbuckle.AspNetCore": "6.6.2",
@@ -21,14 +21,6 @@
         },
         "runtime": {
           "Belle.Api.dll": {}
-        }
-      },
-      "AutoMapper/13.0.1": {
-        "runtime": {
-          "lib/net6.0/AutoMapper.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.1.0"
-          }
         }
       },
       "Azure.Core/1.47.1": {
@@ -541,6 +533,17 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/10.0.10": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "10.0.10.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/10.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.10"
@@ -982,13 +985,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/13.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
-      "path": "automapper/13.0.1",
-      "hashPath": "automapper.13.0.1.nupkg.sha512"
-    },
     "Azure.Core/1.47.1": {
       "type": "package",
       "serviceable": true,
@@ -1135,6 +1131,13 @@
       "sha512": "sha512-BsvxiKcy8k4/ijAPitmwKG1mlVsdC2lQtFLP28K2N8PlsGYbqPFOyfJ7p2kWil3gM6xXgQGf8Hz/pJB8ej+Dug==",
       "path": "microsoft.entityframeworkcore.design/10.0.10",
       "hashPath": "microsoft.entityframeworkcore.design.10.0.10.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QRsBDbyAoEVwPu/jesXXs4/uomaA577+hl+HsPfSuFq+uxAd6TyAklU/+OB/7bYvb+eikDuC41VTEFz9l79otA==",
+      "path": "microsoft.entityframeworkcore.inmemory/10.0.10",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.10.0.10.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/10.0.10": {
       "type": "package",

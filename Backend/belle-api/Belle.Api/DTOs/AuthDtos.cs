@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Belle.Api.Models;
 
 namespace Belle.Api.DTOs
 {
@@ -14,6 +15,8 @@ namespace Belle.Api.DTOs
     {
         [Required, EmailAddress] public string Correo { get; set; } = string.Empty;
         [Required] public string Contrasena { get; set; } = string.Empty;
+        [Required, EnumDataType(typeof(RolUsuario))]
+        public RolUsuario? Rol { get; set; }
     }
 
     public class TokenRespuestaDto

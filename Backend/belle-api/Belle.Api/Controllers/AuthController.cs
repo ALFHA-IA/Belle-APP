@@ -28,7 +28,9 @@ namespace Belle.Api.Controllers
             return Ok(new TokenRespuestaDto
             {
                 Token = token,
+                Id = usuario.Id,
                 NombreCompleto = usuario.NombreCompleto,
+                Correo = usuario.Correo,
                 Rol = usuario.Rol.ToString(),
                 ExpiraEn = expira
             });

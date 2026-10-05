@@ -3,7 +3,17 @@ import axios from 'axios'
 
 const AuthContext = createContext(null)
 
-const API_BASE = 'http://localhost:5213/api'
+// En desarrollo Vite reenvía /api al backend. VITE_API_BASE_URL permite
+// reemplazarlo en un despliegue con una URL pública explícita.
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api'
+
+export const ROLES = {
+  Cliente: { value: 0, label: 'Cliente', icon: '👤', cargo: 'Alumna Matriculada' },
+  Admin: { value: 1, label: 'Administrador', icon: '⚙️', cargo: 'Studio Owner & Director' },
+  Instructor: { value: 2, label: 'Instructor(a)', icon: '🧘‍♀️', cargo: 'Instructora de Belle Barre' }
+}
+
+export const dashboardPorRol = (rol) => `/${String(rol || 'Cliente').toLowerCase()}`
 
 // Usuarios de demostración rápidos
 export const USUARIOS_DEMO = {
@@ -39,10 +49,11 @@ export const AuthProvider = ({ children }) => {
       try {
         return JSON.parse(guardado)
       } catch (e) {
-        return USUARIOS_DEMO.admin
+        localStorage.removeItem('belle_user')
+        return null
       }
     }
-    return USUARIOS_DEMO.admin // Por defecto iniciamos con Luis Joaquin para no bloquear
+    return null
   })
 
   const [cargando, setCargando] = useState(false)
@@ -54,50 +65,74 @@ export const AuthProvider = ({ children }) => {
     setErrorAuth(null)
   }
 
-  const login = async (correo, contrasena) => {
+  const login = async (correo, contrasena, rolSeleccionado) => {
     setCargando(true)
     setErrorAuth(null)
     try {
       const res = await axios.post(`${API_BASE}/auth/login`, {
         correo,
-        contrasena
+        contrasena,
+        rol: ROLES[rolSeleccionado].value
       })
 
       const data = res.data
-      const esAdmin = data.rol.toLowerCase().includes('admin')
+      if (data.rol !== rolSeleccionado) {
+        throw new Error('La cuenta no corresponde al perfil seleccionado.')
+      }
+
+      const perfil = ROLES[data.rol]
       const nombres = data.nombreCompleto || correo.split('@')[0]
       const partes = nombres.split(' ')
       const iniciales = partes.length >= 2 ? `${partes[0][0]}${partes[1][0]}`.toUpperCase() : nombres.slice(0, 2).toUpperCase()
 
       const userConectado = {
-        id: data.id || (esAdmin ? 260 : 3),
+        id: data.id,
         nombre: nombres,
         correo: data.correo || correo,
-        rol: esAdmin ? 'Admin' : 'Cliente',
+        rol: data.rol,
         token: data.token,
         iniciales,
-        cargo: esAdmin ? 'Studio Owner & Director' : 'Alumna Matriculada',
-        avatar: esAdmin ? USUARIOS_DEMO.admin.avatar : USUARIOS_DEMO.cliente.avatar,
-        matricula: esAdmin ? 'Acceso Total Administrador' : 'Membresía Barré Unlimited'
+        cargo: perfil.cargo,
+        avatar: data.rol === 'Admin' ? USUARIOS_DEMO.admin.avatar : USUARIOS_DEMO.cliente.avatar,
+        matricula: data.rol === 'Admin' ? 'Acceso Total Administrador' : 'Membresía Barré Unlimited'
       }
 
       guardarSesion(userConectado)
       return { success: true, user: userConectado }
     } catch (err) {
-      console.warn('Error en API Auth, usando fallback de roles:', err.message)
-      // Fallback local si el backend no responde
-      const correoL = correo.toLowerCase()
-      if (correoL.includes('luis') || correoL.includes('admin') || correoL.includes('huamani')) {
-        guardarSesion(USUARIOS_DEMO.admin)
-        return { success: true, user: USUARIOS_DEMO.admin }
-      } else {
-        guardarSesion({
-          ...USUARIOS_DEMO.cliente,
-          correo: correo,
-          nombre: correoL.includes('camila') ? 'Camila Rodriguez' : 'Cliente Matriculado'
-        })
-        return { success: true, user: USUARIOS_DEMO.cliente }
+      const mensaje = err.response?.data?.mensaje || err.message || 'No fue posible iniciar sesión.'
+      setErrorAuth(mensaje)
+      return { success: false, message: mensaje }
+    } finally {
+      setCargando(false)
+    }
+  }
+
+  const registrar = async ({ nombreCompleto, correo, contrasena, telefono }) => {
+    setCargando(true)
+    setErrorAuth(null)
+    try {
+      const res = await axios.post(`${API_BASE}/auth/registro`, { nombreCompleto, correo, contrasena, telefono })
+      const data = res.data
+      const nombres = data.nombreCompleto || nombreCompleto
+      const partes = nombres.split(' ')
+      const userConectado = {
+        id: data.id,
+        nombre: nombres,
+        correo,
+        rol: 'Cliente',
+        token: data.token,
+        iniciales: partes.map((parte) => parte[0]).slice(0, 2).join('').toUpperCase(),
+        cargo: ROLES.Cliente.cargo,
+        avatar: USUARIOS_DEMO.cliente.avatar,
+        matricula: 'Membresía Barré Unlimited'
       }
+      guardarSesion(userConectado)
+      return { success: true, user: userConectado }
+    } catch (err) {
+      const mensaje = err.response?.data?.mensaje || 'No fue posible crear la cuenta.'
+      setErrorAuth(mensaje)
+      return { success: false, message: mensaje }
     } finally {
       setCargando(false)
     }
@@ -115,6 +150,7 @@ export const AuthProvider = ({ children }) => {
 
   const esAdmin = usuario?.rol === 'Admin'
   const esCliente = usuario?.rol === 'Cliente'
+  const esInstructor = usuario?.rol === 'Instructor'
 
   return (
     <AuthContext.Provider
@@ -122,9 +158,11 @@ export const AuthProvider = ({ children }) => {
         usuario,
         esAdmin,
         esCliente,
+        esInstructor,
         cargando,
         errorAuth,
         login,
+        registrar,
         loginRapido,
         logout
       }}

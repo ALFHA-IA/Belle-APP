@@ -61,7 +61,9 @@ namespace Belle.Api.Services
                 }
             }
 
-            return valido ? usuario : null;
+            // El perfil elegido forma parte del inicio de sesión: una cuenta no puede
+            // entrar a un panel distinto de su rol real.
+            return valido && usuario.Rol == dto.Rol ? usuario : null;
         }
     }
 }

@@ -6,6 +6,12 @@ import { ReservasPage } from './pages/Reservas/ReservasPage'
 import { CrmPage } from './pages/CRM/CrmPage'
 import { WhatsAppPage } from './pages/WhatsApp/WhatsAppPage'
 import { VisionPage } from './pages/Vision/VisionPage'
+import { dashboardPorRol, useAuth } from './context/AuthContext'
+
+function RoleLanding() {
+  const { usuario } = useAuth()
+  return <Navigate to={usuario ? dashboardPorRol(usuario.rol) : '/'} replace />
+}
 
 function App() {
   return (
@@ -13,7 +19,10 @@ function App() {
       <Routes>
         <Route path="/" element={<AppLayout />}>
           {/* Módulo 10: Dashboard Ejecutivo */}
-          <Route index element={<DashboardPage />} />
+          <Route index element={<RoleLanding />} />
+          <Route path="admin" element={<DashboardPage />} />
+          <Route path="instructor" element={<DashboardPage />} />
+          <Route path="cliente" element={<DashboardPage />} />
 
           {/* Módulo 5: Gestión de Reservas */}
           <Route path="reservas" element={<ReservasPage />} />

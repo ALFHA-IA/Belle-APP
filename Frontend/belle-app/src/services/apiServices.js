@@ -9,7 +9,7 @@ import {
   POSTURA_SAMPLES
 } from './mockData'
 
-const API_BASE = 'http://localhost:5213/api'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api'
 
 const api = axios.create({
   baseURL: API_BASE,
@@ -35,12 +35,6 @@ export const getDashboardStats = async () => {
     console.warn('Usando fallback local para Dashboard Stats:', err.message)
     return {
       ...DASHBOARD_STATS,
-      usuarioActual: {
-        id: 260,
-        nombre: 'Luis Joaquin Huamani Hernandez',
-        iniciales: 'LH',
-        rol: 'Studio Owner & Admin'
-      },
       citasHoy: {
         total: reservasState.length,
         atendidas: reservasState.filter(r => r.estado === 'ATENDIDA').length,
@@ -266,7 +260,7 @@ export const analizarPosturaVision = async (tipoMuestra = 'adecuada') => {
 // ==========================================
 // MÓDULO 6: ASISTENTE BELLE AI (Function Calling)
 // ==========================================
-export const consultarAsistenteBelle = async (mensajeUsuario, nombreUsuario = 'Luis Joaquin Huamani Hernandez') => {
+export const consultarAsistenteBelle = async (mensajeUsuario, nombreUsuario = 'Usuario') => {
   try {
     const res = await api.post('/asistente/chat', { mensaje: mensajeUsuario, nombreUsuario })
     return res.data

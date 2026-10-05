@@ -2,19 +2,6 @@
   "version": 4,
   "targets": {
     "net10.0": {
-      "AutoMapper/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Azure.Core/1.47.1": {
         "type": "package",
         "dependencies": {
@@ -653,6 +640,22 @@
         },
         "build": {
           "build/net10.0/Microsoft.EntityFrameworkCore.Design.props": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/10.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.10"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/10.0.10": {
@@ -1389,21 +1392,6 @@
     }
   },
   "libraries": {
-    "AutoMapper/13.0.1": {
-      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
-      "type": "package",
-      "path": "automapper/13.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "automapper.13.0.1.nupkg.sha512",
-        "automapper.nuspec",
-        "icon.png",
-        "lib/net6.0/AutoMapper.dll",
-        "lib/net6.0/AutoMapper.xml"
-      ]
-    },
     "Azure.Core/1.47.1": {
       "sha512": "oPcncSsDHuxB8SC522z47xbp2+ttkcKv2YZ90KXhRKN0YQd2+7l1UURT9EBzUNEXtkLZUOAB5xbByMTrYRh3yA==",
       "type": "package",
@@ -2851,6 +2839,21 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.InMemory/10.0.10": {
+      "sha512": "QRsBDbyAoEVwPu/jesXXs4/uomaA577+hl+HsPfSuFq+uxAd6TyAklU/+OB/7bYvb+eikDuC41VTEFz9l79otA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/10.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net10.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.10.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Relational/10.0.10": {
       "sha512": "wNonj40aZxia+GtuBiiD6ZqVh4h6y5Nje1bGdmzZ8/ui0QRsAN+S0SIrLHFCEGbG9cDbeaE40sh+Lr7o9rRs6g==",
       "type": "package",
@@ -4146,12 +4149,12 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "AutoMapper >= 13.0.1",
       "BCrypt.Net-Next >= 4.0.3",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
+      "Microsoft.EntityFrameworkCore.InMemory >= 10.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.10",
       "Serilog.AspNetCore >= 8.0.3",
@@ -4204,10 +4207,6 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          },
           "BCrypt.Net-Next": {
             "target": "Package",
             "version": "[4.0.3, )"
@@ -4227,6 +4226,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[10.0.10, )"
           },
@@ -4689,17 +4692,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"AutoMapper\" 13.0.1 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

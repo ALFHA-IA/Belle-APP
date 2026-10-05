@@ -18,7 +18,10 @@ import {
 } from '../../services/apiServices'
 import { PROFESIONALES, SERVICIOS } from '../../services/mockData'
 
+import { useAuth } from '../../context/AuthContext'
+
 export const ReservasPage = () => {
+  const { usuario } = useAuth()
   const [reservas, setReservas] = useState([])
   const [clientes, setClientes] = useState([])
   const [filtroProfesional, setFiltroProfesional] = useState('todos')
@@ -276,7 +279,7 @@ export const ReservasPage = () => {
                 >
                   {clientes.map((c) => (
                     <option key={c.id} value={c.id}>
-                      {c.nombre} {c.id == 260 || c.nombre?.toLowerCase().includes('huamani') || c.nombre?.toLowerCase().includes('luis') ? '⭐ (TÚ - Studio Owner)' : `(BES: ${c.bes})`}
+                      {c.nombre} {String(c.id) === String(usuario?.id) ? '⭐ (TÚ)' : `(BES: ${c.bes})`}
                     </option>
                   ))}
                 </select>

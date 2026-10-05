@@ -6,7 +6,6 @@ C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Belle.Api.runtimeconfig.json
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Belle.Api.dll
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Belle.Api.pdb
-C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Azure.Identity.dll
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
@@ -175,3 +174,12 @@ C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\obj\Debug\net10.0\
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\obj\Debug\net10.0\Belle.Api.pdb
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\obj\Debug\net10.0\Belle.Api.genruntimeconfig.cache
 C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\obj\Debug\net10.0\ref\Belle.Api.dll
+C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\appsettings.Development.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\appsettings.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.staticwebassets.endpoints.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.exe
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.deps.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.runtimeconfig.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.dll
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.pdb

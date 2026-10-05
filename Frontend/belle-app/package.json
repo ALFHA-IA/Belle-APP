@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:https": "vite --mode https"
   },
   "dependencies": {
     "@mediapipe/camera_utils": "^0.3.1675466862",

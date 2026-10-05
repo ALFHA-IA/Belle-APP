@@ -17,7 +17,7 @@ export const BelleChatWidget = ({ abiertoExterno = false, alCerrar = () => {} })
     {
       id: 'init',
       remitente: 'bot',
-      texto: `¡Hola, ${usuario?.nombre || 'Luis Joaquin Huamani Hernandez'}! Soy Belle AI ✨ Tu copiloto conectado en vivo a Azure SQL. Puedo consultar horarios de clases Barré, agendar citas con Function Calling y ayudarte con métricas BES de clientes. ¿Qué deseas consultar hoy?`,
+      texto: `¡Hola, ${usuario?.nombre || 'Usuario'}! Soy Belle AI ✨ Tu copiloto conectado en vivo a Azure SQL. Puedo consultar horarios de clases Barré, agendar citas con Function Calling y ayudarte con métricas BES de clientes. ¿Qué deseas consultar hoy?`,
       hora: 'Ahora',
       toolEjecutada: null
     }

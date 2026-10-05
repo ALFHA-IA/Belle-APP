@@ -3,7 +3,8 @@ namespace Belle.Api.Models
     public enum RolUsuario
     {
         Cliente = 0,
-        Admin = 1
+        Admin = 1,
+        Instructor = 2
     }
 
     public class Usuario

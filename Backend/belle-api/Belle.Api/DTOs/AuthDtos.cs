@@ -19,7 +19,9 @@ namespace Belle.Api.DTOs
     public class TokenRespuestaDto
     {
         public string Token { get; set; } = string.Empty;
+        public int Id { get; set; }
         public string NombreCompleto { get; set; } = string.Empty;
+        public string Correo { get; set; } = string.Empty;
         public string Rol { get; set; } = string.Empty;
         public DateTime ExpiraEn { get; set; }
     }

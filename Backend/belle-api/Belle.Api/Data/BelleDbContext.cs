@@ -7,13 +7,22 @@ namespace Belle.Api.Data
     {
         public BelleDbContext(DbContextOptions<BelleDbContext> options) : base(options) { }
 
+        public DbSet<AppUser> AppUsers => Set<AppUser>();
         public DbSet<Usuario> Usuarios => Set<Usuario>();
         public DbSet<Clase> Clases => Set<Clase>();
         public DbSet<Reserva> Reservas => Set<Reserva>();
         public DbSet<EngagementScore> EngagementScores => Set<EngagementScore>();
+        public DbSet<VisionAnalisis> VisionAnalisis => Set<VisionAnalisis>();
+        public DbSet<MensajeWhatsApp> MensajesWhatsApp => Set<MensajeWhatsApp>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AppUser>(entity =>
+            {
+                entity.ToTable("AppUsers");
+                entity.HasKey(e => e.Id);
+            });
+
             modelBuilder.Entity<Usuario>()
                 .HasIndex(u => u.Correo)
                 .IsUnique();

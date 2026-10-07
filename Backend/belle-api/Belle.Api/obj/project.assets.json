@@ -4163,19 +4163,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Legion\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\BELLE APP\\Backend\\belle-api\\Belle.Api\\Belle.Api.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Desktop\\PROYECTO FINAL\\Belle-APP\\Backend\\belle-api\\Belle.Api\\Belle.Api.csproj",
       "projectName": "Belle.Api",
-      "projectPath": "C:\\Users\\Legion\\Desktop\\BELLE APP\\Backend\\belle-api\\Belle.Api\\Belle.Api.csproj",
-      "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Legion\\Desktop\\BELLE APP\\Backend\\belle-api\\Belle.Api\\obj\\",
+      "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\PROYECTO FINAL\\Belle-APP\\Backend\\belle-api\\Belle.Api\\Belle.Api.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive\\Desktop\\PROYECTO FINAL\\Belle-APP\\Backend\\belle-api\\Belle.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

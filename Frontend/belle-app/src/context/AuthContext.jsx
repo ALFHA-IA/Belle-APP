@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import axios from 'axios'
+import { desactivarPush } from '../services/notificacionesPush'
 
 const AuthContext = createContext(null)
 
@@ -60,6 +61,7 @@ export const AuthProvider = ({ children }) => {
   const [errorAuth, setErrorAuth] = useState(null)
 
   const guardarSesion = (user) => {
+    if (usuario && (usuario.id !== user.id || usuario.rol !== user.rol)) desactivarPush(usuario).catch(() => {})
     setUsuario(user)
     localStorage.setItem('belle_user', JSON.stringify(user))
     setErrorAuth(null)
@@ -144,6 +146,7 @@ export const AuthProvider = ({ children }) => {
   }
 
   const logout = () => {
+    desactivarPush(usuario).catch(() => {})
     setUsuario(null)
     localStorage.removeItem('belle_user')
   }

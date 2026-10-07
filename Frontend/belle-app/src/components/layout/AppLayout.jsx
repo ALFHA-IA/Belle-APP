@@ -18,6 +18,7 @@ import {
 import { BelleChatWidget } from '../chat/BelleChatWidget'
 import { dashboardPorRol, useAuth } from '../../context/AuthContext'
 import { LoginPage } from '../../pages/Auth/LoginPage'
+import { Notificaciones } from '../notificaciones/Notificaciones'
 
 export const AppLayout = () => {
   const location = useLocation()
@@ -98,6 +99,7 @@ export const AppLayout = () => {
 
           {/* Accesos rápidos superiores */}
           <div className="flex items-center gap-2">
+            <Notificaciones />
             {esAdmin && (
               <NavLink
                 to="/whatsapp"

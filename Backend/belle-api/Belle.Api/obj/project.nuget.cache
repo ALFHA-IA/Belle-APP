@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U8au6oDJmhc=",
+  "dgSpecHash": "n7I7ohhH5e4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Legion\\Desktop\\BELLE APP\\Backend\\belle-api\\Belle.Api\\Belle.Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "C:\\Users\\Legion\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\lib.net.http.encryptedcontentencoding\\2.1.1\\lib.net.http.encryptedcontentencoding.2.1.1.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\lib.net.http.webpush\\3.3.1\\lib.net.http.webpush.3.3.1.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.0\\microsoft.aspnetcore.authentication.jwtbearer.10.0.0.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",

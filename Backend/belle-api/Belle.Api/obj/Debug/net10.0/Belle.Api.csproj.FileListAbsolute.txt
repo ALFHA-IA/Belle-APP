@@ -183,3 +183,21 @@ C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-b
 C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.runtimeconfig.json
 C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.dll
 C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-L2Fwnm\belle-api-build-role-auth\Belle.Api.pdb
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\appsettings.Development.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\appsettings.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.staticwebassets.endpoints.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.exe
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.deps.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.runtimeconfig.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.dll
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\belle-push\Belle.Api.pdb
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\appsettings.Development.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\appsettings.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.staticwebassets.endpoints.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.exe
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.deps.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.runtimeconfig.json
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.dll
+C:\Users\Legion\AppData\Local\Temp\vscode-agent-codex-sandbox-iGEMef\pruebas-push\Belle.Api.pdb
+C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Lib.Net.Http.EncryptedContentEncoding.dll
+C:\Users\Legion\Desktop\BELLE APP\Backend\belle-api\Belle.Api\bin\Debug\net10.0\Lib.Net.Http.WebPush.dll

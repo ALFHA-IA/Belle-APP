@@ -25,6 +25,7 @@
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
     <PackageReference Include="Twilio" Version="7.6.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Lib.Net.Http.WebPush" Version="3.3.1" />
   </ItemGroup>
 
 </Project>

@@ -23,6 +23,11 @@ builder.Services.AddDbContext<BelleDbContext>(opciones =>
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IWhatsAppService, WhatsAppService>();
+builder.Services.AddHttpClient("NotificacionesPush", cliente => cliente.Timeout = TimeSpan.FromSeconds(15))
+    .RemoveAllLoggers()
+    .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler { AllowAutoRedirect = false });
+builder.Services.AddSingleton<ServicioNotificacionesPush>();
+builder.Services.AddHostedService(proveedor => proveedor.GetRequiredService<ServicioNotificacionesPush>());
 
 // --- Autenticación JWT ---
 var claveSecreta = builder.Configuration["Jwt:ClaveSecreta"]!;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Belle.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ba4a4c6bdb64b051aacdcd43c2a3882c1954128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c2f1ac6aaf1f6f35bd07d67d9eb0c3ea5fe55ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Belle.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Belle.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

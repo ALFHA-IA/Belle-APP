@@ -1,0 +1,33 @@
+{
+  "frecuencia_tokens": {
+    "hola": 1,
+    ",": 2,
+    "por": 1,
+    "favor": 1,
+    "¿": 1,
+    "pueden": 1,
+    "reservarme": 1,
+    "en": 1,
+    "barré": 1,
+    "signature": 1,
+    "flow": 1,
+    "hoy": 1,
+    "a": 1,
+    "las": 1,
+    "6": 1,
+    "30pm": 1,
+    "con": 1,
+    "valeria": 1,
+    "mendoza": 1,
+    "?": 1
+  },
+  "total_mensajes_aprendidos": 1,
+  "ultimos_mensajes": [
+    {
+      "timestamp": "2026-10-07T18:12:25.934639",
+      "alumna": "Camila Rodriguez",
+      "texto": "Hola, por favor, ¿pueden reservarme en Barré Signature Flow hoy a las 6:30pm con Valeria Mendoza?",
+      "tokens": 21
+    }
+  ]
+}

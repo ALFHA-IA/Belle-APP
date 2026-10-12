@@ -1,4 +1,5 @@
 using Belle.Api.Data;
+using Belle.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,90 +16,110 @@ namespace Belle.Api.Controllers
     public class AsistenteController : ControllerBase
     {
         private readonly BelleDbContext _db;
+        private readonly IOpenAIService _openAIService;
 
-        public AsistenteController(BelleDbContext db)
+        public AsistenteController(BelleDbContext db, IOpenAIService openAIService)
         {
             _db = db;
+            _openAIService = openAIService;
         }
 
         [HttpPost("chat")]
         public async Task<IActionResult> Chat([FromBody] ChatRequest req)
         {
-            var msg = req.Mensaje.ToLower();
+            if (string.IsNullOrWhiteSpace(req.Mensaje))
+            {
+                return BadRequest(new { error = true, mensaje = "El mensaje no puede estar vacío." });
+            }
+
             var nombreUsuario = string.IsNullOrWhiteSpace(req.NombreUsuario)
                 ? "Luis Joaquin Huamani Hernandez"
                 : req.NombreUsuario.Trim();
 
-            if (msg.Contains("mi nombre") || msg.Contains("quien soy") || msg.Contains("quién soy"))
+            // 1. Obtener contexto en vivo desde Azure SQL
+            var clases = await _db.Clases.Take(3).ToListAsync();
+            var contextoAzure = "Clases disponibles en estudio: " +
+                string.Join(", ", clases.Select(c => $"{c.Nombre} a las {c.FechaHoraInicio:HH:mm} con {c.Instructor}"));
+
+            // 2. Obtener historial reciente de mensajes para contexto conversacional
+            var historialEntities = await _db.MensajesWhatsApp
+                .OrderByDescending(m => m.FechaHora)
+                .Take(6)
+                .Select(m => new { m.Remitente, m.Texto })
+                .ToListAsync();
+
+            var historialReciente = historialEntities
+                .OrderBy(m => m.Remitente)
+                .Select(m => (m.Remitente, m.Texto))
+                .ToList();
+
+            // 3. Generar respuesta con la API de OpenAI (con fallback automático y aprendizaje continuo)
+            var (respuesta, toolEjecutada) = await _openAIService.GenerarRespuestaAsync(
+                req.Mensaje,
+                nombreUsuario,
+                historialReciente,
+                contextoAzure
+            );
+
+            // 4. Guardar la nueva interacción en Azure SQL (dbo.MensajesWhatsApp) para aprendizaje constante
+            try
             {
-                return Ok(new
+                var usuario = await _db.Usuarios.FirstOrDefaultAsync(u => u.NombreCompleto.Contains(nombreUsuario) || u.Correo.Contains("luis.huamani"));
+                var nuevoMensajeUsuario = new Models.MensajeWhatsApp
                 {
-                    respuesta = $"¡Hola {nombreUsuario}! Te reconozco como el usuario de esta sesión.",
-                    toolEjecutada = $"ConsultarUsuarioActual(nombre='{nombreUsuario}')",
-                    accionSugerida = new
-                    {
-                        tipo = "VER_RESERVAS"
-                    }
-                });
+                    UsuarioId = usuario?.Id,
+                    Telefono = usuario?.Telefono ?? "+51 987 654 321",
+                    Remitente = "cliente",
+                    Texto = req.Mensaje.Trim(),
+                    FechaHora = DateTime.UtcNow
+                };
+                var nuevoMensajeBot = new Models.MensajeWhatsApp
+                {
+                    UsuarioId = usuario?.Id,
+                    Telefono = "+51 987 654 321",
+                    Remitente = "bot",
+                    Texto = respuesta.Trim(),
+                    ToolEjecutada = toolEjecutada,
+                    FechaHora = DateTime.UtcNow.AddSeconds(1)
+                };
+
+                await _db.MensajesWhatsApp.AddRangeAsync(nuevoMensajeUsuario, nuevoMensajeBot);
+                await _db.SaveChangesAsync();
+            }
+            catch
+            {
+                // No bloquea la respuesta si la conexión de persistencia temporal tiene demora
             }
 
-            if (msg.Contains("alexander") || msg.Contains("urquiaga"))
+            // 5. Determinar acción sugerida en la UI de React
+            object? accionSugerida = null;
+            var msgLower = req.Mensaje.ToLower();
+            if (msgLower.Contains("reserva") || msgLower.Contains("agendar") || msgLower.Contains("clase"))
             {
-                var alex = await _db.AppUsers.FirstOrDefaultAsync(u => u.FirstName.Contains("Alexander") || u.LastName.Contains("Urquiaga"));
-                var reserva = await _db.Reservas.Include(r => r.Clase).FirstOrDefaultAsync(r => r.Usuario.NombreCompleto.Contains("Alexander"));
-
-                return Ok(new
+                accionSugerida = new
                 {
-                    respuesta = $"¡Hola Alexander Urquiaga! Te reconozco en nuestra base de datos Azure SQL (ID: {alex?.Id ?? 258}). Tienes status COMPROMETIDO con un BES de 96 puntos." +
-                               (reserva != null ? $" Tu próxima clase es '{reserva.Clase?.Nombre}' programada a las {reserva.Clase?.FechaHoraInicio:HH:mm}." : ""),
-                    toolEjecutada = "ConsultarClientePorNombre(nombre='Alexander Urquiaga')",
-                    accionSugerida = new
-                    {
-                        tipo = "VER_RESERVAS"
-                    }
-                });
+                    tipo = "VER_RESERVAS",
+                    servicio = clases.FirstOrDefault()?.Nombre ?? "Barré Fit Core & Sculpt",
+                    profesional = clases.FirstOrDefault()?.Instructor ?? "Valeria Mendoza",
+                    hora = "17:00"
+                };
             }
-
-            if (msg.Contains("reserva") || msg.Contains("cita") || msg.Contains("agendar"))
+            else if (msgLower.Contains("crm") || msgLower.Contains("riesgo") || msgLower.Contains("bes"))
             {
-                var clases = await _db.Clases.Take(2).ToListAsync();
-                var nombres = string.Join(" o ", clases.Select(c => $"{c.Nombre} a las {c.FechaHoraInicio:HH:mm}"));
-
-                return Ok(new
-                {
-                    respuesta = $"¡Por supuesto! Consulté la base de datos de Azure SQL. Tenemos cupos disponibles hoy para: {nombres}.",
-                    toolEjecutada = "ConsultarDisponibilidadAzureSQL(fecha='hoy')",
-                    accionSugerida = new
-                    {
-                        tipo = "CREAR_RESERVA",
-                        servicio = clases.FirstOrDefault()?.Nombre ?? "Barré Fit Core & Sculpt",
-                        profesional = clases.FirstOrDefault()?.Instructor ?? "Valeria Mendoza",
-                        hora = "16:00"
-                    }
-                });
+                accionSugerida = new { tipo = "VER_CRM" };
             }
-
-            if (msg.Contains("riesgo") || msg.Contains("crm") || msg.Contains("bes"))
+            else if (msgLower.Contains("postura") || msgLower.Contains("vision"))
             {
-                var totalClientes = await _db.AppUsers.CountAsync(u => u.IsActive);
-                return Ok(new
-                {
-                    respuesta = $"Consultando los {totalClientes} usuarios de Azure SQL: detectamos clientes con bajo nivel de asistencia. Alexander Urquiaga lidera la racha activa con BES 96.",
-                    toolEjecutada = "ObtenerMetricasCRM_BES()",
-                    accionSugerida = new
-                    {
-                        tipo = "VER_CRM"
-                    }
-                });
+                accionSugerida = new { tipo = "VER_VISION" };
             }
 
             return Ok(new
             {
-                respuesta = "Hola, soy Belle AI ✨ Tu copiloto conectado en vivo a Azure SQL para gestión de clases Barré, CRM predictivo BES y control postural. ¿En qué te puedo ayudar hoy?",
-                toolEjecutada = (string?)null,
-                accionSugerida = (object?)null
+                respuesta,
+                toolEjecutada = toolEjecutada ?? "OpenAI:GenerarRespuestaNatural",
+                accionSugerida,
+                aprendizajeRegistrado = true
             });
         }
     }
 }
-

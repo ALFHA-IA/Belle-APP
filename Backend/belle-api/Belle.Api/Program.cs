@@ -23,6 +23,7 @@ builder.Services.AddDbContext<BelleDbContext>(opciones =>
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IWhatsAppService, WhatsAppService>();
+builder.Services.AddHttpClient<IOpenAIService, OpenAIService>();
 builder.Services.AddHttpClient("NotificacionesPush", cliente => cliente.Timeout = TimeSpan.FromSeconds(15))
     .RemoveAllLoggers()
     .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler { AllowAutoRedirect = false });

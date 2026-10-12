@@ -1,0 +1,252 @@
+cliente_id,nombre_completo,dias_sin_asistir,racha_semanas_activas,clases_asistidas_total,cancelaciones_ultimo_mes,dias_membresia_restantes,promedio_clases_semanales,puntuacion_satisfaccion,es_membresia_unlimited,bes_puntaje,deserto
+260,Luis Joaquin Huamani Hernandez,1,12,15,0,30,4.0,10,1,98.0,0
+258,Alexander Urquiaga,11,7,4,1,24,2.7,8,0,86.2,0
+254,Giorgia Rebaza López,19,6,5,2,23,2.2,7,0,69.8,0
+253,Karin Alexandra  Inca Reyes,27,5,6,0,22,1.7,6,1,53.4,1
+252,María Belen  cruz urquiaga,3,4,7,1,21,1.2,9,0,94.6,0
+251,Grecia  Fuentes Touzet,11,3,8,2,20,3.2,8,0,78.2,0
+250,Camila Yareth  Andrianzen Fernández,19,2,9,0,19,2.7,7,1,61.8,0
+249,Angie  Monzon Flores,27,8,10,1,18,2.2,6,0,59.4,1
+248,Andrea  Davila Tuesta,3,7,11,2,17,1.7,9,0,100.6,0
+247,Fiorella Castillo Chanavá,11,6,12,0,16,1.2,8,1,84.2,0
+246,MARIFES SALINAS SALINAS,19,5,13,1,15,3.2,7,0,67.8,0
+245,María Mercedesz Gálvez Llumpo,27,4,14,2,14,2.7,6,0,51.4,1
+244,Darlin Analí Vallejos Alva,3,3,3,0,13,2.2,9,1,92.6,0
+243,Fiorella  Cherres,11,2,4,1,12,1.7,8,0,76.2,0
+242,Briggite Mishele  Saldaña Lozano,19,8,5,2,11,1.2,7,0,73.8,0
+241,Vanny Mabel  Perez Valle,27,7,6,0,10,3.2,6,1,57.4,1
+240,Valeria Alejandra  Ganoza Estrada,3,6,7,1,9,2.7,9,0,98.6,0
+239,María Paula  Villanueva Vega,11,5,8,2,8,2.2,8,0,82.2,0
+238,Melanie Alessandra Arana Paredes,19,4,9,0,25,1.7,7,1,65.8,0
+237,leidy Vanesa  Victorio Castillo,27,3,10,1,24,1.2,6,0,49.4,1
+236,Olenka Denisse  Pereda Ulloa,3,2,11,2,23,3.2,9,0,90.6,0
+235,Nicol Delicia  Ramos Malca,11,8,12,0,22,2.7,8,1,88.2,0
+234,Cliente_234,19,7,13,1,21,2.2,7,0,71.8,0
+233,Olenka Yamila Collantes Iturri,27,6,14,2,20,1.7,6,0,55.4,1
+232,LILIA GABRIELA MORALES VENTURA,3,5,3,0,19,1.2,9,1,96.6,0
+231,Grecia Cecilia  Olaya Vidal,11,4,4,1,18,3.2,8,0,80.2,0
+230,Yellice Chávez Ponce,19,3,5,2,17,2.7,7,0,63.8,0
+229,Cristina Paola Veneros Reyes,27,2,6,0,16,2.2,6,1,47.4,1
+228,Oriana Varas Rodriguez,3,8,7,1,15,1.7,9,0,102.6,0
+227,Claudia  Gutierrez Mariños,11,7,8,2,14,1.2,8,0,86.2,0
+226,Jannette Arianne Camacho Oyarce,19,6,9,0,13,3.2,7,1,69.8,0
+225,Blanca  Aldana Ramirez,27,5,10,1,12,2.7,6,0,53.4,1
+224,Paola Veneros,3,4,11,2,11,2.2,9,0,94.6,0
+223,Claudia Gutierrez Mariños,11,3,12,0,10,1.7,8,1,78.2,0
+222,Almendra Leon,19,2,13,1,9,1.2,7,0,61.8,0
+221,Carmen  Chumioque Capuñay,27,8,14,2,8,3.2,6,0,59.4,1
+220,Mariana Márquez de Bracamonte,3,7,3,0,25,2.7,9,1,100.6,0
+219,Keisy Valeska Lozano Olave,11,6,4,1,24,2.2,8,0,84.2,0
+218,Johana Meza Benites,19,5,5,2,23,1.7,7,0,67.8,0
+217,Barbara Jipa,27,4,6,0,22,1.2,6,1,51.4,1
+216,Alexandra  Arteaga Celedonio,3,3,7,1,21,3.2,9,0,92.6,0
+215,Fabiana Peishot,11,2,8,2,20,2.7,8,0,76.2,0
+214,Mary  La Cunza,19,8,9,0,19,2.2,7,1,73.8,0
+213,Fiorela Gisel  Vergel Carbonell,27,7,10,1,18,1.7,6,0,57.4,1
+212,KIARA DENNIS REQUENES QUEREVALU,3,6,11,2,17,1.2,9,0,98.6,0
+211,MARIA ALEJANDRA DEXTRE IZQUIERDO,11,5,12,0,16,3.2,8,1,82.2,0
+210,Daniela  Robles,19,4,13,1,15,2.7,7,0,65.8,0
+209,JULY  DIAZ VERA,27,3,14,2,14,2.2,6,0,49.4,1
+208,Patty  Alvan Millones,3,2,3,0,13,1.7,9,1,90.6,0
+207,Scarleth,11,8,4,1,12,1.2,8,0,88.2,0
+206,Gladys Mamani Yruri,19,7,5,2,11,3.2,7,0,71.8,0
+205,Vanessa Belén García,27,6,6,0,10,2.7,6,1,55.4,1
+204,Michael Junior  Armas castillo,3,5,7,1,9,2.2,9,0,96.6,0
+203,Angie Carazas Gonzales,11,4,8,2,8,1.7,8,0,80.2,0
+202,Angie Portilla Díaz,19,3,9,0,25,1.2,7,1,63.8,0
+201,Scarleth Quispe,27,2,10,1,24,3.2,6,0,47.4,1
+200,Jimena  Diaz,3,8,11,2,23,2.7,9,0,102.6,0
+199,Alejandra Gutierrez Liñan,11,7,12,0,22,2.2,8,1,86.2,0
+198,Kerly Sofia Nodre Culqui,19,6,13,1,21,1.7,7,0,69.8,0
+197,FATIMA VELASQUEZ SIFUENTES,27,5,14,2,20,1.2,6,0,53.4,1
+196,ORÉ GAVIDIA,3,4,3,0,19,3.2,9,1,94.6,0
+195,ESTEFANY NARRO VIDAURRE,11,3,4,1,18,2.7,8,0,78.2,0
+194,MARIA GARCIA,19,2,5,2,17,2.2,7,0,61.8,0
+193,CASTILLO ALVAREZ,27,8,6,0,16,1.7,6,1,59.4,1
+192,Flavia Daniela  Guerrero Mosqueira,3,7,7,1,15,1.2,9,0,100.6,0
+191,Karol Cárdenas,11,6,8,2,14,3.2,8,0,84.2,0
+190,Frida González,19,5,9,0,13,2.7,7,1,67.8,0
+189,Mariale Sáez,27,4,10,1,12,2.2,6,0,51.4,1
+188,Lucciana Moncada,3,3,11,2,11,1.7,9,0,92.6,0
+187,Romina Gamboa Villarroel,11,2,12,0,10,1.2,8,1,76.2,0
+186,Xiomara Rodriguez (Instructora),19,8,13,1,9,3.2,7,0,73.8,0
+185,Anamar  Obando,27,7,14,2,8,2.7,6,0,57.4,1
+184,Thays  Flores,3,6,3,0,25,2.2,9,1,98.6,0
+183,Thays Flores,11,5,4,1,24,1.7,8,0,82.2,0
+182,Dora Lopez,19,4,5,2,23,1.2,7,0,65.8,0
+181,Kristy  Vasquez,27,3,6,0,22,3.2,6,1,49.4,1
+180,MIranda Ramirez,3,2,7,1,21,2.7,9,0,90.6,0
+179,Edith  Gonzales,11,8,8,2,20,2.2,8,0,88.2,0
+178,Sol  Luna Victoria,19,7,9,0,19,1.7,7,1,71.8,0
+177,Kiara  Torres,27,6,10,1,18,1.2,6,0,55.4,1
+176,Kiara  Torres,3,5,11,2,17,3.2,9,0,96.6,0
+175,katherin Castillo,11,4,12,0,16,2.7,8,1,80.2,0
+174,Fabiana  Li,19,3,13,1,15,2.2,7,0,63.8,0
+173,Yara Lopez Vergara,27,2,14,2,14,1.7,6,0,47.4,1
+172,YSS TECH SOLUTION SAC,3,8,3,0,13,1.2,9,1,102.6,0
+171,KIara Torres,11,7,4,1,12,3.2,8,0,86.2,0
+170,Thays Flores,19,6,5,2,11,2.7,7,0,69.8,0
+169,Jessica Isla,27,5,6,0,10,2.2,6,1,53.4,1
+168,Diany Jara,3,4,7,1,9,1.7,9,0,94.6,0
+167,Fernanda Carrera Flores,11,3,8,2,8,1.2,8,0,78.2,0
+166,Marybertha  Rodriguez,19,2,9,0,25,3.2,7,1,61.8,0
+165,Mafer  Sosa,27,8,10,1,24,2.7,6,0,59.4,1
+164,Claudia Chavez,3,7,11,2,23,2.2,9,0,100.6,0
+163,Mafer Sosa,11,6,12,0,22,1.7,8,1,84.2,0
+162,Majo Echevarria,19,5,13,1,21,1.2,7,0,67.8,0
+161,Samaria Hidalgo,27,4,14,2,20,3.2,6,0,51.4,1
+160,Nayruth Certamen,3,3,3,0,19,2.7,9,1,92.6,0
+159,Juliana Murrugarra,11,2,4,1,18,2.2,8,0,76.2,0
+158,Nicoll Jimena Hilario GIL,19,8,5,2,17,1.7,7,0,73.8,0
+157,Alejandra Alvarado,27,7,6,0,16,1.2,6,1,57.4,1
+156,Kristy  Araujo,3,6,7,1,15,3.2,9,0,98.6,0
+155,Fabiana  Li,11,5,8,2,14,2.7,8,0,82.2,0
+154,Nyruth Giron,19,4,9,0,13,2.2,7,1,65.8,0
+153,Karina  Curay,27,3,10,1,12,1.7,6,0,49.4,1
+152,Laura  Carrion,3,2,11,2,11,1.2,9,0,90.6,0
+151,Andrea  Flores,11,8,12,0,10,3.2,8,1,88.2,0
+150,Marycruz,19,7,13,1,9,2.7,7,0,71.8,0
+149,Alheli,27,6,14,2,8,2.2,6,0,55.4,1
+148,Eddy  Santana Díaz,3,5,3,0,25,1.7,9,1,96.6,0
+147,Geraldine Mantilla Delgado,11,4,4,1,24,1.2,8,0,80.2,0
+146,Nicoles Flores Dìaz-CERTAMEN,19,3,5,2,23,3.2,7,0,63.8,0
+145,Gloria Concuera,27,2,6,0,22,2.7,6,1,47.4,1
+144,Leonardo Obregon,3,8,7,1,21,2.2,9,0,102.6,0
+143,Adriana Obregon,11,7,8,2,20,1.7,8,0,86.2,0
+142,Ariana Maza,19,6,9,0,19,1.2,7,1,69.8,0
+141,Ariana Maza,27,5,10,1,18,3.2,6,0,53.4,1
+140,Gricelia Chuquilin,3,4,11,2,17,2.7,9,0,94.6,0
+139,Ivanna Montenegro,11,3,12,0,16,2.2,8,1,78.2,0
+138,Bianka Villalobos,19,2,13,1,15,1.7,7,0,61.8,0
+137,Corina Alonso,27,8,14,2,14,1.2,6,0,59.4,1
+136,Julissa Barandiaran,3,7,3,0,13,3.2,9,1,100.6,0
+135,Tayra Leon,11,6,4,1,12,2.7,8,0,84.2,0
+134,Jimena  Vega,19,5,5,2,11,2.2,7,0,67.8,0
+133,Catherine Cantera,27,4,6,0,10,1.7,6,1,51.4,1
+132,Jimena  Vega,3,3,7,1,9,1.2,9,0,92.6,0
+131,Alexander  Moreno,11,2,8,2,8,3.2,8,0,76.2,0
+130,Milagros Campos,19,8,9,0,25,2.7,7,1,73.8,0
+129,Yulianna Palomino,27,7,10,1,24,2.2,6,0,57.4,1
+128,Alicia Melendez,3,6,11,2,23,1.7,9,0,98.6,0
+127,Samaria Hidalgo,11,5,12,0,22,1.2,8,1,82.2,0
+126,Lucero Alvites,19,4,13,1,21,3.2,7,0,65.8,0
+125,Ariana  Maza,27,3,14,2,20,2.7,6,0,49.4,1
+124,Susana  Rodriguez,3,2,3,0,19,2.2,9,1,90.6,0
+123,Angie Rengifo,11,8,4,1,18,1.7,8,0,88.2,0
+122,Fabiana  Li,19,7,5,2,17,1.2,7,0,71.8,0
+121,Susana  Rosales,27,6,6,0,16,3.2,6,1,55.4,1
+120,Sheslly  Coral,3,5,7,1,15,2.7,9,0,96.6,0
+119,Ariana  Maza,11,4,8,2,14,2.2,8,0,80.2,0
+118,Greyci Zapata Rodríguez,19,3,9,0,13,1.7,7,1,63.8,0
+117,Fiorella Duran,27,2,10,1,12,1.2,6,0,47.4,1
+116,VICTOR JHAIRO RACCHUMI LECCA,3,8,11,2,11,3.2,9,0,102.6,0
+115,Vanessa Diaz,11,7,12,0,10,2.7,8,1,86.2,0
+114,Vanessa Vargas,19,6,13,1,9,2.2,7,0,69.8,0
+113,Claudia,27,5,14,2,8,1.7,6,0,53.4,1
+112,Carolina Novoa,3,4,3,0,25,1.2,9,1,94.6,0
+111,Carolina Novoa,11,3,4,1,24,3.2,8,0,78.2,0
+110,Claudia,19,2,5,2,23,2.7,7,0,61.8,0
+109,Cecilia  Lezcano,27,8,6,0,22,2.2,6,1,59.4,1
+108,Daniela Miranda,3,7,7,1,21,1.7,9,0,100.6,0
+107,Brissa Moreno,11,6,8,2,20,1.2,8,0,84.2,0
+106,Victoria  Saguier,19,5,9,0,19,3.2,7,1,67.8,0
+105,Brissa  Moreno,27,4,10,1,18,2.7,6,0,51.4,1
+104,Brissa Moreno,3,3,11,2,17,2.2,9,0,92.6,0
+103,Brissa  Moreno,11,2,12,0,16,1.7,8,1,76.2,0
+102,Alejandra García Arista,19,8,13,1,15,1.2,7,0,73.8,0
+101,Cecilia Lezcano,27,7,14,2,14,3.2,6,0,57.4,1
+100,Alexandra Jeniffer Portugal Alvarado,3,6,3,0,13,2.7,9,1,98.6,0
+99,Maggie  Sanchez Guzmán,11,5,4,1,12,2.2,8,0,82.2,0
+98,Wendy Pamela Cortez Nicasio,19,4,5,2,11,1.7,7,0,65.8,0
+97,Astrid Flores,27,3,6,0,10,1.2,6,1,49.4,1
+96,Miranda Quinteros,3,2,7,1,9,3.2,9,0,90.6,0
+95,Grecia  Tito,11,8,8,2,8,2.7,8,0,88.2,0
+94,VICTOR JHAIRO RACCHUMI LECCA,19,7,9,0,25,2.2,7,1,71.8,0
+93,Carolina  Rosales,27,6,10,1,24,1.7,6,0,55.4,1
+92,Paula HUrtado,3,5,11,2,23,1.2,9,0,96.6,0
+91,Pamela  Vargas,11,4,12,0,22,3.2,8,1,80.2,0
+90,Sandra Ramirez Jicaro,19,3,13,1,21,2.7,7,0,63.8,0
+89,Diana Zegarra,27,2,14,2,20,2.2,6,0,47.4,1
+88,cliente delivery,3,8,3,0,19,1.7,9,1,102.6,0
+87,Briguit  Almandoz Vilcabana,11,7,4,1,18,1.2,8,0,86.2,0
+86,Marita  Yglesia,19,6,5,2,17,3.2,7,0,69.8,0
+85,Doris Jimenez Letellier,27,5,6,0,16,2.7,6,1,53.4,1
+84,Romina Castro,3,4,7,1,15,2.2,9,0,94.6,0
+83,Margaret Moncada,11,3,8,2,14,1.7,8,0,78.2,0
+82,Luciana Espinoza,19,2,9,0,13,1.2,7,1,61.8,0
+81,Mishel Rubio,27,8,10,1,12,3.2,6,0,59.4,1
+80,Nancy díaz,3,7,11,2,11,2.7,9,0,100.6,0
+79,Griselia,11,6,12,0,10,2.2,8,1,84.2,0
+78,Natalie Torres,19,5,13,1,9,1.7,7,0,67.8,0
+77,Dislavia Lama,27,4,14,2,8,1.2,6,0,51.4,1
+76,Estefany Carranza,3,3,3,0,25,3.2,9,1,92.6,0
+75,Briza Morillas,11,2,4,1,24,2.7,8,0,76.2,0
+74,Astrid Cordova,19,8,5,2,23,2.2,7,0,73.8,0
+73,Waleska Costilla Cornejo,27,7,6,0,22,1.7,6,1,57.4,1
+72,Sasha Latorre,3,6,7,1,21,1.2,9,0,98.6,0
+71,Maryangela Magallanes,11,5,8,2,20,3.2,8,0,82.2,0
+70,Olenka Olivari,19,4,9,0,19,2.7,7,1,65.8,0
+69,Fabiana LI,27,3,10,1,18,2.2,6,0,49.4,1
+68,Pamela  Vargas,3,2,11,2,17,1.7,9,0,90.6,0
+67,Ana Lidia Guerra Vera,11,8,12,0,16,1.2,8,1,88.2,0
+66,Tiffany  Gamarra,19,7,13,1,15,3.2,7,0,71.8,0
+65,Ariana Pozo,27,6,14,2,14,2.7,6,0,55.4,1
+64,Claudia Penagos,3,5,3,0,13,2.2,9,1,96.6,0
+63,Mariana Ayala Gutierrez,11,4,4,1,12,1.7,8,0,80.2,0
+62,Milagros  Flores de La Cruz,19,3,5,2,11,1.2,7,0,63.8,0
+61,Anguie Rojas,27,2,6,0,10,3.2,6,1,47.4,1
+60,Valeria  Carrera,3,8,7,1,9,2.7,9,0,102.6,0
+59,Xiomara Guillen,11,7,8,2,8,2.2,8,0,86.2,0
+58,Cindy Terrones C.Contenido,19,6,9,0,25,1.7,7,1,69.8,0
+57,Thays Flores,27,5,10,1,24,1.2,6,0,53.4,1
+56,Rosy Cruz,3,4,11,2,23,3.2,9,0,94.6,0
+55,Rosy Cruz,11,3,12,0,22,2.7,8,1,78.2,0
+54,Alexandra Barrientos,19,2,13,1,21,2.2,7,0,61.8,0
+53,Angie  Carasas Gonzales,27,8,14,2,20,1.7,6,0,59.4,1
+52,Katerinne Paredes,3,7,3,0,19,1.2,9,1,100.6,0
+51,Camila  Contreras Hernandez,11,6,4,1,18,3.2,8,0,84.2,0
+50,Angie  Santacruz Gonzales,19,5,5,2,17,2.7,7,0,67.8,0
+49,Victoria Saguier,27,4,6,0,16,2.2,6,1,51.4,1
+48,Regina  González C. Contenido,3,3,7,1,15,1.7,9,0,92.6,0
+47,Anamar Obando. C.Contenido,11,2,8,2,14,1.2,8,0,76.2,0
+46,Dannia C. Contenido,19,8,9,0,13,3.2,7,1,73.8,0
+45,Marite Mar,27,7,10,1,12,2.7,6,0,57.4,1
+44,Erika Chavez Levano,3,6,11,2,11,2.2,9,0,98.6,0
+43,Rosa Orbegozo,11,5,12,0,10,1.7,8,1,82.2,0
+42,Ana Teresa Cornejo,19,4,13,1,9,1.2,7,0,65.8,0
+41,Karina Perez,27,3,14,2,8,3.2,6,0,49.4,1
+39,Ariana Pozo,3,2,3,0,25,2.7,9,1,90.6,0
+38,Tatiana Rivera,11,8,4,1,24,2.2,8,0,88.2,0
+37,Pamela Bazan,19,7,5,2,23,1.7,7,0,71.8,0
+36,Lucy Capuñay,27,6,6,0,22,1.2,6,1,55.4,1
+35,Cliente Delivery,3,5,7,1,21,3.2,9,0,96.6,0
+34,Nieves,11,4,8,2,20,2.7,8,0,80.2,0
+33,Erika  Chavez,19,3,9,0,19,2.2,7,1,63.8,0
+32,Magaly Goicochea,27,2,10,1,18,1.7,6,0,47.4,1
+31,Lucy Capuñay,3,8,11,2,17,1.2,9,0,102.6,0
+30,Judith Margaret Sanchez,11,7,12,0,16,3.2,8,1,86.2,0
+29,Miriam Mayte Castillo,19,6,13,1,15,2.7,7,0,69.8,0
+28,Katya Micaela,27,5,14,2,14,2.2,6,0,53.4,1
+27,Elva  Calva,3,4,3,0,13,1.7,9,1,94.6,0
+26,Mercedes  Galvez,11,3,4,1,12,1.2,8,0,78.2,0
+25,Ximena  Floreano,19,2,5,2,11,3.2,7,0,61.8,0
+24,Eliana  Gil,27,8,6,0,10,2.7,6,1,59.4,1
+23,Arlette Burzzio,3,7,7,1,9,2.2,9,0,100.6,0
+22,Abby Mostacero,11,6,8,2,8,1.7,8,0,84.2,0
+21,Diana Biceño,19,5,9,0,25,1.2,7,1,67.8,0
+20,Miranda Ramirez,27,4,10,1,24,3.2,6,0,51.4,1
+19,Gladis Mamani,3,3,11,2,23,2.7,9,0,92.6,0
+18,Sol Luna Victoria,11,2,12,0,22,2.2,8,1,76.2,0
+17,Pamela Bazan,19,8,13,1,21,1.7,7,0,73.8,0
+16,Tatiana Rivera,27,7,14,2,20,1.2,6,0,57.4,1
+15,Deysi Tirado,3,6,3,0,19,3.2,9,1,98.6,0
+14,Danitza Lukac Armas,11,5,4,1,18,2.7,8,0,82.2,0
+13,Karina Perez,19,4,5,2,17,2.2,7,0,65.8,0
+11,Gloria Corcuera,27,3,6,0,16,1.7,6,1,49.4,1
+10,SOFIA CATALEYA RACCHUMI COTRINA,3,2,7,1,15,1.2,9,0,90.6,0
+9,JESUS MANUEL RACCHUMI LECCA,11,8,8,2,14,3.2,8,0,88.2,0
+8,ORIANA RUFFET,6,10,20,0,20,2.5,9,1,98.0,0
+7,ZEIDI MORENO,6,8,16,0,20,2.5,9,1,96.0,0
+3,JESSICA COTRINA TRUJILLO,74,0,1,1,3,0.8,4,0,34.0,1
+2,EVELING VANESSA COTRINA TRUJILLO,11,4,12,0,10,1.2,8,1,80.2,0
+1,VICTOR JHAIRO RACCHUMI LECCA,19,3,13,1,9,3.2,7,0,63.8,0

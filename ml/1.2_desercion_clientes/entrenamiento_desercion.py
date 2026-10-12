@@ -10,10 +10,16 @@ import math
 import random
 from generar_dataset_desercion import generar_dataset_desercion
 
-def entrenar_modelo_desercion(ruta_dataset="ml/1.2_desercion_clientes/dataset_desercion.csv"):
+def entrenar_modelo_desercion(ruta_dataset=None):
+    if ruta_dataset is None:
+        azure_path = "ml/1.2_desercion_clientes/dataset_desercion_azure.csv"
+        ruta_dataset = azure_path if os.path.exists(azure_path) else "ml/1.2_desercion_clientes/dataset_desercion.csv"
+
     if not os.path.exists(ruta_dataset):
         print("[INFO] Dataset no encontrado. Generando dataset de entrenamiento...")
         generar_dataset_desercion(1200, ruta_dataset)
+        
+    print(f"[ORIGEN DE DATOS] Utilizando dataset: {ruta_dataset}")
         
     registros = []
     with open(ruta_dataset, mode="r", encoding="utf-8") as f:

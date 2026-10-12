@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "usuario_id": 3,
+    "remitente": "bot",
+    "telefono": "+51 987 654 321",
+    "texto": "Hola Camila ✨ Te extrañamos en Belle Studio. Tenemos una cortesía especial para ti esta semana si agendas hoy.",
+    "tool_ejecutada": null,
+    "fecha_hora": "2026-09-30T17:33:14.528950"
+  },
+  {
+    "id": 2,
+    "usuario_id": 3,
+    "remitente": "cliente",
+    "telefono": "+51 987 654 321",
+    "texto": "¡Hola! ¿Tienen disponible para hoy en la tarde?",
+    "tool_ejecutada": null,
+    "fecha_hora": "2026-09-30T17:38:14.529015"
+  },
+  {
+    "id": 3,
+    "usuario_id": 3,
+    "remitente": "bot",
+    "telefono": "+51 987 654 321",
+    "texto": "¡Claro que sí! Consulté la agenda de Valeria Mendoza y tenemos disponible a las 4:00 PM.",
+    "tool_ejecutada": "ConsultarDisponibilidad(claseId=3, fecha=\"hoy\")",
+    "fecha_hora": "2026-09-30T17:39:14.529077"
+  },
+  {
+    "id": 4,
+    "usuario_id": 3,
+    "remitente": "bot",
+    "telefono": "+51 987 654 321",
+    "texto": "¡Listo, Camila! Tu reserva para Barré Signature Flow a las 4:00 PM quedó confirmada.",
+    "tool_ejecutada": "CrearReserva(usuarioId=3, claseId=3)",
+    "fecha_hora": "2026-09-30T17:41:14.529078"
+  }
+]

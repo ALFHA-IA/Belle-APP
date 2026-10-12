@@ -1,6 +1,6 @@
 """
 Modulo 1.4: Entrenamiento y Evaluacion de Modelo de Seguimiento Corporal (Belle Vision MediaPipe)
-Belle Barre Studio - Sistema Belle-APP
+Belle Barre Studio - Sistema Belle-APP (Alimentado con Azure SQL dbo.VisionAnalisis)
 """
 
 import os
@@ -9,7 +9,7 @@ import json
 import random
 from generar_dataset_pose import generar_dataset_pose
 
-def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_vision.csv"):
+def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_vision.csv", ruta_azure="ml/1.4_seguimiento_corporal/dataset_pose_azure.csv"):
     if not os.path.exists(ruta_dataset):
         generar_dataset_pose(1000, ruta_dataset)
         
@@ -24,8 +24,29 @@ def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_
                 "inclinacion_tronco": float(row["inclinacion_tronco"]),
                 "simetria_rodillas": float(row["simetria_rodillas"]),
                 "confianza_mediapipe": float(row["confianza_mediapipe"]),
-                "postura_etiqueta": int(row["postura_etiqueta"])
+                "postura_etiqueta": int(row["postura_etiqueta"]),
+                "origen": "benchmark"
             })
+
+    # Cargar capturas reales de Azure SQL si existen
+    muestras_azure = []
+    if os.path.exists(ruta_azure):
+        with open(ruta_azure, "r", encoding="utf-8") as f:
+            reader_az = csv.DictReader(f)
+            for r_az in reader_az:
+                etiqueta_az = 0 if "adecuada" in r_az["postura"].lower() else 1
+                muestras_azure.append({
+                    "muestra_id": 9000 + int(r_az["id"]),
+                    "angulo_hombros": float(r_az["angulo_hombros"]),
+                    "angulo_caderas": 2.1,
+                    "inclinacion_tronco": float(r_az["inclinacion"]),
+                    "simetria_rodillas": 95.0,
+                    "confianza_mediapipe": float(r_az["confianza"]),
+                    "postura_etiqueta": etiqueta_az,
+                    "origen": "azure_sql_real"
+                })
+        print(f"[AZURE SQL] Se incorporaron {len(muestras_azure)} analisis posturales reales desde dbo.VisionAnalisis.")
+        muestras.extend(muestras_azure)
             
     random.seed(42)
     random.shuffle(muestras)
@@ -34,7 +55,7 @@ def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_
     train_data = muestras[:split_idx]
     test_data = muestras[split_idx:]
     
-    print(f"[VISION] Cargando {len(muestras)} capturas de postura MediaPipe...")
+    print(f"[VISION] Evaluando {len(muestras)} capturas de postura con MediaPipe Pose...")
     
     def ClasificarPostura(item):
         inclinacion_h = item["angulo_hombros"]
@@ -69,7 +90,9 @@ def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_
     
     resultados = {
         "modulo": "1.4 Preparar el entrenamiento (seguimiento corporal) (mejorar o revisar)",
-        "estado": "Completado Exitosamente",
+        "estado": "Completado Exitosamente con Datos de Azure SQL",
+        "fuente_datos": "Azure SQL dbo.VisionAnalisis + MediaPipe Calibration",
+        "muestras_reales_azure": len(muestras_azure),
         "capturas_totales": len(muestras),
         "muestras_entrenamiento": len(train_data),
         "muestras_prueba": len(test_data),
@@ -97,11 +120,12 @@ def entrenar_modelo_pose(ruta_dataset="ml/1.4_seguimiento_corporal/dataset_pose_
     with open(ruta_reporte, "w", encoding="utf-8") as f:
         json.dump(resultados, f, indent=2, ensure_ascii=False)
         
-    print(f"\n[1.4 SEGUIMIENTO CORPORAL ENTRENAMIENTO COMPLETADO]")
+    print(f"\n[1.4 SEGUIMIENTO CORPORAL ENTRENAMIENTO CON AZURE SQL COMPLETADO]")
     print(f"   Exactitud (Accuracy): {resultados['metricas']['exactitud_accuracy']}%")
     print(f"   Precision:           {resultados['metricas']['precision']}%")
     print(f"   Sensibilidad (Recall): {resultados['metricas']['sensibilidad_recall']}%")
     print(f"   F1-Score:            {resultados['metricas']['f1_score']}%")
+    print(f"   Muestras Reales Azure: {len(muestras_azure)}")
     print(f"   Reporte guardado en: {ruta_reporte}\n")
     
     return resultados

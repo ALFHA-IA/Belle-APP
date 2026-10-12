@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Belle.Api/Belle.Api.csproj" />
+  <Project Path="PruebasNotificaciones/PruebasNotificaciones.csproj" />
+</Solution>

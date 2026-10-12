@@ -94,6 +94,32 @@ builder.Services.AddSwaggerGen(opciones =>
 
 var app = builder.Build();
 
+// --- Manejo global de excepciones estructurado ---
+app.UseExceptionHandler(errorApp =>
+{
+    errorApp.Run(async context =>
+    {
+        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+        context.Response.ContentType = "application/json";
+
+        var exceptionHandlerPathFeature = context.Features.Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerPathFeature>();
+        var exception = exceptionHandlerPathFeature?.Error;
+
+        Log.Error(exception, "Error no controlado en {Path}", context.Request.Path);
+
+        var respuesta = new
+        {
+            error = true,
+            mensaje = "Ocurrió un error inesperado en el servidor.",
+            detalle = app.Environment.IsDevelopment() ? exception?.Message : null,
+            ruta = context.Request.Path.Value,
+            fecha = DateTime.UtcNow
+        };
+
+        await context.Response.WriteAsJsonAsync(respuesta);
+    });
+});
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

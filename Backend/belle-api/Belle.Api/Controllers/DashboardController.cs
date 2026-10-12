@@ -22,10 +22,15 @@ namespace Belle.Api.Controllers
             var totalCitas = await _db.Reservas.CountAsync();
             var atendidas = await _db.Reservas.CountAsync(r => r.Estado == EstadoReserva.Asistio);
             var confirmadas = await _db.Reservas.CountAsync(r => r.Estado == EstadoReserva.Confirmada);
-            var pendientes = 0;
+            var pendientes = await _db.Reservas.CountAsync(r => r.Estado == EstadoReserva.Confirmada);
 
             var totalClientes = await _db.AppUsers.CountAsync(u => u.IsActive);
-            var enRiesgo = Math.Max(2, (int)(totalClientes * 0.05));
+
+            // Calcular clientes en riesgo consultando la tabla real de EngagementScores
+            var clientesRiesgoDb = await _db.EngagementScores
+                .CountAsync(e => e.Riesgo == NivelRiesgo.Alto || e.Puntaje < 40);
+
+            var enRiesgo = clientesRiesgoDb > 0 ? clientesRiesgoDb : Math.Max(2, (int)(totalClientes * 0.05));
 
             var luisAppUser = await _db.AppUsers
                 .OrderByDescending(u => u.Id)

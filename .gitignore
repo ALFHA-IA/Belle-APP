@@ -1,0 +1,36 @@
+# ============================================
+# Belle-APP — .gitignore raíz
+# ============================================
+
+# --- .NET Build Outputs ---
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+*.vs/
+
+# --- .NET Secrets / Config local ---
+appsettings.Local.json
+DatosNotificaciones/
+
+# --- Node.js / React ---
+**/node_modules/
+**/dist/
+**/.vite/
+*.log
+npm-debug.log*
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+
+# --- Misc ---
+graphify-out/
+opencode.json

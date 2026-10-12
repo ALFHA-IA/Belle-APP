@@ -12,8 +12,14 @@ from generar_dataset_desercion import generar_dataset_desercion
 
 def entrenar_modelo_desercion(ruta_dataset=None):
     if ruta_dataset is None:
+        aumentado_path = "ml/1.2_desercion_clientes/dataset_desercion_aumentado_1251.csv"
         azure_path = "ml/1.2_desercion_clientes/dataset_desercion_azure.csv"
-        ruta_dataset = azure_path if os.path.exists(azure_path) else "ml/1.2_desercion_clientes/dataset_desercion.csv"
+        if os.path.exists(aumentado_path):
+            ruta_dataset = aumentado_path
+        elif os.path.exists(azure_path):
+            ruta_dataset = azure_path
+        else:
+            ruta_dataset = "ml/1.2_desercion_clientes/dataset_desercion.csv"
 
     if not os.path.exists(ruta_dataset):
         print("[INFO] Dataset no encontrado. Generando dataset de entrenamiento...")

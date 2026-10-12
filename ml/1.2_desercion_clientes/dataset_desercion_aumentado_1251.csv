@@ -1,0 +1,1252 @@
+cliente_id,nombre_completo,dias_sin_asistir,racha_semanas_activas,clases_asistidas_total,cancelaciones_ultimo_mes,dias_membresia_restantes,promedio_clases_semanales,puntuacion_satisfaccion,es_membresia_unlimited,bes_puntaje,deserto
+260,Luis Joaquin Huamani Hernandez,1,12,15,0,30,4.0,10,1,98.0,0
+258,Alexander Urquiaga,11,7,4,1,24,2.7,8,0,86.2,0
+254,Giorgia Rebaza López,19,6,5,2,23,2.2,7,0,69.8,0
+253,Karin Alexandra  Inca Reyes,27,5,6,0,22,1.7,6,1,53.4,1
+252,María Belen  cruz urquiaga,3,4,7,1,21,1.2,9,0,94.6,0
+251,Grecia  Fuentes Touzet,11,3,8,2,20,3.2,8,0,78.2,0
+250,Camila Yareth  Andrianzen Fernández,19,2,9,0,19,2.7,7,1,61.8,0
+249,Angie  Monzon Flores,27,8,10,1,18,2.2,6,0,59.4,1
+248,Andrea  Davila Tuesta,3,7,11,2,17,1.7,9,0,100.6,0
+247,Fiorella Castillo Chanavá,11,6,12,0,16,1.2,8,1,84.2,0
+246,MARIFES SALINAS SALINAS,19,5,13,1,15,3.2,7,0,67.8,0
+245,María Mercedesz Gálvez Llumpo,27,4,14,2,14,2.7,6,0,51.4,1
+244,Darlin Analí Vallejos Alva,3,3,3,0,13,2.2,9,1,92.6,0
+243,Fiorella  Cherres,11,2,4,1,12,1.7,8,0,76.2,0
+242,Briggite Mishele  Saldaña Lozano,19,8,5,2,11,1.2,7,0,73.8,0
+241,Vanny Mabel  Perez Valle,27,7,6,0,10,3.2,6,1,57.4,1
+240,Valeria Alejandra  Ganoza Estrada,3,6,7,1,9,2.7,9,0,98.6,0
+239,María Paula  Villanueva Vega,11,5,8,2,8,2.2,8,0,82.2,0
+238,Melanie Alessandra Arana Paredes,19,4,9,0,25,1.7,7,1,65.8,0
+237,leidy Vanesa  Victorio Castillo,27,3,10,1,24,1.2,6,0,49.4,1
+236,Olenka Denisse  Pereda Ulloa,3,2,11,2,23,3.2,9,0,90.6,0
+235,Nicol Delicia  Ramos Malca,11,8,12,0,22,2.7,8,1,88.2,0
+234,Cliente_234,19,7,13,1,21,2.2,7,0,71.8,0
+233,Olenka Yamila Collantes Iturri,27,6,14,2,20,1.7,6,0,55.4,1
+232,LILIA GABRIELA MORALES VENTURA,3,5,3,0,19,1.2,9,1,96.6,0
+231,Grecia Cecilia  Olaya Vidal,11,4,4,1,18,3.2,8,0,80.2,0
+230,Yellice Chávez Ponce,19,3,5,2,17,2.7,7,0,63.8,0
+229,Cristina Paola Veneros Reyes,27,2,6,0,16,2.2,6,1,47.4,1
+228,Oriana Varas Rodriguez,3,8,7,1,15,1.7,9,0,102.6,0
+227,Claudia  Gutierrez Mariños,11,7,8,2,14,1.2,8,0,86.2,0
+226,Jannette Arianne Camacho Oyarce,19,6,9,0,13,3.2,7,1,69.8,0
+225,Blanca  Aldana Ramirez,27,5,10,1,12,2.7,6,0,53.4,1
+224,Paola Veneros,3,4,11,2,11,2.2,9,0,94.6,0
+223,Claudia Gutierrez Mariños,11,3,12,0,10,1.7,8,1,78.2,0
+222,Almendra Leon,19,2,13,1,9,1.2,7,0,61.8,0
+221,Carmen  Chumioque Capuñay,27,8,14,2,8,3.2,6,0,59.4,1
+220,Mariana Márquez de Bracamonte,3,7,3,0,25,2.7,9,1,100.6,0
+219,Keisy Valeska Lozano Olave,11,6,4,1,24,2.2,8,0,84.2,0
+218,Johana Meza Benites,19,5,5,2,23,1.7,7,0,67.8,0
+217,Barbara Jipa,27,4,6,0,22,1.2,6,1,51.4,1
+216,Alexandra  Arteaga Celedonio,3,3,7,1,21,3.2,9,0,92.6,0
+215,Fabiana Peishot,11,2,8,2,20,2.7,8,0,76.2,0
+214,Mary  La Cunza,19,8,9,0,19,2.2,7,1,73.8,0
+213,Fiorela Gisel  Vergel Carbonell,27,7,10,1,18,1.7,6,0,57.4,1
+212,KIARA DENNIS REQUENES QUEREVALU,3,6,11,2,17,1.2,9,0,98.6,0
+211,MARIA ALEJANDRA DEXTRE IZQUIERDO,11,5,12,0,16,3.2,8,1,82.2,0
+210,Daniela  Robles,19,4,13,1,15,2.7,7,0,65.8,0
+209,JULY  DIAZ VERA,27,3,14,2,14,2.2,6,0,49.4,1
+208,Patty  Alvan Millones,3,2,3,0,13,1.7,9,1,90.6,0
+207,Scarleth,11,8,4,1,12,1.2,8,0,88.2,0
+206,Gladys Mamani Yruri,19,7,5,2,11,3.2,7,0,71.8,0
+205,Vanessa Belén García,27,6,6,0,10,2.7,6,1,55.4,1
+204,Michael Junior  Armas castillo,3,5,7,1,9,2.2,9,0,96.6,0
+203,Angie Carazas Gonzales,11,4,8,2,8,1.7,8,0,80.2,0
+202,Angie Portilla Díaz,19,3,9,0,25,1.2,7,1,63.8,0
+201,Scarleth Quispe,27,2,10,1,24,3.2,6,0,47.4,1
+200,Jimena  Diaz,3,8,11,2,23,2.7,9,0,102.6,0
+199,Alejandra Gutierrez Liñan,11,7,12,0,22,2.2,8,1,86.2,0
+198,Kerly Sofia Nodre Culqui,19,6,13,1,21,1.7,7,0,69.8,0
+197,FATIMA VELASQUEZ SIFUENTES,27,5,14,2,20,1.2,6,0,53.4,1
+196,ORÉ GAVIDIA,3,4,3,0,19,3.2,9,1,94.6,0
+195,ESTEFANY NARRO VIDAURRE,11,3,4,1,18,2.7,8,0,78.2,0
+194,MARIA GARCIA,19,2,5,2,17,2.2,7,0,61.8,0
+193,CASTILLO ALVAREZ,27,8,6,0,16,1.7,6,1,59.4,1
+192,Flavia Daniela  Guerrero Mosqueira,3,7,7,1,15,1.2,9,0,100.6,0
+191,Karol Cárdenas,11,6,8,2,14,3.2,8,0,84.2,0
+190,Frida González,19,5,9,0,13,2.7,7,1,67.8,0
+189,Mariale Sáez,27,4,10,1,12,2.2,6,0,51.4,1
+188,Lucciana Moncada,3,3,11,2,11,1.7,9,0,92.6,0
+187,Romina Gamboa Villarroel,11,2,12,0,10,1.2,8,1,76.2,0
+186,Xiomara Rodriguez (Instructora),19,8,13,1,9,3.2,7,0,73.8,0
+185,Anamar  Obando,27,7,14,2,8,2.7,6,0,57.4,1
+184,Thays  Flores,3,6,3,0,25,2.2,9,1,98.6,0
+183,Thays Flores,11,5,4,1,24,1.7,8,0,82.2,0
+182,Dora Lopez,19,4,5,2,23,1.2,7,0,65.8,0
+181,Kristy  Vasquez,27,3,6,0,22,3.2,6,1,49.4,1
+180,MIranda Ramirez,3,2,7,1,21,2.7,9,0,90.6,0
+179,Edith  Gonzales,11,8,8,2,20,2.2,8,0,88.2,0
+178,Sol  Luna Victoria,19,7,9,0,19,1.7,7,1,71.8,0
+177,Kiara  Torres,27,6,10,1,18,1.2,6,0,55.4,1
+176,Kiara  Torres,3,5,11,2,17,3.2,9,0,96.6,0
+175,katherin Castillo,11,4,12,0,16,2.7,8,1,80.2,0
+174,Fabiana  Li,19,3,13,1,15,2.2,7,0,63.8,0
+173,Yara Lopez Vergara,27,2,14,2,14,1.7,6,0,47.4,1
+172,YSS TECH SOLUTION SAC,3,8,3,0,13,1.2,9,1,102.6,0
+171,KIara Torres,11,7,4,1,12,3.2,8,0,86.2,0
+170,Thays Flores,19,6,5,2,11,2.7,7,0,69.8,0
+169,Jessica Isla,27,5,6,0,10,2.2,6,1,53.4,1
+168,Diany Jara,3,4,7,1,9,1.7,9,0,94.6,0
+167,Fernanda Carrera Flores,11,3,8,2,8,1.2,8,0,78.2,0
+166,Marybertha  Rodriguez,19,2,9,0,25,3.2,7,1,61.8,0
+165,Mafer  Sosa,27,8,10,1,24,2.7,6,0,59.4,1
+164,Claudia Chavez,3,7,11,2,23,2.2,9,0,100.6,0
+163,Mafer Sosa,11,6,12,0,22,1.7,8,1,84.2,0
+162,Majo Echevarria,19,5,13,1,21,1.2,7,0,67.8,0
+161,Samaria Hidalgo,27,4,14,2,20,3.2,6,0,51.4,1
+160,Nayruth Certamen,3,3,3,0,19,2.7,9,1,92.6,0
+159,Juliana Murrugarra,11,2,4,1,18,2.2,8,0,76.2,0
+158,Nicoll Jimena Hilario GIL,19,8,5,2,17,1.7,7,0,73.8,0
+157,Alejandra Alvarado,27,7,6,0,16,1.2,6,1,57.4,1
+156,Kristy  Araujo,3,6,7,1,15,3.2,9,0,98.6,0
+155,Fabiana  Li,11,5,8,2,14,2.7,8,0,82.2,0
+154,Nyruth Giron,19,4,9,0,13,2.2,7,1,65.8,0
+153,Karina  Curay,27,3,10,1,12,1.7,6,0,49.4,1
+152,Laura  Carrion,3,2,11,2,11,1.2,9,0,90.6,0
+151,Andrea  Flores,11,8,12,0,10,3.2,8,1,88.2,0
+150,Marycruz,19,7,13,1,9,2.7,7,0,71.8,0
+149,Alheli,27,6,14,2,8,2.2,6,0,55.4,1
+148,Eddy  Santana Díaz,3,5,3,0,25,1.7,9,1,96.6,0
+147,Geraldine Mantilla Delgado,11,4,4,1,24,1.2,8,0,80.2,0
+146,Nicoles Flores Dìaz-CERTAMEN,19,3,5,2,23,3.2,7,0,63.8,0
+145,Gloria Concuera,27,2,6,0,22,2.7,6,1,47.4,1
+144,Leonardo Obregon,3,8,7,1,21,2.2,9,0,102.6,0
+143,Adriana Obregon,11,7,8,2,20,1.7,8,0,86.2,0
+142,Ariana Maza,19,6,9,0,19,1.2,7,1,69.8,0
+141,Ariana Maza,27,5,10,1,18,3.2,6,0,53.4,1
+140,Gricelia Chuquilin,3,4,11,2,17,2.7,9,0,94.6,0
+139,Ivanna Montenegro,11,3,12,0,16,2.2,8,1,78.2,0
+138,Bianka Villalobos,19,2,13,1,15,1.7,7,0,61.8,0
+137,Corina Alonso,27,8,14,2,14,1.2,6,0,59.4,1
+136,Julissa Barandiaran,3,7,3,0,13,3.2,9,1,100.6,0
+135,Tayra Leon,11,6,4,1,12,2.7,8,0,84.2,0
+134,Jimena  Vega,19,5,5,2,11,2.2,7,0,67.8,0
+133,Catherine Cantera,27,4,6,0,10,1.7,6,1,51.4,1
+132,Jimena  Vega,3,3,7,1,9,1.2,9,0,92.6,0
+131,Alexander  Moreno,11,2,8,2,8,3.2,8,0,76.2,0
+130,Milagros Campos,19,8,9,0,25,2.7,7,1,73.8,0
+129,Yulianna Palomino,27,7,10,1,24,2.2,6,0,57.4,1
+128,Alicia Melendez,3,6,11,2,23,1.7,9,0,98.6,0
+127,Samaria Hidalgo,11,5,12,0,22,1.2,8,1,82.2,0
+126,Lucero Alvites,19,4,13,1,21,3.2,7,0,65.8,0
+125,Ariana  Maza,27,3,14,2,20,2.7,6,0,49.4,1
+124,Susana  Rodriguez,3,2,3,0,19,2.2,9,1,90.6,0
+123,Angie Rengifo,11,8,4,1,18,1.7,8,0,88.2,0
+122,Fabiana  Li,19,7,5,2,17,1.2,7,0,71.8,0
+121,Susana  Rosales,27,6,6,0,16,3.2,6,1,55.4,1
+120,Sheslly  Coral,3,5,7,1,15,2.7,9,0,96.6,0
+119,Ariana  Maza,11,4,8,2,14,2.2,8,0,80.2,0
+118,Greyci Zapata Rodríguez,19,3,9,0,13,1.7,7,1,63.8,0
+117,Fiorella Duran,27,2,10,1,12,1.2,6,0,47.4,1
+116,VICTOR JHAIRO RACCHUMI LECCA,3,8,11,2,11,3.2,9,0,102.6,0
+115,Vanessa Diaz,11,7,12,0,10,2.7,8,1,86.2,0
+114,Vanessa Vargas,19,6,13,1,9,2.2,7,0,69.8,0
+113,Claudia,27,5,14,2,8,1.7,6,0,53.4,1
+112,Carolina Novoa,3,4,3,0,25,1.2,9,1,94.6,0
+111,Carolina Novoa,11,3,4,1,24,3.2,8,0,78.2,0
+110,Claudia,19,2,5,2,23,2.7,7,0,61.8,0
+109,Cecilia  Lezcano,27,8,6,0,22,2.2,6,1,59.4,1
+108,Daniela Miranda,3,7,7,1,21,1.7,9,0,100.6,0
+107,Brissa Moreno,11,6,8,2,20,1.2,8,0,84.2,0
+106,Victoria  Saguier,19,5,9,0,19,3.2,7,1,67.8,0
+105,Brissa  Moreno,27,4,10,1,18,2.7,6,0,51.4,1
+104,Brissa Moreno,3,3,11,2,17,2.2,9,0,92.6,0
+103,Brissa  Moreno,11,2,12,0,16,1.7,8,1,76.2,0
+102,Alejandra García Arista,19,8,13,1,15,1.2,7,0,73.8,0
+101,Cecilia Lezcano,27,7,14,2,14,3.2,6,0,57.4,1
+100,Alexandra Jeniffer Portugal Alvarado,3,6,3,0,13,2.7,9,1,98.6,0
+99,Maggie  Sanchez Guzmán,11,5,4,1,12,2.2,8,0,82.2,0
+98,Wendy Pamela Cortez Nicasio,19,4,5,2,11,1.7,7,0,65.8,0
+97,Astrid Flores,27,3,6,0,10,1.2,6,1,49.4,1
+96,Miranda Quinteros,3,2,7,1,9,3.2,9,0,90.6,0
+95,Grecia  Tito,11,8,8,2,8,2.7,8,0,88.2,0
+94,VICTOR JHAIRO RACCHUMI LECCA,19,7,9,0,25,2.2,7,1,71.8,0
+93,Carolina  Rosales,27,6,10,1,24,1.7,6,0,55.4,1
+92,Paula HUrtado,3,5,11,2,23,1.2,9,0,96.6,0
+91,Pamela  Vargas,11,4,12,0,22,3.2,8,1,80.2,0
+90,Sandra Ramirez Jicaro,19,3,13,1,21,2.7,7,0,63.8,0
+89,Diana Zegarra,27,2,14,2,20,2.2,6,0,47.4,1
+88,cliente delivery,3,8,3,0,19,1.7,9,1,102.6,0
+87,Briguit  Almandoz Vilcabana,11,7,4,1,18,1.2,8,0,86.2,0
+86,Marita  Yglesia,19,6,5,2,17,3.2,7,0,69.8,0
+85,Doris Jimenez Letellier,27,5,6,0,16,2.7,6,1,53.4,1
+84,Romina Castro,3,4,7,1,15,2.2,9,0,94.6,0
+83,Margaret Moncada,11,3,8,2,14,1.7,8,0,78.2,0
+82,Luciana Espinoza,19,2,9,0,13,1.2,7,1,61.8,0
+81,Mishel Rubio,27,8,10,1,12,3.2,6,0,59.4,1
+80,Nancy díaz,3,7,11,2,11,2.7,9,0,100.6,0
+79,Griselia,11,6,12,0,10,2.2,8,1,84.2,0
+78,Natalie Torres,19,5,13,1,9,1.7,7,0,67.8,0
+77,Dislavia Lama,27,4,14,2,8,1.2,6,0,51.4,1
+76,Estefany Carranza,3,3,3,0,25,3.2,9,1,92.6,0
+75,Briza Morillas,11,2,4,1,24,2.7,8,0,76.2,0
+74,Astrid Cordova,19,8,5,2,23,2.2,7,0,73.8,0
+73,Waleska Costilla Cornejo,27,7,6,0,22,1.7,6,1,57.4,1
+72,Sasha Latorre,3,6,7,1,21,1.2,9,0,98.6,0
+71,Maryangela Magallanes,11,5,8,2,20,3.2,8,0,82.2,0
+70,Olenka Olivari,19,4,9,0,19,2.7,7,1,65.8,0
+69,Fabiana LI,27,3,10,1,18,2.2,6,0,49.4,1
+68,Pamela  Vargas,3,2,11,2,17,1.7,9,0,90.6,0
+67,Ana Lidia Guerra Vera,11,8,12,0,16,1.2,8,1,88.2,0
+66,Tiffany  Gamarra,19,7,13,1,15,3.2,7,0,71.8,0
+65,Ariana Pozo,27,6,14,2,14,2.7,6,0,55.4,1
+64,Claudia Penagos,3,5,3,0,13,2.2,9,1,96.6,0
+63,Mariana Ayala Gutierrez,11,4,4,1,12,1.7,8,0,80.2,0
+62,Milagros  Flores de La Cruz,19,3,5,2,11,1.2,7,0,63.8,0
+61,Anguie Rojas,27,2,6,0,10,3.2,6,1,47.4,1
+60,Valeria  Carrera,3,8,7,1,9,2.7,9,0,102.6,0
+59,Xiomara Guillen,11,7,8,2,8,2.2,8,0,86.2,0
+58,Cindy Terrones C.Contenido,19,6,9,0,25,1.7,7,1,69.8,0
+57,Thays Flores,27,5,10,1,24,1.2,6,0,53.4,1
+56,Rosy Cruz,3,4,11,2,23,3.2,9,0,94.6,0
+55,Rosy Cruz,11,3,12,0,22,2.7,8,1,78.2,0
+54,Alexandra Barrientos,19,2,13,1,21,2.2,7,0,61.8,0
+53,Angie  Carasas Gonzales,27,8,14,2,20,1.7,6,0,59.4,1
+52,Katerinne Paredes,3,7,3,0,19,1.2,9,1,100.6,0
+51,Camila  Contreras Hernandez,11,6,4,1,18,3.2,8,0,84.2,0
+50,Angie  Santacruz Gonzales,19,5,5,2,17,2.7,7,0,67.8,0
+49,Victoria Saguier,27,4,6,0,16,2.2,6,1,51.4,1
+48,Regina  González C. Contenido,3,3,7,1,15,1.7,9,0,92.6,0
+47,Anamar Obando. C.Contenido,11,2,8,2,14,1.2,8,0,76.2,0
+46,Dannia C. Contenido,19,8,9,0,13,3.2,7,1,73.8,0
+45,Marite Mar,27,7,10,1,12,2.7,6,0,57.4,1
+44,Erika Chavez Levano,3,6,11,2,11,2.2,9,0,98.6,0
+43,Rosa Orbegozo,11,5,12,0,10,1.7,8,1,82.2,0
+42,Ana Teresa Cornejo,19,4,13,1,9,1.2,7,0,65.8,0
+41,Karina Perez,27,3,14,2,8,3.2,6,0,49.4,1
+39,Ariana Pozo,3,2,3,0,25,2.7,9,1,90.6,0
+38,Tatiana Rivera,11,8,4,1,24,2.2,8,0,88.2,0
+37,Pamela Bazan,19,7,5,2,23,1.7,7,0,71.8,0
+36,Lucy Capuñay,27,6,6,0,22,1.2,6,1,55.4,1
+35,Cliente Delivery,3,5,7,1,21,3.2,9,0,96.6,0
+34,Nieves,11,4,8,2,20,2.7,8,0,80.2,0
+33,Erika  Chavez,19,3,9,0,19,2.2,7,1,63.8,0
+32,Magaly Goicochea,27,2,10,1,18,1.7,6,0,47.4,1
+31,Lucy Capuñay,3,8,11,2,17,1.2,9,0,102.6,0
+30,Judith Margaret Sanchez,11,7,12,0,16,3.2,8,1,86.2,0
+29,Miriam Mayte Castillo,19,6,13,1,15,2.7,7,0,69.8,0
+28,Katya Micaela,27,5,14,2,14,2.2,6,0,53.4,1
+27,Elva  Calva,3,4,3,0,13,1.7,9,1,94.6,0
+26,Mercedes  Galvez,11,3,4,1,12,1.2,8,0,78.2,0
+25,Ximena  Floreano,19,2,5,2,11,3.2,7,0,61.8,0
+24,Eliana  Gil,27,8,6,0,10,2.7,6,1,59.4,1
+23,Arlette Burzzio,3,7,7,1,9,2.2,9,0,100.6,0
+22,Abby Mostacero,11,6,8,2,8,1.7,8,0,84.2,0
+21,Diana Biceño,19,5,9,0,25,1.2,7,1,67.8,0
+20,Miranda Ramirez,27,4,10,1,24,3.2,6,0,51.4,1
+19,Gladis Mamani,3,3,11,2,23,2.7,9,0,92.6,0
+18,Sol Luna Victoria,11,2,12,0,22,2.2,8,1,76.2,0
+17,Pamela Bazan,19,8,13,1,21,1.7,7,0,73.8,0
+16,Tatiana Rivera,27,7,14,2,20,1.2,6,0,57.4,1
+15,Deysi Tirado,3,6,3,0,19,3.2,9,1,98.6,0
+14,Danitza Lukac Armas,11,5,4,1,18,2.7,8,0,82.2,0
+13,Karina Perez,19,4,5,2,17,2.2,7,0,65.8,0
+11,Gloria Corcuera,27,3,6,0,16,1.7,6,1,49.4,1
+10,SOFIA CATALEYA RACCHUMI COTRINA,3,2,7,1,15,1.2,9,0,90.6,0
+9,JESUS MANUEL RACCHUMI LECCA,11,8,8,2,14,3.2,8,0,88.2,0
+8,ORIANA RUFFET,6,10,20,0,20,2.5,9,1,98.0,0
+7,ZEIDI MORENO,6,8,16,0,20,2.5,9,1,96.0,0
+3,JESSICA COTRINA TRUJILLO,74,0,1,1,3,0.8,4,0,34.0,1
+2,EVELING VANESSA COTRINA TRUJILLO,11,4,12,0,10,1.2,8,1,80.2,0
+1,VICTOR JHAIRO RACCHUMI LECCA,19,3,13,1,9,3.2,7,0,63.8,0
+261,Mariana Flores Vega,2,17,65,0,30,2.7,9,0,100.0,0
+262,Fiorella Romero Navarro,4,7,30,2,23,2.0,8,0,100.0,0
+263,Nicolás Vega Mendoza,11,4,7,1,15,1.3,7,0,87.3,0
+264,Andrea Vargas Castillo,3,15,45,1,29,3.0,8,1,100.0,0
+265,Flavia Vargas Peña,14,2,5,3,6,1.7,7,0,73.7,0
+266,Fiorella Navarro Guzmán,7,8,22,1,17,2.8,7,1,100.0,0
+267,Daniela Herrera Delgado,4,10,58,0,22,4.5,8,0,100.0,0
+268,Valeria Cordova Montes,2,20,88,1,18,4.4,10,1,100.0,0
+269,Solange Chávez Torres,3,17,62,1,23,3.7,8,1,100.0,0
+270,Natalia Soto Vargas,10,2,17,3,9,1.6,8,0,80.7,0
+271,Daniela Castillo Castillo,7,7,27,0,9,2.1,9,1,100.0,0
+272,Fernanda Alvarez Morales,2,13,64,1,28,2.5,8,1,100.0,0
+273,Andrea Cárdenas Rojas,2,14,61,0,22,4.4,9,0,100.0,0
+274,Renata Cárdenas Delgado,1,7,28,0,16,4.0,10,1,100.0,0
+275,Mateo Herrera Torres,8,6,27,2,12,3.0,9,0,97.3,0
+276,Renata Aguilar Aguilar,2,7,55,0,30,3.2,8,0,100.0,0
+277,Romina Navarro Castro,22,0,7,5,3,0.9,5,0,47.5,1
+278,Joaquín Barrios Delgado,15,2,15,2,8,1.1,7,0,74.1,0
+279,Romina Guzmán Reyes,6,3,16,2,20,2.1,7,0,92.5,0
+280,Fernanda Campos Delgado,18,1,11,2,0,1.1,4,0,65.6,0
+281,Alejandra Herrera Guerrero,5,6,17,1,6,2.9,8,0,100.0,0
+282,Solange Peña Pacheco,16,2,8,1,12,1.2,8,0,77.1,0
+283,Micaela Reyes Reyes,8,7,26,0,11,2.0,7,1,100.0,0
+284,Alejandra Montes Morales,26,0,3,2,6,0.9,6,0,52.5,1
+285,Estefania Romero Cordova,4,8,37,1,22,3.8,8,0,100.0,0
+286,Gonzalo Guzmán Castro,8,5,21,0,13,2.0,8,0,99.6,0
+287,Paloma Cárdenas Mendoza,13,1,7,2,4,1.9,6,0,77.2,0
+288,Mateo Chávez Vega,2,17,61,1,28,3.2,9,0,100.0,0
+289,Romina Vargas Pacheco,9,1,7,3,7,1.3,6,0,78.5,0
+290,Paloma Pacheco Mendoza,2,14,41,0,25,2.6,8,0,100.0,0
+291,Renata Salazar Miranda,2,16,53,1,16,2.7,8,1,100.0,0
+292,Carolina Guerrero Flores,3,18,79,0,20,4.4,8,1,100.0,0
+293,Andrea Castillo Salazar,20,0,10,4,4,1.1,5,0,54.8,1
+294,Gabriela Montes Alvarez,1,18,59,1,29,3.1,9,1,100.0,0
+295,Mariana Torres Medina,6,3,23,1,16,1.9,8,1,96.3,0
+296,Sebastián Morales Castillo,20,1,9,2,8,0.5,5,0,61.6,0
+297,Daniela Alvarez Cordova,10,3,15,2,8,1.5,7,0,84.5,0
+298,Paola Paredes Rojas,7,8,21,2,24,2.7,8,0,100.0,0
+299,Luciana Cárdenas Peña,3,13,61,0,28,3.4,9,1,100.0,0
+300,Adriana Vargas Peña,9,7,34,0,15,2.2,7,1,100.0,0
+301,Jimena Flores Salazar,4,15,63,1,25,4.2,10,1,100.0,0
+302,Flavia Soto Montes,1,20,80,1,19,4.0,8,1,100.0,0
+303,Diego Campos Reyes,10,3,35,1,22,2.3,9,1,91.7,0
+304,Paloma Pacheco Aguilar,28,1,6,4,8,0.8,7,0,44.2,1
+305,Alejandra Vega Aguilar,3,9,38,0,16,3.0,8,0,100.0,0
+306,Jimena Romero Castro,6,7,16,0,19,2.4,8,1,100.0,0
+307,Nicolás Flores Castillo,6,5,23,2,23,2.7,9,1,98.4,0
+308,Alonso Navarro Vega,4,6,31,1,11,2.2,8,1,100.0,0
+309,Gonzalo Flores Montes,9,3,23,0,20,1.9,7,0,94.1,0
+310,Flavia Cordova Romero,6,6,23,1,8,2.1,8,0,100.0,0
+311,Rodrigo Reyes Miranda,1,18,79,0,19,4.4,8,1,100.0,0
+312,Gonzalo Chávez Delgado,1,15,66,1,23,4.4,8,1,100.0,0
+313,Mariana Herrera Cárdenas,1,20,62,1,24,3.1,10,0,100.0,0
+314,Nicolás Delgado Guzmán,13,1,14,1,8,1.8,8,0,82.0,0
+315,Macarena Benites Castro,6,3,25,0,19,2.8,8,1,100.0,0
+316,Solange Chávez Pacheco,3,15,61,1,26,4.1,9,1,100.0,0
+317,Nicolás Vega Cordova,18,1,6,5,6,1.1,6,0,56.7,1
+318,Micaela Medina Soto,3,11,56,1,29,3.1,8,1,100.0,0
+319,Gabriela Vargas Delgado,16,2,15,3,10,1.7,7,0,70.5,0
+320,Fiorella Peña Navarro,5,5,21,1,23,2.6,9,0,100.0,0
+321,Mateo Alvarez Miranda,13,3,6,3,6,1.3,7,0,75.8,0
+322,Mariana Medina Rojas,4,10,51,1,15,3.9,8,0,100.0,0
+323,Renata Medina Cárdenas,2,10,26,1,16,2.6,10,1,100.0,0
+324,Alonso Guzmán Mendoza,7,6,15,0,14,2.3,8,0,100.0,0
+325,Daniela Montes Soto,1,8,54,1,14,2.8,8,0,100.0,0
+326,Alessandra Navarro Castillo,7,5,23,1,24,2.8,9,0,100.0,0
+327,Andrea Romero Romero,1,8,53,0,17,3.0,8,1,100.0,0
+328,Fabrizio Barrios Peña,3,17,52,0,19,3.1,9,1,100.0,0
+329,Nicolás Rojas Pacheco,2,16,44,0,14,2.8,8,0,100.0,0
+330,Ariana Peña Aguilar,3,17,56,1,26,3.3,8,1,100.0,0
+331,Macarena Cordova Torres,2,16,67,0,20,4.2,10,0,100.0,0
+332,Carolina Barrios Aguilar,19,2,10,2,7,0.8,6,0,66.2,0
+333,Micaela Guzmán Herrera,4,10,43,0,26,3.8,8,1,100.0,0
+334,Micaela Morales Montes,17,2,10,5,0,1.1,5,0,58.8,0
+335,Gonzalo Soto Aguilar,12,3,9,2,14,1.5,7,0,81.3,0
+336,Mariana Flores Delgado,13,1,6,1,16,1.6,6,0,79.9,0
+337,Solange Morales Chávez,9,5,18,1,21,2.4,8,0,95.5,0
+338,Mateo Chávez Castillo,2,19,49,1,28,2.6,9,1,100.0,0
+339,Paola Cárdenas Soto,24,2,8,5,7,0.8,6,0,47.7,1
+340,Gabriela Delgado Castillo,4,6,48,1,24,3.1,10,1,100.0,0
+341,Jimena Soto Salazar,3,19,51,0,28,2.7,9,0,100.0,0
+342,Jimena Guerrero Chávez,3,11,43,0,22,3.7,10,1,100.0,0
+343,Flavia Cordova Soto,17,2,7,3,1,0.5,7,0,65.9,0
+344,Andrea Aguilar Herrera,9,1,5,2,8,1.3,7,0,82.8,0
+345,Macarena Chávez Delgado,8,8,22,0,8,2.8,9,1,100.0,0
+346,Gonzalo Delgado Soto,19,0,7,5,4,0.8,4,0,51.3,0
+347,Solange Peña Herrera,3,15,46,1,26,3.1,9,0,100.0,0
+348,Flavia Barrios Guzmán,3,15,62,1,12,3.1,10,1,100.0,0
+349,Luciana Reyes Soto,13,2,10,1,13,1.6,6,0,81.3,0
+350,Gonzalo Torres Paredes,9,8,35,1,7,1.8,9,0,99.0,0
+351,Natalia Vargas Peña,4,8,52,1,28,2.9,10,1,100.0,0
+352,Adriana Torres Barrios,47,0,6,3,0,0.4,5,0,15.0,1
+353,Daniela Chávez Navarro,28,2,11,4,1,1.2,7,0,46.6,1
+354,Luciana Torres Morales,9,8,28,1,17,2.6,7,1,99.4,0
+355,Belén Flores Cordova,20,2,10,4,6,0.5,4,0,55.2,1
+356,Valeria Cárdenas Soto,2,20,72,1,23,3.6,10,1,100.0,0
+357,Rodrigo Guerrero Chávez,27,0,12,5,4,1.1,4,0,39.2,1
+358,Renata Romero Aguilar,5,5,31,1,23,1.9,9,0,100.0,0
+359,Antonella Vega Rojas,58,0,4,3,0,0.0,2,0,15.0,1
+360,Brunella Delgado Paredes,12,1,13,1,12,1.8,6,0,82.0,0
+361,Patricia Alvarez Chávez,9,3,7,1,11,1.9,7,0,90.6,0
+362,Carolina Morales Flores,3,18,73,1,12,4.1,8,0,100.0,0
+363,Natalia Guerrero Morales,16,4,13,3,4,1.8,7,0,73.6,0
+364,Gonzalo Salazar Cárdenas,4,3,22,1,9,3.0,8,1,100.0,0
+365,Paloma Castro Vargas,2,7,57,1,24,2.8,10,1,100.0,0
+366,Solange Pacheco Guzmán,10,2,8,2,8,1.4,7,0,82.9,0
+367,Antonella Guerrero Guzmán,3,16,48,1,14,3.0,8,1,100.0,0
+368,Fiorella Pacheco Guzmán,14,2,14,3,11,1.6,7,0,73.5,0
+369,Mariana Guerrero Miranda,23,2,7,4,5,0.5,4,0,50.4,1
+370,Joaquín Romero Chávez,12,1,13,2,4,1.4,7,0,78.3,0
+371,Joaquín Navarro Pacheco,9,3,9,3,15,1.0,7,0,81.4,0
+372,Brunella Miranda Mendoza,2,15,57,0,12,3.8,8,1,100.0,0
+373,Claudia Castillo Guerrero,5,5,20,2,8,2.2,7,0,97.1,0
+374,Gonzalo Reyes Vargas,4,13,48,1,18,3.7,10,0,100.0,0
+375,Macarena Morales Peña,16,3,11,3,3,1.0,6,0,69.4,0
+376,Claudia Paredes Torres,1,6,45,0,16,3.5,9,1,100.0,0
+377,Patricia Miranda Castro,9,3,24,0,16,2.3,9,0,96.8,0
+378,Antonella Guerrero Peña,1,11,57,1,23,2.8,8,1,100.0,0
+379,Andrea Delgado Pacheco,8,3,19,2,16,2.3,7,0,89.8,0
+380,Adriana Castro Morales,5,5,30,0,13,2.2,7,0,100.0,0
+381,Gabriela Medina Chávez,10,2,15,2,10,2.0,8,0,85.2,0
+382,Nicolás Aguilar Cordova,27,1,4,5,7,0.6,6,0,41.0,1
+383,Fernanda Reyes Miranda,6,6,13,1,15,2.3,7,1,100.0,0
+384,Fiorella Castillo Campos,10,8,24,2,12,2.9,8,1,95.9,0
+385,Sebastián Chávez Reyes,10,5,15,2,11,3.0,7,0,91.1,0
+386,Paloma Aguilar Herrera,6,6,20,2,7,2.3,9,1,98.8,0
+387,Daniela Alvarez Guzmán,7,5,31,2,10,2.1,8,0,94.5,0
+388,Jimena Miranda Cárdenas,73,0,3,3,0,0.3,4,0,15.0,1
+389,Mateo Castillo Alvarez,10,4,5,2,7,1.5,6,0,85.1,0
+390,Claudia Alvarez Soto,2,8,24,0,22,2.7,10,0,100.0,0
+391,Flavia Chávez Herrera,2,17,57,1,19,3.4,9,1,100.0,0
+392,Paloma Navarro Delgado,4,20,84,1,26,4.2,9,1,100.0,0
+393,Sebastián Guerrero Herrera,11,3,12,2,11,1.1,6,0,81.2,0
+394,Diego Morales Peña,2,10,50,0,25,3.4,8,1,100.0,0
+395,Patricia Aguilar Miranda,23,0,8,3,6,0.8,4,0,51.9,1
+396,Renata Navarro Flores,1,19,74,0,16,3.9,8,0,100.0,0
+397,Belén Paredes Barrios,4,3,16,0,23,1.8,9,1,100.0,0
+398,Macarena Morales Peña,1,6,58,1,14,3.0,8,1,100.0,0
+399,Alonso Flores Delgado,13,4,10,1,12,1.0,7,0,83.4,0
+400,Carolina Vargas Benites,1,12,50,1,23,4.2,9,1,100.0,0
+401,Lorena Castro Miranda,1,18,66,0,13,3.7,9,1,100.0,0
+402,Carolina Campos Barrios,10,4,34,1,7,1.9,8,0,91.2,0
+403,Gabriela Salazar Cordova,25,1,11,5,4,1.2,4,0,44.1,1
+404,Gabriela Peña Miranda,17,2,4,4,6,0.7,7,0,62.9,0
+405,Flavia Alvarez Medina,7,5,26,1,8,2.9,9,0,100.0,0
+406,Macarena Medina Peña,1,11,41,1,25,3.8,8,1,100.0,0
+407,Lorena Aguilar Salazar,14,4,17,1,4,1.3,8,0,83.3,0
+408,Antonella Benites Herrera,38,0,8,3,0,0.4,3,0,26.1,1
+409,Daniela Delgado Benites,8,3,31,1,17,2.5,8,0,94.6,0
+410,Daniela Paredes Benites,9,5,13,0,11,2.1,8,0,98.2,0
+411,Mateo Morales Torres,16,2,9,3,10,2.0,6,0,70.5,0
+412,Daniela Aguilar Medina,24,0,8,4,1,1.1,6,0,49.1,1
+413,Ariana Herrera Medina,12,1,17,1,6,2.0,7,0,83.3,0
+414,Camila Benites Benites,8,4,12,0,15,2.5,8,1,99.5,0
+415,Belén Guerrero Guerrero,10,2,15,1,10,2.0,7,0,87.9,0
+416,Diego Miranda Paredes,25,2,5,5,8,0.9,4,0,44.8,1
+417,Mariana Chávez Cárdenas,3,20,78,1,14,3.9,9,0,100.0,0
+418,Mateo Vega Paredes,8,7,30,0,24,1.9,9,0,100.0,0
+419,Gonzalo Alvarez Salazar,9,1,15,3,7,1.0,8,0,79.4,0
+420,Claudia Guerrero Flores,9,7,19,1,13,2.1,9,0,98.3,0
+421,Solange Castro Reyes,4,13,44,0,22,3.4,10,1,100.0,0
+422,Lorena Montes Paredes,10,3,6,2,10,1.2,6,0,83.0,0
+423,Jimena Guzmán Reyes,4,19,70,0,22,3.7,10,1,100.0,0
+424,Gabriela Herrera Soto,58,0,5,6,0,0.2,2,0,15.0,1
+425,Fiorella Montes Campos,42,0,1,3,0,0.3,4,0,20.2,1
+426,Alonso Barrios Peña,10,3,18,2,17,2.3,8,0,87.4,0
+427,Antonella Reyes Rojas,6,3,24,2,14,2.3,9,1,94.6,0
+428,Mariana Paredes Guzmán,10,5,21,0,12,2.5,9,0,98.5,0
+429,Sebastián Salazar Salazar,3,18,61,0,28,3.4,8,1,100.0,0
+430,Gonzalo Cordova Herrera,8,8,28,1,22,2.8,9,0,100.0,0
+431,Joaquín Cárdenas Barrios,14,3,11,3,7,1.7,8,0,76.0,0
+432,Camila Barrios Torres,66,0,1,6,0,0.3,3,0,15.0,1
+433,Diego Castillo Chávez,12,1,16,1,6,1.6,6,0,81.5,0
+434,Paloma Cordova Guerrero,2,12,57,1,13,3.5,10,0,100.0,0
+435,Claudia Cordova Barrios,6,4,27,1,23,2.4,8,1,98.9,0
+436,Estefania Barrios Rojas,46,0,4,5,0,0.3,4,0,15.0,1
+437,Claudia Soto Cordova,8,8,16,2,23,2.1,8,1,97.1,0
+438,Antonella Miranda Chávez,3,17,46,1,27,2.7,8,0,100.0,0
+439,Rodrigo Vega Vega,2,9,51,0,19,2.6,8,0,100.0,0
+440,Brunella Barrios Guzmán,11,1,7,2,13,2.0,7,0,81.4,0
+441,Belén Rojas Peña,1,20,80,0,29,4.0,10,1,100.0,0
+442,Valeria Medina Guerrero,19,0,9,5,2,1.2,6,0,53.9,0
+443,Luciana Cárdenas Guzmán,22,1,11,5,2,0.8,7,0,50.3,1
+444,Fernanda Rojas Morales,4,16,48,0,22,3.0,9,1,100.0,0
+445,Gabriela Medina Montes,14,1,6,1,5,1.4,7,0,78.6,0
+446,Micaela Delgado Mendoza,2,13,52,1,30,4.0,10,1,100.0,0
+447,Estefania Benites Delgado,1,13,43,1,15,3.1,10,1,100.0,0
+448,Paola Benites Navarro,2,13,65,1,25,2.8,10,1,100.0,0
+449,Belén Romero Delgado,10,4,10,1,12,1.5,6,0,88.6,0
+450,Romina Rojas Chávez,4,7,63,1,14,3.9,10,1,100.0,0
+451,Romina Campos Paredes,7,7,24,2,15,1.9,9,0,97.5,0
+452,Estefania Mendoza Romero,4,6,13,2,7,2.2,7,1,100.0,0
+453,Belén Salazar Peña,10,4,33,2,19,2.7,8,1,89.8,0
+454,Flavia Aguilar Castillo,9,8,22,2,17,2.8,7,0,96.4,0
+455,Rodrigo Montes Paredes,12,1,9,2,13,1.8,8,0,80.1,0
+456,Rodrigo Pacheco Castillo,12,4,9,1,14,1.3,6,0,84.9,0
+457,Valeria Guerrero Flores,1,7,46,0,19,3.7,10,0,100.0,0
+458,Paloma Navarro Romero,9,2,9,1,16,1.5,8,0,89.0,0
+459,Joaquín Cordova Cordova,2,16,56,1,20,3.5,8,1,100.0,0
+460,Nicolás Medina Pacheco,4,5,31,1,22,2.9,8,1,100.0,0
+461,Alessandra Chávez Cárdenas,10,7,17,1,10,2.4,8,1,96.7,0
+462,Mateo Guerrero Guerrero,5,6,16,1,8,2.1,8,1,100.0,0
+463,Fiorella Rojas Reyes,1,19,55,0,27,2.6,8,1,100.0,0
+464,Brunella Cárdenas Mendoza,2,17,48,0,18,2.7,9,1,100.0,0
+465,Mateo Cordova Peña,8,8,18,1,22,2.2,8,0,100.0,0
+466,Belén Cordova Romero,7,3,17,2,10,2.5,7,0,91.8,0
+467,Nicolás Guerrero Peña,3,9,33,1,29,3.3,10,1,100.0,0
+468,Brunella Torres Soto,70,0,8,4,0,0.4,4,0,15.0,1
+469,Adriana Paredes Soto,1,14,36,0,12,2.6,9,0,100.0,0
+470,Patricia Castro Chávez,4,11,58,1,27,2.6,8,0,100.0,0
+471,Mateo Guerrero Mendoza,3,14,63,1,17,4.5,8,1,100.0,0
+472,Diego Chávez Delgado,3,19,60,0,23,3.2,9,1,100.0,0
+473,Alejandra Navarro Cárdenas,10,1,11,2,11,1.1,7,0,80.8,0
+474,Romina Mendoza Herrera,4,16,65,0,28,4.1,8,0,100.0,0
+475,Joaquín Barrios Vega,1,16,70,0,17,4.4,9,0,100.0,0
+476,Claudia Chávez Montes,21,0,12,5,8,0.9,6,0,50.0,1
+477,Natalia Vargas Miranda,4,9,39,1,22,4.2,8,1,100.0,0
+478,Paloma Soto Navarro,7,6,28,2,18,2.0,7,1,94.8,0
+479,Paola Delgado Castro,2,12,58,0,24,3.9,9,1,100.0,0
+480,Fiorella Mendoza Cárdenas,10,5,12,0,19,1.9,8,1,96.2,0
+481,Sebastián Guerrero Guzmán,3,14,56,1,24,2.7,8,0,100.0,0
+482,Flavia Vargas Delgado,5,8,18,1,15,2.3,8,0,100.0,0
+483,Daniela Herrera Pacheco,3,13,53,1,19,4.1,10,1,100.0,0
+484,Fabrizio Rojas Campos,3,6,39,1,22,4.4,9,1,100.0,0
+485,Fabrizio Paredes Cárdenas,2,13,43,1,21,3.1,10,1,100.0,0
+486,Alonso Delgado Cordova,10,6,28,0,24,2.2,9,0,99.1,0
+487,Mateo Flores Campos,20,1,4,5,7,1.1,5,0,52.6,1
+488,Alejandra Torres Chávez,15,1,14,2,12,1.4,7,0,73.5,0
+489,Alessandra Salazar Benites,10,1,15,3,8,1.8,6,0,78.2,0
+490,Gonzalo Salazar Montes,50,0,7,3,0,0.5,2,0,15.0,1
+491,Andrea Torres Navarro,8,7,28,0,20,2.5,8,0,100.0,0
+492,Nicolás Chávez Miranda,59,0,7,3,0,0.1,2,0,15.0,1
+493,Jimena Miranda Cárdenas,2,14,49,0,26,3.5,10,1,100.0,0
+494,Micaela Castro Cárdenas,1,6,59,0,17,4.2,10,0,100.0,0
+495,Carolina Herrera Alvarez,7,4,30,0,11,2.8,9,1,100.0,0
+496,Antonella Flores Rojas,7,6,16,0,14,1.8,9,1,100.0,0
+497,Daniela Guzmán Medina,5,6,31,1,22,1.9,9,0,100.0,0
+498,Flavia Montes Morales,4,15,61,1,30,2.8,8,1,100.0,0
+499,Micaela Morales Delgado,2,11,50,1,25,3.9,10,0,100.0,0
+500,Flavia Pacheco Medina,8,8,23,2,11,2.9,8,0,99.1,0
+501,Carolina Cordova Aguilar,10,5,25,0,12,2.9,8,1,98.7,0
+502,Sebastián Soto Guerrero,15,4,6,3,3,1.5,6,0,73.6,0
+503,Fernanda Navarro Peña,4,15,60,0,30,4.0,8,0,100.0,0
+504,Rodrigo Benites Salazar,16,2,6,3,16,2.0,8,0,72.1,0
+505,Ariana Salazar Aguilar,1,13,54,0,18,4.2,10,1,100.0,0
+506,Lorena Pacheco Herrera,10,4,35,0,24,2.8,8,0,97.0,0
+507,Fabrizio Herrera Cordova,47,0,5,3,0,0.1,3,0,15.0,1
+508,Alessandra Reyes Vega,19,2,6,3,5,1.1,5,0,62.6,0
+509,Antonella Soto Chávez,6,8,24,0,8,2.3,8,0,100.0,0
+510,Fernanda Benites Campos,49,0,2,6,0,0.3,4,0,15.0,1
+511,Daniela Montes Romero,42,0,6,5,0,0.2,4,0,15.0,1
+512,Mateo Paredes Soto,9,1,17,2,3,1.1,6,0,81.5,0
+513,Adriana Aguilar Campos,4,9,40,1,17,4.5,9,0,100.0,0
+514,Renata Torres Vargas,9,4,30,1,13,1.9,8,1,92.8,0
+515,Andrea Mendoza Romero,5,7,31,1,6,2.1,7,1,100.0,0
+516,Mariana Pacheco Paredes,5,6,35,0,9,1.9,8,0,100.0,0
+517,Ariana Paredes Castillo,11,2,14,1,12,1.1,8,0,84.9,0
+518,Adriana Aguilar Miranda,11,4,12,1,4,1.6,6,0,87.3,0
+519,Natalia Morales Castillo,7,5,17,1,8,2.7,7,1,98.6,0
+520,Fabrizio Peña Flores,13,2,13,1,14,1.5,7,0,81.8,0
+521,Paola Reyes Delgado,4,4,29,0,22,2.4,7,1,100.0,0
+522,Micaela Paredes Castillo,26,1,5,5,1,0.8,4,0,41.5,1
+523,Nicolás Castro Mendoza,1,20,52,1,28,2.6,9,1,100.0,0
+524,Antonella Vargas Chávez,3,7,31,0,29,3.5,9,1,100.0,0
+525,Daniela Cárdenas Pacheco,12,1,11,1,10,1.2,8,0,82.1,0
+526,Fabrizio Reyes Cárdenas,11,1,7,3,3,1.0,6,0,74.6,0
+527,Alonso Miranda Torres,2,17,69,0,12,4.1,9,1,100.0,0
+528,Fernanda Castro Torres,10,4,10,1,10,1.5,8,0,90.2,0
+529,Adriana Benites Herrera,1,20,72,0,19,3.6,10,1,100.0,0
+530,Valeria Mendoza Delgado,3,12,51,0,29,4.3,10,1,100.0,0
+531,Alessandra Navarro Cordova,3,10,54,1,15,4.2,10,1,100.0,0
+532,Romina Medina Navarro,9,4,12,2,15,1.1,7,0,86.5,0
+533,Micaela Vargas Campos,2,10,37,0,26,3.6,9,1,100.0,0
+534,Alonso Rojas Delgado,4,6,40,0,22,3.0,8,1,100.0,0
+535,Flavia Cárdenas Guzmán,2,12,42,0,20,3.5,8,0,100.0,0
+536,Patricia Guerrero Benites,9,3,26,0,18,2.5,7,1,95.6,0
+537,Romina Pacheco Paredes,3,19,58,1,22,3.1,9,0,100.0,0
+538,Daniela Rojas Paredes,10,2,12,2,8,1.1,7,0,82.1,0
+539,Mariana Miranda Romero,7,5,14,0,15,2.8,9,1,100.0,0
+540,Valeria Romero Cordova,2,11,36,1,20,3.3,8,0,100.0,0
+541,Antonella Aguilar Delgado,1,18,73,0,13,4.1,8,0,100.0,0
+542,Antonella Benites Vargas,6,3,12,0,20,1.8,7,0,98.7,0
+543,Brunella Morales Salazar,17,0,9,5,7,1.1,4,0,55.2,1
+544,Macarena Medina Miranda,2,10,31,0,19,3.1,10,0,100.0,0
+545,Alessandra Barrios Reyes,4,8,59,0,29,3.3,8,1,100.0,0
+546,Lorena Barrios Soto,3,12,36,1,19,3.0,8,1,100.0,0
+547,Fernanda Reyes Barrios,10,7,21,0,13,3.0,9,0,100.0,0
+548,Rodrigo Reyes Navarro,10,6,15,0,13,2.2,9,0,99.1,0
+549,Lorena Flores Miranda,26,0,6,5,8,0.9,6,0,42.0,1
+550,Carolina Soto Salazar,2,15,51,1,12,2.9,9,1,100.0,0
+551,Gabriela Paredes Alvarez,14,1,14,3,5,1.0,6,0,69.8,0
+552,Diego Benites Castro,9,6,20,1,16,2.5,7,1,96.3,0
+553,Macarena Soto Cordova,3,9,34,1,21,3.8,10,1,100.0,0
+554,Natalia Medina Mendoza,26,1,12,2,2,1.1,6,0,54.3,1
+555,Gonzalo Navarro Guzmán,19,1,6,4,5,1.0,5,0,57.5,0
+556,Fiorella Alvarez Aguilar,2,9,40,1,15,3.9,10,0,100.0,0
+557,Flavia Aguilar Guerrero,55,0,7,5,0,0.2,5,0,15.0,1
+558,Andrea Barrios Navarro,1,18,75,0,22,4.2,9,1,100.0,0
+559,Daniela Alvarez Herrera,19,2,4,4,7,0.6,4,0,57.1,1
+560,Adriana Pacheco Herrera,3,9,44,1,21,4.4,9,0,100.0,0
+561,Romina Montes Soto,3,6,36,1,18,3.4,8,0,100.0,0
+562,Adriana Peña Vargas,4,5,25,1,14,2.7,7,1,100.0,0
+563,Flavia Medina Benites,22,0,7,5,7,0.8,6,0,48.1,1
+564,Patricia Vega Reyes,1,7,52,1,30,3.8,8,1,100.0,0
+565,Flavia Guerrero Barrios,5,6,22,2,7,2.2,9,1,100.0,0
+566,Diego Chávez Morales,24,0,5,3,3,1.2,5,0,52.1,1
+567,Valeria Pacheco Vargas,56,0,3,5,0,0.1,4,0,15.0,1
+568,Daniela Vargas Castillo,8,5,26,1,6,2.8,9,1,98.9,0
+569,Diego Guerrero Morales,5,7,34,0,9,2.5,9,1,100.0,0
+570,Paola Miranda Guerrero,4,15,55,0,20,3.7,9,0,100.0,0
+571,Fabrizio Montes Salazar,6,8,33,1,14,2.1,8,0,100.0,0
+572,Ariana Cárdenas Vega,10,2,16,2,15,1.1,7,0,82.1,0
+573,Fernanda Guerrero Vargas,2,20,82,1,28,4.1,9,1,100.0,0
+574,Sebastián Herrera Castro,4,8,51,0,17,4.1,8,1,100.0,0
+575,Gabriela Reyes Delgado,1,20,64,1,23,3.2,9,1,100.0,0
+576,Mariana Flores Delgado,8,6,25,2,23,2.0,8,0,94.0,0
+577,Estefania Vargas Peña,1,8,33,0,19,4.2,10,0,100.0,0
+578,Alessandra Flores Mendoza,5,8,35,0,13,2.0,8,1,100.0,0
+579,Ariana Vega Pacheco,22,1,10,4,8,0.7,7,0,53.5,1
+580,Nicolás Guzmán Mendoza,9,5,29,2,15,2.5,8,1,92.2,0
+581,Belén Castro Alvarez,69,0,5,5,0,0.2,4,0,15.0,1
+582,Gabriela Chávez Delgado,26,1,5,2,7,1.0,6,0,54.1,1
+583,Estefania Guerrero Montes,4,7,28,0,16,2.6,9,1,100.0,0
+584,Rodrigo Barrios Miranda,10,4,27,0,15,2.8,7,0,96.2,0
+585,Estefania Medina Alvarez,12,3,18,2,9,1.2,7,0,80.6,0
+586,Renata Torres Peña,4,6,30,2,24,1.9,9,0,100.0,0
+587,Gabriela Morales Castillo,7,3,14,0,12,2.8,8,0,100.0,0
+588,Joaquín Campos Chávez,2,18,48,0,22,2.7,10,0,100.0,0
+589,Paloma Vega Romero,11,2,17,1,5,1.5,8,0,85.9,0
+590,Macarena Pacheco Montes,7,6,27,0,17,1.8,7,1,100.0,0
+591,Diego Rojas Flores,12,2,10,2,5,1.7,6,0,79.6,0
+592,Flavia Cárdenas Herrera,1,10,47,1,25,4.4,10,1,100.0,0
+593,Brunella Soto Miranda,11,4,8,3,5,1.0,6,0,78.8,0
+594,Camila Herrera Morales,9,3,30,1,23,2.3,9,0,93.2,0
+595,Romina Guzmán Flores,1,12,40,1,27,3.4,10,0,100.0,0
+596,Luciana Cárdenas Guerrero,13,2,6,3,14,1.4,8,0,75.4,0
+597,Mariana Peña Morales,16,2,17,2,16,1.6,8,0,74.6,0
+598,Lorena Guerrero Peña,4,20,58,1,19,2.9,8,0,100.0,0
+599,Fiorella Morales Soto,1,18,64,0,20,3.5,10,0,100.0,0
+600,Paola Torres Campos,2,19,49,1,22,2.6,9,1,100.0,0
+601,Andrea Salazar Mendoza,27,2,8,5,4,0.6,4,0,40.8,1
+602,Renata Alvarez Medina,4,13,42,1,25,3.0,10,1,100.0,0
+603,Adriana Morales Paredes,9,2,14,2,15,1.1,8,0,84.5,0
+604,Paloma Medina Castillo,9,2,12,1,9,1.5,7,0,88.2,0
+605,Valeria Castro Torres,9,2,15,2,11,2.0,8,0,86.8,0
+606,Gonzalo Guzmán Pacheco,12,4,15,3,9,1.3,6,0,77.9,0
+607,Mateo Reyes Mendoza,5,7,25,0,8,2.8,8,0,100.0,0
+608,Brunella Vega Reyes,8,8,18,0,20,2.3,8,1,100.0,0
+609,Paloma Vargas Soto,4,6,16,0,18,2.7,8,0,100.0,0
+610,Mateo Mendoza Vargas,13,2,12,2,8,1.7,6,0,78.0,0
+611,Patricia Campos Alvarez,8,7,31,1,20,2.4,7,0,99.1,0
+612,Patricia Mendoza Alvarez,9,5,21,2,9,2.5,7,1,91.4,0
+613,Alonso Paredes Guerrero,2,9,43,0,26,2.7,8,1,100.0,0
+614,Andrea Guerrero Salazar,27,2,10,5,8,0.6,5,0,41.6,1
+615,Alonso Mendoza Reyes,7,7,26,0,24,2.4,7,1,100.0,0
+616,Natalia Guzmán Castillo,14,4,14,3,15,1.4,6,0,75.0,0
+617,Fernanda Montes Alvarez,57,0,3,6,0,0.4,4,0,15.0,1
+618,Mateo Cordova Romero,3,16,61,0,17,3.2,10,1,100.0,0
+619,Micaela Morales Miranda,8,7,32,1,23,2.9,8,1,100.0,0
+620,Macarena Mendoza Guzmán,2,6,30,1,17,3.8,9,1,100.0,0
+621,Jimena Reyes Peña,1,11,45,0,29,4.1,9,0,100.0,0
+622,Paola Reyes Castillo,10,8,27,0,6,2.2,9,0,100.0,0
+623,Gonzalo Aguilar Navarro,28,2,12,3,3,1.0,6,0,48.8,1
+624,Paloma Medina Castro,2,17,59,0,25,3.5,9,1,100.0,0
+625,Natalia Herrera Torres,4,17,74,0,22,4.4,10,0,100.0,0
+626,Gonzalo Cárdenas Soto,14,1,10,3,6,1.8,6,0,71.8,0
+627,Diego Castro Herrera,8,6,17,0,16,1.9,8,0,100.0,0
+628,Claudia Barrios Mendoza,3,13,59,0,13,3.0,10,1,100.0,0
+629,Flavia Morales Castillo,3,6,41,1,27,4.3,8,0,100.0,0
+630,Gabriela Cordova Vargas,19,2,4,3,3,0.9,7,0,63.7,0
+631,Claudia Pacheco Castro,11,1,10,1,4,1.5,6,0,82.9,0
+632,Romina Medina Torres,8,4,23,1,20,2.9,9,0,97.8,0
+633,Micaela Flores Castillo,9,1,14,1,14,1.8,6,0,86.8,0
+634,Lorena Guzmán Peña,13,1,12,2,9,1.3,8,0,77.3,0
+635,Camila Barrios Herrera,5,8,35,2,15,2.3,9,0,100.0,0
+636,Renata Mendoza Chávez,1,15,55,0,21,3.7,8,1,100.0,0
+637,Lorena Romero Guerrero,25,0,6,4,3,0.6,4,0,44.7,1
+638,Carolina Reyes Campos,4,5,18,0,12,2.6,9,1,100.0,0
+639,Brunella Miranda Paredes,12,1,6,1,8,1.3,7,0,81.5,0
+640,Paloma Alvarez Cárdenas,11,3,11,1,3,1.8,7,0,87.2,0
+641,Alejandra Navarro Pacheco,3,8,39,1,26,3.9,9,1,100.0,0
+642,Ariana Soto Guzmán,1,19,58,0,20,3.1,10,1,100.0,0
+643,Daniela Castro Flores,9,4,8,1,11,1.8,7,0,91.8,0
+644,Rodrigo Barrios Chávez,5,7,19,0,20,2.7,9,0,100.0,0
+645,Antonella Benites Mendoza,11,2,7,3,12,1.4,8,0,78.6,0
+646,Jimena Barrios Miranda,4,9,41,0,13,2.6,10,0,100.0,0
+647,Renata Castillo Barrios,17,0,8,2,8,1.2,6,0,67.6,0
+648,Estefania Medina Castillo,14,1,11,1,11,1.5,7,0,78.8,0
+649,Lorena Miranda Soto,9,2,8,1,11,1.4,8,0,88.8,0
+650,Fernanda Romero Chávez,3,15,58,0,25,3.9,9,1,100.0,0
+651,Belén Barrios Barrios,2,16,67,0,13,4.2,8,1,100.0,0
+652,Adriana Paredes Salazar,19,0,5,5,0,0.6,6,0,52.4,0
+653,Claudia Aguilar Barrios,19,0,12,3,2,1.1,6,0,60.6,1
+654,Brunella Campos Castro,4,8,30,1,16,2.7,10,0,100.0,0
+655,Belén Salazar Morales,2,20,74,1,28,3.7,9,1,100.0,0
+656,Valeria Pacheco Navarro,24,1,12,2,6,0.7,5,0,55.7,1
+657,Estefania Barrios Navarro,18,1,11,5,4,0.9,5,0,55.4,1
+658,Luciana Morales Mendoza,5,8,23,1,9,2.8,7,0,100.0,0
+659,Nicolás Torres Torres,23,2,7,5,3,0.8,7,0,50.1,1
+660,Mateo Barrios Medina,8,6,19,2,17,2.1,9,0,95.0,0
+661,Natalia Morales Navarro,9,4,26,1,16,1.9,9,1,93.6,0
+662,Romina Herrera Castillo,29,0,3,6,0,0.4,5,0,31.6,1
+663,Fiorella Castro Torres,1,15,42,1,28,2.6,9,1,100.0,0
+664,Fabrizio Reyes Medina,7,3,31,2,15,2.0,7,0,90.6,0
+665,Fabrizio Navarro Herrera,14,2,7,1,7,1.7,7,0,80.7,0
+666,Lorena Montes Montes,8,3,12,0,23,2.7,8,1,98.6,0
+667,Mateo Miranda Miranda,46,0,4,6,0,0.1,5,0,15.0,1
+668,Joaquín Mendoza Torres,1,14,36,1,15,2.6,10,1,100.0,0
+669,Rodrigo Torres Aguilar,65,0,4,5,0,0.2,5,0,15.0,1
+670,Solange Flores Barrios,1,12,45,0,22,3.8,9,1,100.0,0
+671,Diego Mendoza Torres,1,12,45,0,29,3.8,8,1,100.0,0
+672,Lorena Romero Vega,2,13,52,0,20,4.0,8,0,100.0,0
+673,Alejandra Miranda Chávez,10,1,15,2,12,1.7,6,0,81.5,0
+674,Rodrigo Salazar Barrios,6,6,28,1,21,2.9,7,1,100.0,0
+675,Sebastián Vega Montes,2,6,45,1,29,3.6,8,1,100.0,0
+676,Antonella Medina Campos,73,0,6,3,0,0.3,2,0,15.0,1
+677,Claudia Castillo Guzmán,3,8,33,1,27,3.6,10,1,100.0,0
+678,Carolina Soto Pacheco,3,11,46,1,17,4.2,10,0,100.0,0
+679,Joaquín Navarro Guzmán,12,4,8,1,15,1.9,8,0,88.0,0
+680,Jimena Barrios Mendoza,4,8,58,1,27,4.5,9,0,100.0,0
+681,Joaquín Reyes Montes,2,6,34,1,15,2.9,9,1,100.0,0
+682,Estefania Benites Benites,10,5,23,0,17,2.2,9,1,97.7,0
+683,Gabriela Medina Peña,9,7,33,1,8,2.4,8,1,98.3,0
+684,Solange Chávez Herrera,6,6,28,1,8,2.6,7,0,100.0,0
+685,Patricia Cordova Cordova,13,4,12,2,14,1.3,8,0,81.5,0
+686,Diego Aguilar Guerrero,1,8,60,1,14,4.0,8,0,100.0,0
+687,Andrea Guzmán Castro,24,2,9,2,1,0.5,6,0,57.4,1
+688,Gonzalo Chávez Vargas,15,3,16,2,10,1.2,8,0,76.6,0
+689,Diego Herrera Flores,3,19,81,1,29,4.3,9,1,100.0,0
+690,Natalia Medina Campos,9,7,30,2,23,2.3,8,1,94.5,0
+691,Belén Navarro Vargas,6,6,19,0,6,2.1,9,1,100.0,0
+692,Natalia Miranda Peña,4,8,34,1,15,2.9,7,1,100.0,0
+693,Paola Navarro Mendoza,5,6,23,1,13,2.9,7,1,100.0,0
+694,Flavia Castillo Navarro,4,16,57,1,21,3.0,10,1,100.0,0
+695,Fernanda Guerrero Rojas,19,0,10,5,4,0.7,7,0,53.4,1
+696,Camila Chávez Reyes,30,0,2,5,0,0.1,4,0,31.9,1
+697,Natalia Aguilar Mendoza,2,6,39,1,21,3.5,9,1,100.0,0
+698,Solange Salazar Alvarez,2,6,43,0,29,3.0,9,0,100.0,0
+699,Estefania Castillo Mendoza,2,12,48,0,13,4.0,8,1,100.0,0
+700,Andrea Romero Barrios,6,5,33,0,23,2.0,9,0,100.0,0
+701,Belén Cárdenas Rojas,4,8,16,0,19,2.1,8,0,100.0,0
+702,Fernanda Morales Montes,9,1,16,2,14,1.6,8,0,84.4,0
+703,Jimena Benites Vargas,4,7,39,0,13,3.9,9,1,100.0,0
+704,Rodrigo Guzmán Paredes,6,7,34,1,20,2.7,9,0,100.0,0
+705,Flavia Miranda Paredes,1,13,53,1,29,3.9,10,1,100.0,0
+706,Joaquín Medina Miranda,4,10,56,0,14,4.2,10,0,100.0,0
+707,Paola Torres Benites,10,8,33,0,6,2.4,9,1,100.0,0
+708,Gonzalo Delgado Cordova,15,2,12,3,5,1.5,8,0,72.5,0
+709,Alessandra Cordova Morales,1,6,26,0,13,4.2,8,0,100.0,0
+710,Gabriela Guzmán Salazar,10,6,26,2,24,2.6,8,0,92.3,0
+711,Patricia Castro Mendoza,20,2,4,5,0,0.8,6,0,54.1,1
+712,Alessandra Benites Reyes,13,1,18,2,4,1.7,6,0,76.7,0
+713,Diego Guzmán Guzmán,15,2,15,1,12,1.2,8,0,78.7,0
+714,Mateo Guerrero Guzmán,14,4,11,1,5,1.7,6,0,82.7,0
+715,Mateo Montes Alvarez,16,3,13,2,16,1.9,7,0,76.0,0
+716,Macarena Cordova Delgado,5,6,33,1,17,2.7,8,0,100.0,0
+717,Antonella Mendoza Salazar,67,0,3,5,0,0.0,2,0,15.0,1
+718,Ariana Navarro Romero,17,2,11,3,1,1.1,4,0,65.0,0
+719,Jimena Paredes Torres,8,4,35,1,8,2.1,9,0,95.8,0
+720,Claudia Castro Cordova,11,4,16,3,12,1.8,6,0,80.8,0
+721,Fabrizio Cárdenas Salazar,15,1,17,2,8,1.8,7,0,74.5,0
+722,Mariana Navarro Mendoza,9,6,26,0,16,1.9,9,1,100.0,0
+723,Micaela Navarro Chávez,4,13,54,0,19,4.0,9,0,100.0,0
+724,Antonella Chávez Paredes,4,15,60,1,20,4.0,8,1,100.0,0
+725,Macarena Paredes Paredes,5,6,28,0,23,2.3,9,1,100.0,0
+726,Diego Delgado Delgado,4,11,54,0,15,3.9,10,1,100.0,0
+727,Renata Miranda Rojas,1,18,55,1,16,3.1,9,0,100.0,0
+728,Patricia Rojas Benites,1,7,33,0,21,4.0,8,1,100.0,0
+729,Mariana Cárdenas Aguilar,6,4,16,0,23,2.7,9,1,100.0,0
+730,Mateo Barrios Chávez,9,4,15,3,3,1.6,7,0,84.3,0
+731,Adriana Reyes Peña,3,6,20,0,24,3.4,10,0,100.0,0
+732,Renata Guzmán Flores,4,9,50,0,22,4.5,9,1,100.0,0
+733,Rodrigo Vargas Medina,4,14,61,0,19,4.4,10,1,100.0,0
+734,Alonso Montes Herrera,3,11,41,1,13,3.8,10,0,100.0,0
+735,Flavia Flores Vega,3,20,66,0,24,3.3,10,1,100.0,0
+736,Gonzalo Navarro Guerrero,2,12,56,1,26,4.4,10,0,100.0,0
+737,Natalia Rojas Paredes,2,12,54,0,22,4.5,8,1,100.0,0
+738,Mariana Medina Cordova,11,1,11,2,7,1.8,7,0,80.9,0
+739,Fernanda Chávez Rojas,2,6,57,1,30,4.0,10,0,100.0,0
+740,Patricia Navarro Flores,9,6,29,1,17,2.0,7,1,95.1,0
+741,Alonso Barrios Paredes,2,6,19,1,25,3.3,8,1,100.0,0
+742,Gabriela Romero Castro,4,19,70,1,26,3.7,8,1,100.0,0
+743,Valeria Castillo Cordova,9,7,26,2,7,2.5,9,0,95.8,0
+744,Solange Salazar Delgado,7,8,22,2,7,1.8,7,0,97.1,0
+745,Antonella Cárdenas Peña,7,5,12,2,22,2.5,7,0,94.6,0
+746,Paloma Vargas Morales,2,12,46,0,17,3.3,9,1,100.0,0
+747,Gabriela Campos Vargas,2,17,68,0,26,4.0,10,1,100.0,0
+748,Diego Castillo Herrera,7,3,20,2,10,2.7,7,1,92.3,0
+749,Carolina Reyes Guerrero,4,10,38,0,18,3.8,8,1,100.0,0
+750,Estefania Mendoza Campos,7,7,29,1,13,2.8,7,1,100.0,0
+751,Belén Campos Guerrero,8,7,27,1,23,1.8,7,0,97.6,0
+752,Jimena Reyes Miranda,1,16,59,1,22,3.7,8,0,100.0,0
+753,Alessandra Medina Herrera,11,4,10,1,4,1.7,7,0,88.3,0
+754,Micaela Benites Castillo,15,1,7,1,14,1.3,7,0,76.8,0
+755,Alessandra Romero Romero,4,7,30,2,8,2.7,8,1,100.0,0
+756,Fabrizio Peña Pacheco,6,5,29,1,10,2.4,9,1,100.0,0
+757,Diego Soto Soto,12,3,5,1,3,2.0,7,0,86.1,0
+758,Mariana Romero Guerrero,6,5,30,0,6,2.5,9,0,100.0,0
+759,Paola Torres Castro,3,18,61,1,22,2.5,9,1,100.0,0
+760,Gonzalo Flores Medina,3,20,76,0,16,3.8,9,0,100.0,0
+761,Solange Alvarez Campos,15,1,9,3,14,1.8,8,0,71.8,0
+762,Rodrigo Flores Romero,6,5,14,1,6,1.9,8,1,99.1,0
+763,Rodrigo Herrera Castillo,1,19,77,1,13,4.1,9,1,100.0,0
+764,Alonso Delgado Benites,6,4,15,0,17,2.4,7,1,100.0,0
+765,Fiorella Aguilar Flores,11,2,12,3,16,1.3,8,0,78.4,0
+766,Ariana Cordova Chávez,10,2,5,2,9,1.2,8,0,83.2,0
+767,Diego Morales Mendoza,1,16,67,1,26,4.2,8,0,100.0,0
+768,Ariana Flores Cárdenas,5,5,19,1,23,2.0,8,1,100.0,0
+769,Mariana Vega Chávez,1,6,53,0,18,4.4,10,1,100.0,0
+770,Micaela Vega Chávez,21,2,4,4,5,0.7,7,0,56.5,1
+771,Camila Barrios Reyes,1,7,29,1,23,3.4,9,1,100.0,0
+772,Gabriela Vargas Campos,4,8,24,1,20,2.4,8,0,100.0,0
+773,Patricia Chávez Torres,23,0,8,4,7,1.0,7,0,51.3,1
+774,Camila Castro Barrios,4,13,54,1,30,4.2,8,1,100.0,0
+775,Antonella Guzmán Cordova,4,5,22,2,19,2.4,7,1,99.2,0
+776,Mateo Herrera Barrios,6,4,28,1,19,2.8,9,1,100.0,0
+777,Rodrigo Delgado Medina,10,4,14,2,8,1.1,8,0,85.8,0
+778,Andrea Aguilar Medina,4,7,61,1,22,3.7,9,1,100.0,0
+779,Romina Vargas Romero,9,2,12,3,7,1.7,7,0,81.7,0
+780,Gonzalo Aguilar Rojas,3,10,61,1,25,3.6,10,1,100.0,0
+781,Lorena Vargas Mendoza,8,6,19,0,17,2.8,9,1,100.0,0
+782,Luciana Miranda Morales,17,0,12,5,5,0.8,7,0,56.9,1
+783,Macarena Romero Medina,5,7,21,1,10,2.3,8,1,100.0,0
+784,Natalia Paredes Mendoza,1,8,49,1,16,3.9,8,0,100.0,0
+785,Alessandra Campos Pacheco,7,7,24,1,17,2.3,7,0,100.0,0
+786,Fabrizio Mendoza Soto,12,3,13,3,8,1.4,6,0,76.8,0
+787,Valeria Barrios Benites,4,17,64,1,26,2.7,10,0,100.0,0
+788,Gonzalo Vargas Delgado,9,8,24,2,23,3.0,9,0,98.5,0
+789,Romina Alvarez Mendoza,8,6,20,1,17,2.5,8,0,98.8,0
+790,Valeria Cárdenas Torres,4,15,42,1,12,2.8,9,1,100.0,0
+791,Natalia Castro Vega,3,10,42,0,17,4.2,10,1,100.0,0
+792,Paloma Benites Medina,2,13,51,0,22,2.9,8,1,100.0,0
+793,Fabrizio Chávez Soto,15,4,12,3,13,1.2,6,0,72.9,0
+794,Lorena Reyes Torres,10,1,11,2,7,1.2,7,0,81.0,0
+795,Rodrigo Navarro Castillo,15,4,13,2,3,1.3,7,0,77.4,0
+796,Paloma Castillo Cordova,72,0,2,5,0,0.5,5,0,15.0,1
+797,Gonzalo Vega Alvarez,1,10,43,1,19,3.8,10,1,100.0,0
+798,Gabriela Alvarez Medina,1,16,40,0,25,2.5,8,1,100.0,0
+799,Paloma Miranda Navarro,13,2,14,1,3,1.0,8,0,81.4,0
+800,Claudia Morales Morales,2,12,59,0,15,3.8,10,0,100.0,0
+801,Paola Campos Castro,6,6,31,1,14,2.6,7,1,100.0,0
+802,Fernanda Reyes Castillo,4,5,18,0,20,2.9,7,0,100.0,0
+803,Gabriela Montes Medina,4,4,23,0,9,2.4,8,1,100.0,0
+804,Andrea Salazar Castro,3,18,61,0,12,3.4,8,1,100.0,0
+805,Fernanda Chávez Alvarez,26,0,10,5,6,0.9,7,0,42.8,1
+806,Daniela Navarro Mendoza,9,6,27,1,16,1.9,9,0,96.5,0
+807,Romina Vargas Benites,6,3,34,1,12,2.8,7,1,97.7,0
+808,Flavia Rojas Cárdenas,10,3,15,2,14,1.5,6,0,83.8,0
+809,Natalia Salazar Rojas,2,13,52,1,27,3.3,10,1,100.0,0
+810,Paloma Flores Salazar,3,18,70,0,18,3.9,10,1,100.0,0
+811,Solange Chávez Navarro,17,2,3,5,0,0.6,5,0,57.6,0
+812,Natalia Mendoza Medina,6,3,15,2,8,2.3,7,0,93.0,0
+813,Fabrizio Navarro Castro,15,3,16,3,9,1.8,7,0,73.8,0
+814,Joaquín Paredes Cordova,12,1,10,1,4,1.6,7,0,82.3,0
+815,Jimena Guerrero Herrera,11,4,14,1,5,1.2,6,0,86.3,0
+816,Gonzalo Castillo Herrera,4,7,29,0,30,2.5,9,1,100.0,0
+817,Belén Paredes Romero,3,14,47,0,13,3.4,10,0,100.0,0
+818,Alonso Vargas Cárdenas,1,14,42,0,23,3.0,10,1,100.0,0
+819,Solange Romero Vega,1,18,50,1,17,2.8,8,1,100.0,0
+820,Valeria Reyes Benites,4,10,47,0,15,3.2,10,0,100.0,0
+821,Rodrigo Medina Herrera,16,1,8,3,10,1.1,8,0,68.5,0
+822,Alessandra Rojas Cordova,1,11,33,1,18,3.0,9,1,100.0,0
+823,Daniela Barrios Soto,4,8,57,1,17,2.9,9,1,100.0,0
+824,Solange Rojas Miranda,41,0,1,3,0,0.2,4,0,21.6,1
+825,Natalia Morales Campos,5,5,19,2,11,2.1,9,1,98.5,0
+826,Adriana Navarro Vargas,8,6,16,2,21,2.8,8,0,96.0,0
+827,Macarena Delgado Delgado,2,20,88,0,25,4.4,8,0,100.0,0
+828,Belén Salazar Pacheco,7,8,24,1,13,2.8,7,1,100.0,0
+829,Luciana Guerrero Romero,3,9,34,0,27,3.8,10,1,100.0,0
+830,Solange Flores Campos,5,8,35,1,20,2.3,9,1,100.0,0
+831,Daniela Castillo Alvarez,6,6,32,2,23,2.7,9,1,99.8,0
+832,Fiorella Alvarez Reyes,9,5,14,1,17,2.9,8,1,96.8,0
+833,Renata Benites Medina,9,3,34,0,10,2.5,8,0,96.5,0
+834,Mariana Barrios Romero,12,3,9,3,13,1.4,7,0,77.6,0
+835,Fernanda Reyes Castro,7,6,14,1,23,2.4,9,1,100.0,0
+836,Paola Aguilar Benites,10,2,12,1,4,1.9,7,0,87.6,0
+837,Carolina Peña Castro,3,7,49,0,18,3.9,10,1,100.0,0
+838,Camila Peña Guerrero,63,0,8,5,0,0.5,5,0,15.0,1
+839,Paloma Flores Peña,1,19,77,1,25,4.1,10,1,100.0,0
+840,Micaela Soto Aguilar,8,4,19,0,14,2.9,7,0,99.6,0
+841,Paola Reyes Chávez,7,4,15,2,23,2.5,8,0,94.0,0
+842,Carolina Chávez Herrera,1,11,46,1,23,3.6,8,0,100.0,0
+843,Valeria Cordova Miranda,4,14,63,1,15,4.5,8,1,100.0,0
+844,Alonso Chávez Campos,19,0,11,4,4,1.2,7,0,58.2,0
+845,Joaquín Chávez Aguilar,1,17,59,0,29,3.5,8,1,100.0,0
+846,Antonella Navarro Aguilar,6,3,16,2,22,2.5,7,1,93.5,0
+847,Fernanda Rojas Flores,4,16,60,1,18,3.8,9,1,100.0,0
+848,Fabrizio Reyes Benites,9,6,21,0,15,2.2,8,0,99.9,0
+849,Paloma Vargas Romero,16,4,9,1,15,1.8,8,0,81.4,0
+850,Macarena Guerrero Paredes,10,2,12,3,8,1.2,6,0,78.1,0
+851,Nicolás Castillo Vargas,3,12,47,0,18,2.8,8,1,100.0,0
+852,Paola Soto Salazar,13,3,16,2,6,1.5,6,0,79.0,0
+853,Luciana Chávez Torres,4,7,36,1,17,3.8,9,1,100.0,0
+854,Alejandra Flores Morales,16,1,10,3,10,1.6,8,0,69.7,0
+855,Estefania Barrios Morales,9,7,18,0,24,1.8,7,0,99.5,0
+856,Solange Paredes Miranda,3,11,40,0,21,3.3,9,1,100.0,0
+857,Daniela Rojas Medina,11,3,18,3,15,1.9,7,0,80.5,0
+858,Fernanda Benites Guzmán,6,4,26,1,17,1.8,8,0,97.4,0
+859,Adriana Guzmán Romero,2,19,55,0,25,2.9,9,1,100.0,0
+860,Mariana Paredes Flores,6,8,24,2,22,2.2,8,0,100.0,0
+861,Ariana Flores Morales,2,17,51,0,16,3.0,8,1,100.0,0
+862,Mariana Castro Flores,15,1,5,3,11,1.2,8,0,70.3,0
+863,Mariana Torres Salazar,1,18,48,0,30,2.7,8,0,100.0,0
+864,Lorena Flores Vargas,3,15,48,0,28,3.2,10,0,100.0,0
+865,Nicolás Mendoza Romero,13,2,13,1,14,1.9,6,0,82.0,0
+866,Claudia Barrios Benites,11,4,6,1,16,1.7,7,0,88.3,0
+867,Flavia Pacheco Romero,7,3,20,0,20,2.7,7,0,99.3,0
+868,Alonso Benites Peña,4,3,13,1,15,2.2,8,1,100.0,0
+869,Ariana Aguilar Navarro,6,6,12,1,17,2.0,7,0,99.9,0
+870,Alonso Guzmán Montes,9,8,15,1,18,1.9,9,1,99.2,0
+871,Andrea Herrera Castro,5,5,22,0,13,2.0,8,1,100.0,0
+872,Fernanda Vega Montes,9,7,25,2,14,2.9,7,1,95.2,0
+873,Andrea Morales Torres,5,8,23,0,7,2.9,7,0,100.0,0
+874,Camila Medina Castillo,6,4,29,0,8,2.2,9,1,100.0,0
+875,Alonso Campos Rojas,4,13,52,1,29,3.5,10,0,100.0,0
+876,Valeria Pacheco Morales,6,6,13,0,11,2.3,9,1,100.0,0
+877,Ariana Herrera Soto,6,8,34,0,24,2.3,9,0,100.0,0
+878,Mateo Barrios Barrios,5,7,18,1,24,1.9,8,1,100.0,0
+879,Lorena Peña Cordova,1,8,40,0,22,4.2,9,0,100.0,0
+880,Lorena Miranda Guerrero,9,4,30,1,24,2.1,7,1,92.5,0
+881,Daniela Cárdenas Morales,1,14,47,1,30,3.2,10,1,100.0,0
+882,Fernanda Flores Barrios,6,6,20,2,9,2.5,8,0,98.5,0
+883,Claudia Alvarez Soto,10,8,29,1,17,2.2,8,0,97.6,0
+884,Daniela Romero Peña,3,15,49,0,30,3.3,8,1,100.0,0
+885,Fernanda Castro Barrios,6,3,19,2,15,2.6,8,1,94.5,0
+886,Micaela Rojas Guerrero,8,7,34,2,11,2.3,7,1,95.3,0
+887,Diego Medina Soto,4,10,52,1,30,4.4,10,1,100.0,0
+888,Diego Rojas Benites,5,4,34,1,19,2.7,8,0,100.0,0
+889,Daniela Romero Guerrero,3,16,61,0,24,2.8,8,0,100.0,0
+890,Gabriela Flores Delgado,13,4,11,2,13,1.5,6,0,80.3,0
+891,Gabriela Herrera Vega,3,18,73,0,13,4.1,10,1,100.0,0
+892,Camila Reyes Vargas,3,19,49,1,14,2.6,9,1,100.0,0
+893,Natalia Delgado Morales,8,3,28,2,14,2.4,8,1,90.8,0
+894,Alejandra Morales Cordova,4,18,72,1,18,4.0,8,0,100.0,0
+895,Claudia Vega Aguilar,10,7,27,1,9,1.9,8,0,95.5,0
+896,Belén Delgado Vega,19,1,8,4,0,0.8,4,0,56.2,0
+897,Romina Delgado Torres,6,8,24,2,9,3.0,9,1,100.0,0
+898,Paloma Castillo Mendoza,23,1,6,4,3,0.7,5,0,50.3,1
+899,Paloma Cordova Guerrero,13,1,12,2,14,1.8,7,0,77.7,0
+900,Brunella Pacheco Guzmán,13,1,14,3,16,1.4,8,0,74.0,0
+901,Micaela Campos Flores,11,4,7,1,9,1.8,6,0,87.8,0
+902,Ariana Cordova Vargas,2,14,59,0,25,3.9,9,1,100.0,0
+903,Natalia Torres Medina,14,3,11,2,5,1.2,7,0,77.4,0
+904,Flavia Navarro Flores,25,2,6,2,7,0.9,5,0,56.0,1
+905,Estefania Herrera Reyes,7,7,14,1,11,2.1,9,0,100.0,0
+906,Diego Pacheco Campos,16,1,8,1,16,1.2,7,0,74.9,0
+907,Alonso Castillo Paredes,5,7,19,2,12,2.1,8,0,100.0,0
+908,Jimena Flores Peña,44,0,4,5,0,0.3,5,0,15.0,1
+909,Fiorella Mendoza Barrios,3,17,56,1,25,3.3,10,1,100.0,0
+910,Daniela Guzmán Reyes,2,13,56,0,12,4.3,9,1,100.0,0
+911,Flavia Cárdenas Montes,11,1,9,1,11,1.6,7,0,83.9,0
+912,Brunella Campos Paredes,4,8,38,0,16,3.0,9,1,100.0,0
+913,Fernanda Benites Pacheco,3,15,63,1,25,4.2,8,1,100.0,0
+914,Alonso Chávez Aguilar,2,6,20,1,20,3.0,8,1,100.0,0
+915,Macarena Morales Soto,3,17,61,1,15,3.6,10,1,100.0,0
+916,Mariana Miranda Vargas,3,8,65,1,30,4.2,10,1,100.0,0
+917,Nicolás Mendoza Medina,4,4,31,0,16,2.7,7,0,100.0,0
+918,Mariana Montes Benites,4,5,12,1,21,2.0,8,1,100.0,0
+919,Fernanda Mendoza Alvarez,70,0,8,5,0,0.3,3,0,15.0,1
+920,Claudia Reyes Peña,1,17,56,1,14,2.6,9,0,100.0,0
+921,Alejandra Montes Vargas,2,8,43,1,16,3.3,8,0,100.0,0
+922,Macarena Cárdenas Paredes,4,5,25,1,18,2.4,8,0,100.0,0
+923,Fabrizio Pacheco Vargas,14,2,11,1,3,1.4,8,0,80.8,0
+924,Brunella Campos Navarro,9,4,26,2,22,2.9,7,0,91.0,0
+925,Macarena Vargas Barrios,2,16,68,1,21,4.3,10,0,100.0,0
+926,Daniela Salazar Guzmán,7,3,33,2,14,2.4,8,0,92.4,0
+927,Fiorella Flores Morales,16,2,18,2,3,1.8,6,0,73.5,0
+928,Ariana Cordova Campos,16,3,18,1,6,1.3,6,0,77.2,0
+929,Fabrizio Torres Guzmán,4,3,10,0,21,2.3,8,1,100.0,0
+930,Fabrizio Soto Cárdenas,8,5,32,2,18,2.6,8,0,94.1,0
+931,Natalia Mendoza Rojas,1,17,74,0,27,4.4,10,0,100.0,0
+932,Alejandra Pacheco Rojas,4,8,27,0,17,3.4,8,1,100.0,0
+933,Paloma Soto Barrios,4,15,45,1,13,3.0,9,0,100.0,0
+934,Macarena Guerrero Soto,13,1,12,3,12,1.5,8,0,74.3,0
+935,Gonzalo Soto Navarro,9,4,13,1,7,1.6,8,0,92.1,0
+936,Alessandra Barrios Morales,9,5,23,0,11,2.3,8,1,98.8,0
+937,Belén Miranda Aguilar,2,15,64,1,16,4.3,9,1,100.0,0
+938,Flavia Guerrero Benites,11,2,16,1,13,1.3,7,0,84.5,0
+939,Natalia Medina Rojas,4,7,49,1,19,4.1,8,1,100.0,0
+940,Camila Miranda Torres,5,4,26,0,8,2.8,8,0,100.0,0
+941,Gonzalo Navarro Morales,7,5,35,1,7,3.0,9,0,100.0,0
+942,Jimena Guzmán Reyes,24,1,4,2,1,1.2,4,0,56.2,1
+943,Sebastián Guzmán Herrera,10,4,15,2,15,2.9,9,0,91.0,0
+944,Sebastián Soto Guzmán,3,11,45,0,26,4.1,9,1,100.0,0
+945,Luciana Delgado Barrios,2,7,63,1,23,3.0,10,1,100.0,0
+946,Jimena Guerrero Navarro,4,12,51,1,12,4.3,9,0,100.0,0
+947,Luciana Castro Vargas,4,18,50,1,13,2.8,10,1,100.0,0
+948,Jimena Reyes Peña,9,8,20,2,16,2.5,8,0,96.5,0
+949,Fernanda Chávez Montes,5,7,29,2,20,2.5,9,0,100.0,0
+950,Antonella Rojas Cárdenas,3,12,65,0,28,4.0,10,0,100.0,0
+951,Fiorella Cárdenas Alvarez,11,1,17,3,12,1.0,7,0,75.4,0
+952,Alejandra Cárdenas Pacheco,36,0,6,5,0,0.4,4,0,23.1,1
+953,Mariana Reyes Morales,8,8,20,0,24,1.8,9,1,100.0,0
+954,Rodrigo Navarro Miranda,2,17,65,0,15,3.3,9,1,100.0,0
+955,Gabriela Benites Campos,4,19,62,0,25,3.3,8,1,100.0,0
+956,Paloma Castro Benites,15,4,14,2,13,1.9,7,0,78.9,0
+957,Alonso Guerrero Herrera,2,13,50,0,18,3.9,9,1,100.0,0
+958,Adriana Benites Morales,7,3,28,1,7,1.9,9,0,95.5,0
+959,Renata Cárdenas Benites,4,6,27,1,13,4.1,9,1,100.0,0
+960,Claudia Medina Soto,3,7,44,1,30,4.2,9,1,100.0,0
+961,Brunella Castillo Barrios,11,2,12,2,13,1.5,7,0,81.5,0
+962,Jimena Cordova Vargas,15,4,11,2,11,1.2,6,0,76.4,0
+963,Paloma Vega Vargas,28,0,7,2,8,0.9,4,0,47.6,1
+964,Gabriela Reyes Rojas,9,1,13,1,3,1.7,7,0,87.3,0
+965,Claudia Delgado Aguilar,3,12,49,0,22,3.7,9,0,100.0,0
+966,Camila Cordova Castillo,1,7,36,0,17,3.6,9,1,100.0,0
+967,Jimena Cárdenas Guerrero,9,3,16,1,7,1.2,7,0,88.9,0
+968,Andrea Cordova Chávez,6,5,13,0,12,2.3,7,1,100.0,0
+969,Nicolás Delgado Soto,8,6,18,0,16,2.9,8,1,100.0,0
+970,Daniela Barrios Flores,5,3,28,2,9,2.1,7,1,94.0,0
+971,Natalia Cárdenas Guerrero,10,8,35,0,17,2.4,9,1,100.0,0
+972,Alejandra Pacheco Aguilar,4,19,70,0,12,3.7,8,1,100.0,0
+973,Belén Vega Torres,15,3,8,3,16,1.8,8,0,74.6,0
+974,Adriana Castro Cárdenas,1,19,53,1,25,2.8,8,1,100.0,0
+975,Micaela Alvarez Torres,74,0,4,5,0,0.2,4,0,15.0,1
+976,Claudia Campos Alvarez,2,16,68,1,12,4.3,8,1,100.0,0
+977,Alessandra Soto Montes,10,8,27,0,20,2.6,9,0,100.0,0
+978,Flavia Miranda Castillo,1,7,30,1,12,3.4,8,1,100.0,0
+979,Fernanda Miranda Rojas,3,18,70,1,23,3.9,8,0,100.0,0
+980,Fabrizio Romero Mendoza,4,7,54,1,17,4.2,10,0,100.0,0
+981,Joaquín Medina Castro,9,3,28,0,22,2.0,9,1,96.0,0
+982,Gabriela Flores Torres,16,1,15,3,13,1.9,6,0,68.9,0
+983,Micaela Pacheco Guerrero,4,13,41,0,13,3.2,9,1,100.0,0
+984,Rodrigo Aguilar Cordova,2,11,54,0,19,2.7,10,1,100.0,0
+985,Daniela Delgado Rojas,3,7,26,0,27,3.8,9,1,100.0,0
+986,Nicolás Alvarez Torres,4,9,39,1,28,4.4,8,1,100.0,0
+987,Fabrizio Aguilar Guzmán,8,3,11,0,18,1.9,8,1,96.6,0
+988,Daniela Paredes Reyes,24,0,9,2,1,0.7,4,0,53.5,1
+989,Mateo Reyes Peña,15,1,11,1,16,1.6,8,0,78.3,0
+990,Gonzalo Mendoza Campos,10,6,29,0,16,2.9,9,1,100.0,0
+991,Camila Campos Alvarez,4,3,32,0,24,1.8,7,1,100.0,0
+992,Natalia Torres Miranda,9,7,17,0,7,2.3,7,0,100.0,0
+993,Nicolás Pacheco Miranda,2,8,56,1,21,3.4,9,1,100.0,0
+994,Diego Chávez Reyes,1,12,38,0,14,3.2,9,0,100.0,0
+995,Belén Campos Alvarez,26,1,9,4,2,0.9,4,0,45.2,1
+996,Solange Salazar Soto,1,16,46,1,18,2.9,8,1,100.0,0
+997,Brunella Castillo Romero,10,3,12,1,6,2.2,9,0,91.4,0
+998,Paola Aguilar Rojas,10,5,10,0,12,1.9,8,0,96.2,0
+999,Estefania Medina Alvarez,12,2,7,2,4,1.2,6,0,78.4,0
+1000,Natalia Castillo Morales,2,10,41,1,17,3.4,10,1,100.0,0
+1001,Gonzalo Pacheco Castro,2,18,52,1,23,2.9,9,1,100.0,0
+1002,Alejandra Salazar Rojas,21,0,3,4,2,0.7,7,0,53.8,1
+1003,Fiorella Barrios Castro,4,18,77,1,27,4.3,10,1,100.0,0
+1004,Micaela Benites Barrios,16,4,11,3,15,1.3,8,0,73.2,0
+1005,Claudia Navarro Rojas,5,6,23,1,24,2.1,7,1,100.0,0
+1006,Renata Torres Vargas,1,10,40,0,30,3.4,8,1,100.0,0
+1007,Gonzalo Alvarez Pacheco,7,6,25,1,14,2.2,8,0,99.6,0
+1008,Paloma Navarro Torres,6,3,26,2,23,2.2,9,0,94.3,0
+1009,Fernanda Navarro Guzmán,3,6,39,0,22,3.6,9,1,100.0,0
+1010,Fernanda Rojas Paredes,74,0,5,3,0,0.4,4,0,15.0,1
+1011,Paola Miranda Montes,26,2,11,3,6,0.5,5,0,49.9,1
+1012,Patricia Romero Barrios,4,17,69,0,22,4.1,8,1,100.0,0
+1013,Alessandra Romero Aguilar,8,3,28,0,15,2.2,9,0,98.1,0
+1014,Lorena Alvarez Navarro,9,6,32,2,15,2.7,8,1,94.2,0
+1015,Joaquín Salazar Paredes,3,15,57,1,24,3.8,8,1,100.0,0
+1016,Daniela Castillo Rojas,6,7,30,1,8,3.0,7,0,100.0,0
+1017,Mateo Medina Salazar,16,1,6,2,7,1.2,6,0,70.6,0
+1018,Diego Castro Campos,1,8,44,1,17,3.2,8,0,100.0,0
+1019,Alessandra Barrios Castro,10,4,16,1,19,2.0,9,1,92.3,0
+1020,Adriana Cárdenas Rojas,9,6,12,0,20,2.1,7,1,98.8,0
+1021,Fabrizio Delgado Alvarez,24,1,3,2,4,0.8,7,0,57.6,1
+1022,Lorena Cárdenas Montes,10,4,15,2,19,2.3,8,0,88.8,0
+1023,Carolina Guzmán Montes,9,2,7,2,13,1.9,8,0,86.5,0
+1024,Paola Castro Romero,23,2,8,2,1,0.6,6,0,59.3,1
+1025,Alessandra Aguilar Herrera,1,13,58,1,24,2.6,9,1,100.0,0
+1026,Gabriela Montes Salazar,1,17,73,1,27,4.3,9,0,100.0,0
+1027,Mateo Delgado Aguilar,3,19,53,0,17,2.8,9,0,100.0,0
+1028,Antonella Herrera Castro,9,3,10,1,6,1.2,8,0,89.7,0
+1029,Valeria Romero Aguilar,10,4,12,1,12,1.7,6,0,89.1,0
+1030,Romina Castillo Rojas,22,0,3,5,0,0.6,4,0,46.0,1
+1031,Brunella Rojas Castro,1,18,75,0,17,4.2,8,1,100.0,0
+1032,Andrea Cordova Cordova,5,7,27,1,19,2.0,7,0,100.0,0
+1033,Andrea Miranda Cordova,4,16,49,0,26,3.1,8,0,100.0,0
+1034,Fernanda Benites Salazar,2,12,56,1,15,3.1,10,1,100.0,0
+1035,Joaquín Herrera Torres,67,0,7,4,0,0.2,4,0,15.0,1
+1036,Carolina Cordova Barrios,1,15,64,1,28,4.3,10,1,100.0,0
+1037,Sebastián Mendoza Navarro,1,10,45,0,14,3.0,8,0,100.0,0
+1038,Alonso Peña Rojas,2,16,64,1,22,2.6,8,0,100.0,0
+1039,Valeria Guerrero Peña,12,3,8,3,3,1.3,8,0,78.2,0
+1040,Alejandra Navarro Castillo,5,6,15,1,8,2.6,7,0,100.0,0
+1041,Jimena Romero Paredes,2,9,45,1,21,3.5,8,1,100.0,0
+1042,Alejandra Pacheco Medina,6,5,30,0,14,2.5,8,0,100.0,0
+1043,Renata Montes Castillo,4,12,65,1,16,3.5,9,0,100.0,0
+1044,Flavia Pacheco Vargas,13,2,7,2,9,1.6,7,0,78.6,0
+1045,Ariana Campos Peña,8,6,14,2,21,1.9,7,0,92.9,0
+1046,Gabriela Mendoza Mendoza,28,2,9,5,6,0.8,6,0,41.3,1
+1047,Flavia Soto Cárdenas,8,3,11,0,18,2.3,9,0,98.4,0
+1048,Macarena Torres Miranda,7,8,32,0,18,2.6,8,1,100.0,0
+1049,Alejandra Barrios Salazar,22,2,3,3,4,1.0,7,0,59.2,1
+1050,Jimena Torres Delgado,9,4,34,0,18,1.8,8,1,96.1,0
+1051,Fiorella Rojas Pacheco,4,10,50,1,30,3.9,9,1,100.0,0
+1052,Fiorella Guzmán Miranda,13,2,11,3,7,1.9,6,0,75.0,0
+1053,Adriana Soto Mendoza,4,14,46,1,17,3.3,8,1,100.0,0
+1054,Natalia Rojas Soto,1,13,46,0,18,3.6,8,1,100.0,0
+1055,Gabriela Torres Guerrero,8,3,15,0,15,2.8,7,0,98.0,0
+1056,Fernanda Castro Alvarez,2,13,45,0,13,3.5,9,1,100.0,0
+1057,Luciana Salazar Guzmán,1,12,44,1,27,3.7,9,1,100.0,0
+1058,Brunella Benites Alvarez,44,0,7,6,0,0.5,2,0,15.0,1
+1059,Lorena Alvarez Guzmán,4,17,71,0,15,4.2,10,0,100.0,0
+1060,Alejandra Benites Aguilar,9,6,31,0,6,2.4,9,1,100.0,0
+1061,Micaela Flores Benites,28,1,6,5,6,1.0,4,0,38.8,1
+1062,Lorena Pacheco Barrios,73,0,7,5,0,0.5,3,0,15.0,1
+1063,Jimena Salazar Paredes,4,5,27,1,11,2.8,8,1,100.0,0
+1064,Belén Delgado Delgado,1,7,63,0,17,3.4,9,1,100.0,0
+1065,Fernanda Navarro Torres,10,2,15,3,10,1.9,6,0,79.8,0
+1066,Brunella Navarro Castro,7,8,33,1,23,2.7,8,1,100.0,0
+1067,Patricia Torres Morales,1,7,55,0,15,3.2,10,1,100.0,0
+1068,Micaela Castillo Mendoza,2,19,62,1,23,3.3,10,1,100.0,0
+1069,Natalia Navarro Guzmán,8,6,19,0,21,2.2,9,0,100.0,0
+1070,Fabrizio Peña Chávez,9,3,16,1,7,1.3,8,0,90.0,0
+1071,Joaquín Barrios Romero,9,6,35,1,10,1.9,9,0,96.5,0
+1072,Patricia Reyes Medina,28,1,5,2,8,0.7,7,0,50.9,1
+1073,Brunella Pacheco Barrios,54,0,5,5,0,0.2,3,0,15.0,1
+1074,Mateo Montes Guzmán,1,19,83,1,17,4.4,10,0,100.0,0
+1075,Belén Peña Chávez,2,17,64,0,16,3.8,9,1,100.0,0
+1076,Macarena Herrera Reyes,4,8,35,1,30,4.4,9,1,100.0,0
+1077,Antonella Delgado Salazar,4,13,56,0,24,3.1,10,1,100.0,0
+1078,Fiorella Campos Castillo,4,11,27,0,15,2.5,9,1,100.0,0
+1079,Sebastián Navarro Flores,8,6,33,0,24,2.1,7,0,100.0,0
+1080,Macarena Cárdenas Paredes,1,17,73,0,24,4.3,10,0,100.0,0
+1081,Mateo Soto Castro,8,7,35,2,9,2.7,7,1,96.3,0
+1082,Mariana Medina Medina,4,18,55,0,30,3.1,8,1,100.0,0
+1083,Fiorella Torres Salazar,1,14,52,0,25,3.1,10,0,100.0,0
+1084,Ariana Salazar Peña,16,2,16,2,11,1.6,7,0,73.8,0
+1085,Sebastián Romero Guzmán,9,2,7,2,16,1.0,6,0,82.7,0
+1086,Natalia Romero Miranda,4,7,34,1,17,3.6,9,1,100.0,0
+1087,Estefania Pacheco Chávez,4,8,30,2,12,2.7,9,0,100.0,0
+1088,Sebastián Herrera Guerrero,14,4,14,1,4,1.4,7,0,82.8,0
+1089,Mariana Morales Guerrero,1,11,47,0,19,4.3,9,0,100.0,0
+1090,Flavia Navarro Castillo,36,0,5,6,0,0.1,2,0,17.2,1
+1091,Diego Miranda Peña,8,3,15,1,18,2.9,7,0,94.8,0
+1092,Rodrigo Montes Barrios,6,3,32,0,10,2.6,7,0,100.0,0
+1093,Fernanda Reyes Benites,12,4,7,2,8,1.7,7,0,83.2,0
+1094,Sebastián Peña Vega,62,0,4,5,0,0.5,2,0,15.0,1
+1095,Ariana Guerrero Cordova,10,1,6,1,12,1.7,6,0,85.0,0
+1096,Fiorella Peña Soto,9,4,16,1,10,1.7,7,0,91.5,0
+1097,Sebastián Morales Montes,2,20,84,1,29,4.2,10,1,100.0,0
+1098,Diego Salazar Aguilar,72,0,4,4,0,0.5,2,0,15.0,1
+1099,Renata Paredes Miranda,56,0,3,5,0,0.2,2,0,15.0,1
+1100,Brunella Delgado Morales,4,10,30,1,18,3.0,9,1,100.0,0
+1101,Sebastián Salazar Campos,24,0,12,5,5,0.7,6,0,44.6,1
+1102,Lorena Guzmán Mendoza,2,12,38,1,27,3.2,8,0,100.0,0
+1103,Sebastián Chávez Guerrero,4,6,60,1,19,2.8,9,1,100.0,0
+1104,Ariana Benites Pacheco,25,1,10,5,2,0.6,5,0,43.4,1
+1105,Lorena Pacheco Mendoza,10,8,16,1,7,2.0,7,0,96.3,0
+1106,Brunella Salazar Herrera,16,3,12,3,10,1.1,8,0,71.3,0
+1107,Micaela Montes Castillo,1,18,45,1,28,2.5,8,1,100.0,0
+1108,Alejandra Reyes Alvarez,8,8,25,1,15,1.8,8,0,99.8,0
+1109,Macarena Delgado Chávez,11,2,6,2,14,1.3,6,0,80.2,0
+1110,Macarena Rojas Barrios,10,2,18,3,13,1.2,8,0,79.7,0
+1111,Jimena Navarro Morales,1,10,45,1,12,4.5,10,0,100.0,0
+1112,Romina Castillo Guerrero,9,8,24,1,19,3.0,8,0,100.0,0
+1113,Macarena Reyes Cárdenas,3,10,63,1,19,4.4,9,1,100.0,0
+1114,Carolina Salazar Mendoza,3,9,35,0,25,3.1,8,0,100.0,0
+1115,Alonso Benites Alvarez,1,16,53,0,22,2.5,9,1,100.0,0
+1116,Renata Benites Delgado,12,4,6,1,13,1.1,8,0,86.0,0
+1117,Fabrizio Morales Salazar,9,4,24,0,8,2.0,9,1,97.4,0
+1118,Ariana Barrios Rojas,5,3,23,2,14,2.0,9,1,95.4,0
+1119,Renata Aguilar Morales,18,1,11,2,2,0.8,6,0,66.4,0
+1120,Natalia Peña Salazar,32,0,4,6,0,0.4,5,0,26.8,1
+1121,Rodrigo Castro Herrera,8,6,22,1,14,2.5,7,0,97.9,0
+1122,Adriana Romero Mendoza,25,1,11,4,4,0.9,5,0,47.6,1
+1123,Paola Vega Morales,1,14,42,0,20,3.0,8,0,100.0,0
+1124,Romina Delgado Romero,4,8,29,1,16,2.2,7,1,100.0,0
+1125,Mateo Torres Paredes,8,5,11,2,6,2.2,8,0,93.1,0
+1126,Fernanda Medina Torres,63,0,2,6,0,0.3,4,0,15.0,1
+1127,Fabrizio Romero Aguilar,3,9,43,0,26,3.7,8,1,100.0,0
+1128,Macarena Benites Chávez,18,1,5,3,3,0.6,7,0,63.2,0
+1129,Carolina Peña Flores,2,19,62,0,14,3.3,8,0,100.0,0
+1130,Alejandra Campos Montes,2,17,68,0,24,4.0,9,0,100.0,0
+1131,Luciana Salazar Paredes,1,10,58,0,12,2.8,8,1,100.0,0
+1132,Brunella Vargas Rojas,4,19,53,1,16,2.8,8,0,100.0,0
+1133,Fernanda Morales Flores,10,3,18,2,5,1.1,6,0,82.8,0
+1134,Patricia Flores Navarro,5,5,17,2,18,2.6,9,1,99.7,0
+1135,Mariana Soto Herrera,43,0,5,5,0,0.1,2,0,15.0,1
+1136,Gonzalo Alvarez Morales,4,3,15,1,22,2.5,8,1,100.0,0
+1137,Macarena Chávez Cárdenas,6,5,18,1,17,2.9,8,1,100.0,0
+1138,Daniela Mendoza Chávez,11,3,12,3,15,1.1,7,0,78.5,0
+1139,Daniela Morales Pacheco,46,0,6,4,0,0.1,3,0,15.0,1
+1140,Flavia Miranda Cordova,7,8,29,2,16,3.0,7,1,100.0,0
+1141,Alejandra Castillo Guerrero,8,7,27,0,18,2.4,7,1,100.0,0
+1142,Alessandra Navarro Vargas,1,9,40,1,29,4.5,9,1,100.0,0
+1143,Mariana Reyes Miranda,10,4,14,2,19,2.2,7,0,87.7,0
+1144,Patricia Reyes Paredes,2,12,62,1,23,4.0,8,1,100.0,0
+1145,Nicolás Castro Barrios,11,1,7,1,6,1.1,6,0,81.9,0
+1146,Luciana Guerrero Chávez,16,2,16,2,10,1.7,7,0,74.0,0
+1147,Paloma Mendoza Peña,1,20,76,0,28,3.8,8,0,100.0,0
+1148,Macarena Campos Torres,25,1,9,3,4,1.0,4,0,50.6,1
+1149,Diego Castillo Paredes,15,1,7,3,11,1.2,8,0,70.3,0
+1150,Solange Barrios Cordova,15,4,17,2,13,1.2,7,0,77.2,0
+1151,Andrea Guzmán Castro,10,5,19,0,23,1.8,7,0,95.1,0
+1152,Fabrizio Mendoza Cárdenas,2,16,70,1,14,4.4,10,1,100.0,0
+1153,Joaquín Barrios Salazar,1,10,40,1,24,2.5,10,0,100.0,0
+1154,Antonella Miranda Paredes,10,3,16,3,4,1.4,8,0,81.6,0
+1155,Jimena Flores Castillo,10,3,14,2,20,2.1,7,1,86.0,0
+1156,Fiorella Navarro Romero,11,2,13,3,14,2.0,8,0,80.1,0
+1157,Diego Alvarez Aguilar,14,3,18,2,3,1.4,8,0,78.7,0
+1158,Flavia Delgado Romero,67,0,3,6,0,0.0,2,0,15.0,1
+1159,Luciana Chávez Cárdenas,10,3,24,1,11,2.4,8,0,91.1,0
+1160,Fernanda Benites Miranda,2,17,68,1,20,4.0,9,1,100.0,0
+1161,Natalia Morales Soto,3,12,57,0,26,3.3,9,1,100.0,0
+1162,Gonzalo Cordova Benites,4,14,61,0,13,3.4,10,1,100.0,0
+1163,Mateo Mendoza Chávez,21,1,9,2,3,0.6,7,0,61.9,0
+1164,Fiorella Miranda Campos,8,6,15,2,9,1.9,8,1,93.8,0
+1165,Gabriela Montes Alvarez,3,15,62,1,15,3.5,9,1,100.0,0
+1166,Rodrigo Chávez Barrios,2,11,56,1,13,3.6,9,1,100.0,0
+1167,Belén Romero Reyes,1,18,70,1,17,3.9,8,0,100.0,0
+1168,Fernanda Montes Vargas,4,19,62,1,17,3.3,8,0,100.0,0
+1169,Macarena Alvarez Cárdenas,3,12,52,0,25,3.5,9,1,100.0,0
+1170,Joaquín Castillo Mendoza,8,4,31,2,10,1.9,8,1,91.0,0
+1171,Micaela Mendoza Chávez,19,1,4,5,4,1.1,4,0,53.5,0
+1172,Natalia Aguilar Guzmán,2,12,46,1,18,3.9,9,0,100.0,0
+1173,Gabriela Mendoza Benites,9,3,13,1,14,1.9,7,0,90.6,0
+1174,Solange Guerrero Guerrero,10,7,34,1,9,2.3,7,0,95.6,0
+1175,Renata Medina Herrera,7,5,32,2,19,2.8,9,0,97.0,0
+1176,Gonzalo Guzmán Vargas,10,1,14,2,4,1.6,7,0,82.0,0
+1177,Gonzalo Guzmán Aguilar,10,3,23,0,13,2.6,8,1,95.1,0
+1178,Mariana Rojas Barrios,51,0,8,6,0,0.5,5,0,15.0,1
+1179,Luciana Benites Navarro,6,8,35,1,13,2.1,7,1,100.0,0
+1180,Alessandra Salazar Mendoza,3,19,77,1,22,4.1,8,1,100.0,0
+1181,Macarena Delgado Montes,4,19,54,1,16,2.6,10,1,100.0,0
+1182,Carolina Montes Cordova,7,4,35,0,22,1.9,7,1,98.7,0
+1183,Antonella Torres Herrera,20,0,9,2,2,0.6,4,0,59.7,0
+1184,Rodrigo Vargas Castillo,2,13,49,0,19,3.8,10,1,100.0,0
+1185,Ariana Rojas Delgado,15,3,9,1,5,1.7,8,0,81.4,0
+1186,Nicolás Guzmán Morales,8,3,19,1,11,1.9,7,0,92.2,0
+1187,Renata Romero Montes,1,12,58,0,18,2.6,10,1,100.0,0
+1188,Micaela Aguilar Herrera,1,20,58,0,15,2.9,9,1,100.0,0
+1189,Belén Mendoza Herrera,6,3,10,2,6,2.0,9,0,93.8,0
+1190,Jimena Romero Benites,2,6,32,0,16,3.2,9,0,100.0,0
+1191,Gabriela Vargas Miranda,13,4,12,2,11,1.7,7,0,81.6,0
+1192,Gabriela Torres Medina,3,12,55,1,17,2.7,8,1,100.0,0
+1193,Alonso Pacheco Aguilar,9,5,29,0,18,2.8,8,0,100.0,0
+1194,Lorena Benites Castro,4,7,23,1,22,2.1,8,0,100.0,0
+1195,Mariana Medina Cordova,5,5,16,2,17,2.1,8,0,97.7,0
+1196,Micaela Morales Mendoza,1,17,54,1,19,3.2,10,0,100.0,0
+1197,Paola Romero Romero,3,17,62,0,30,3.7,10,1,100.0,0
+1198,Macarena Cordova Cordova,1,18,63,1,25,3.5,8,0,100.0,0
+1199,Adriana Cordova Castillo,1,10,54,0,26,2.5,9,0,100.0,0
+1200,Antonella Salazar Salazar,1,7,44,1,20,3.4,9,1,100.0,0
+1201,Antonella Vargas Cordova,4,6,24,1,9,2.2,8,1,100.0,0
+1202,Andrea Flores Navarro,1,8,38,1,19,2.7,8,0,100.0,0
+1203,Renata Mendoza Reyes,1,7,37,0,20,2.6,9,1,100.0,0
+1204,Flavia Vega Herrera,26,1,8,3,6,0.6,7,0,50.4,1
+1205,Mariana Delgado Barrios,13,3,12,1,4,1.8,7,0,84.0,0
+1206,Paola Vargas Miranda,10,4,33,0,8,2.6,7,1,95.7,0
+1207,Romina Romero Mendoza,16,4,6,2,6,1.2,8,0,76.4,0
+1208,Sebastián Cordova Cárdenas,11,1,8,2,9,1.9,7,0,81.2,0
+1209,Gonzalo Rojas Montes,3,12,37,0,16,2.8,9,1,100.0,0
+1210,Mariana Delgado Flores,19,1,11,5,5,0.5,6,0,53.5,1
+1211,Mateo Vargas Miranda,5,6,26,1,7,2.4,8,0,100.0,0
+1212,Andrea Reyes Castillo,15,2,11,1,12,1.3,7,0,78.1,0
+1213,Alonso Pacheco Guzmán,12,1,5,1,12,1.2,7,0,81.3,0
+1214,Alejandra Castro Guzmán,4,12,39,1,27,3.3,8,0,100.0,0
+1215,Claudia Miranda Peña,13,1,13,3,12,1.1,7,0,72.5,0
+1216,Ariana Delgado Herrera,1,8,47,0,12,2.9,10,1,100.0,0
+1217,Brunella Flores Medina,33,0,1,5,0,0.1,5,0,27.9,1
+1218,Nicolás Mendoza Soto,24,0,3,4,3,0.5,5,0,46.8,1
+1219,Jimena Guzmán Guzmán,3,13,45,1,27,3.5,9,1,100.0,0
+1220,Luciana Miranda Cárdenas,16,1,13,3,13,1.3,6,0,67.4,0
+1221,Alessandra Navarro Chávez,4,4,32,1,17,2.5,7,1,100.0,0
+1222,Gabriela Castillo Guzmán,69,0,8,4,0,0.3,4,0,15.0,1
+1223,Lorena Alvarez Montes,6,5,28,2,16,2.0,9,0,96.6,0
+1224,Solange Miranda Peña,1,13,57,1,16,4.4,10,1,100.0,0
+1225,Gonzalo Herrera Cárdenas,4,5,11,0,15,1.8,9,0,100.0,0
+1226,Alonso Cárdenas Mendoza,9,3,14,1,15,1.9,9,1,92.2,0
+1227,Mateo Chávez Vargas,11,2,6,2,6,1.4,6,0,80.5,0
+1228,Belén Miranda Delgado,15,4,6,2,7,1.4,8,0,78.5,0
+1229,Joaquín Pacheco Cordova,11,2,11,3,6,1.3,7,0,77.5,0
+1230,Ariana Vargas Cárdenas,9,6,22,1,9,2.5,7,0,96.3,0
+1231,Micaela Miranda Campos,7,6,24,0,23,3.0,7,1,100.0,0
+1232,Alessandra Vargas Paredes,6,4,21,0,23,2.5,9,1,100.0,0
+1233,Romina Montes Paredes,4,6,26,1,7,2.8,7,0,100.0,0
+1234,Andrea Alvarez Guzmán,16,3,6,3,12,1.9,8,0,73.3,0
+1235,Romina Romero Chávez,7,4,31,2,10,2.1,8,1,93.0,0
+1236,Luciana Soto Rojas,1,8,29,0,19,3.7,8,0,100.0,0
+1237,Camila Aguilar Montes,1,10,33,0,29,3.3,9,1,100.0,0
+1238,Paloma Morales Pacheco,1,8,65,0,17,2.8,10,1,100.0,0
+1239,Rodrigo Rojas Barrios,6,8,28,1,17,1.9,9,0,100.0,0
+1240,Flavia Guzmán Campos,7,4,24,0,24,1.8,8,0,99.3,0
+1241,Ariana Salazar Aguilar,3,8,64,1,20,3.4,8,1,100.0,0
+1242,Lorena Romero Miranda,25,1,5,3,5,0.9,6,0,52.0,1
+1243,Solange Paredes Vega,13,4,18,3,10,1.1,7,0,76.6,0
+1244,Belén Medina Torres,3,15,66,1,14,4.4,8,0,100.0,0
+1245,Adriana Navarro Guzmán,16,4,8,3,15,1.3,6,0,71.5,0
+1246,Carolina Castillo Guerrero,17,2,3,2,7,0.7,6,0,69.1,0
+1247,Camila Medina Cordova,4,12,58,0,18,2.8,9,1,100.0,0
+1248,Paola Navarro Rojas,15,2,5,3,13,1.1,6,0,69.8,0
+1249,Natalia Mendoza Benites,10,3,16,3,13,1.2,8,0,81.1,0
+1250,Alonso Rojas Romero,7,7,29,2,10,2.2,7,0,96.7,0
+1251,Flavia Castro Vargas,3,7,32,0,29,2.7,9,0,100.0,0
+1252,Paola Torres Castillo,10,2,6,3,12,2.0,6,0,80.1,0
+1253,Diego Cárdenas Montes,8,8,28,1,14,2.9,9,0,100.0,0
+1254,Brunella Guerrero Torres,1,8,64,1,13,2.9,8,1,100.0,0
+1255,Joaquín Salazar Miranda,55,0,2,6,0,0.3,3,0,15.0,1
+1256,Fernanda Salazar Guzmán,2,16,51,1,19,3.2,8,1,100.0,0
+1257,Camila Rojas Castillo,9,4,17,2,14,1.1,6,0,85.7,0
+1258,Macarena Pacheco Paredes,1,20,74,1,18,3.7,9,1,100.0,0
+1259,Romina Delgado Navarro,1,9,52,0,12,3.3,10,0,100.0,0
+1260,Romina Castro Reyes,2,10,40,0,21,2.6,8,1,100.0,0

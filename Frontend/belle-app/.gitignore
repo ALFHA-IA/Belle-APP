@@ -1,3 +1,27 @@
+# ==========================================
+# Archivos y carpetas de compilación de .NET
+# ==========================================
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.suo
+*.sln
+
+# Archivos de configuración local con claves de desarrollo
+appsettings.Development.json
+appsettings.Local.json
+
+# ==========================================
+# Node.js y React (Vite / npm / yarn)
+# ==========================================
+node_modules
+dist
+dist-ssr
+*.local
+
 # Logs
 logs
 *.log
@@ -7,18 +31,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# ==========================================
+# Directorios de editores e IDEs
+# ==========================================
 .idea
+.vscode
 .DS_Store
-*.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
+
+# ==========================================
+# Documentación y configuraciones auxiliares
+# ==========================================
+docs/*
+opencode.json
+graphify-out
+.graphifyignore

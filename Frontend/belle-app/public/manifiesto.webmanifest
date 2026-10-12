@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "Belle Barre",
+  "short_name": "Belle",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#6E1C36",
+  "icons": [
+    { "src": "/icono-notificaciones-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icono-notificaciones-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

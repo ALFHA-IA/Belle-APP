@@ -1,20 +1,20 @@
 {
   "modulo": "1.2 Preparar el entrenamiento (deserción de clientes)",
   "estado": "Completado Exitosamente",
-  "muestras_totales": 1200,
-  "muestras_entrenamiento": 960,
-  "muestras_prueba": 240,
+  "muestras_totales": 251,
+  "muestras_entrenamiento": 200,
+  "muestras_prueba": 51,
   "metricas": {
-    "exactitud_accuracy": 88.33,
-    "precision": 91.3,
-    "sensibilidad_recall": 74.12,
-    "f1_score": 81.82
+    "exactitud_accuracy": 100.0,
+    "precision": 100.0,
+    "sensibilidad_recall": 100.0,
+    "f1_score": 100.0
   },
   "matriz_confusion": {
-    "verdaderos_positivos_tp": 63,
-    "falsos_positivos_fp": 6,
-    "verdaderos_negativos_tn": 149,
-    "falsos_negativos_fn": 22
+    "verdaderos_positivos_tp": 20,
+    "falsos_positivos_fp": 0,
+    "verdaderos_negativos_tn": 31,
+    "falsos_negativos_fn": 0
   },
   "importancia_caracteristicas": {
     "dias_sin_asistir": 0.35,

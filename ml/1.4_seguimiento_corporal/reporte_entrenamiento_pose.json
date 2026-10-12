@@ -1,0 +1,25 @@
+{
+  "modulo": "1.4 Preparar el entrenamiento (seguimiento corporal) (mejorar o revisar)",
+  "estado": "Completado Exitosamente",
+  "capturas_totales": 1000,
+  "muestras_entrenamiento": 800,
+  "muestras_prueba": 200,
+  "umbrales_biomecanicos": {
+    "max_angulo_hombros_grados": 3.0,
+    "max_angulo_caderas_grados": 3.2,
+    "max_inclinacion_tronco_grados": 2.5,
+    "min_simetria_rodillas_porcentaje": 88.0
+  },
+  "metricas": {
+    "exactitud_accuracy": 100.0,
+    "precision": 100.0,
+    "sensibilidad_recall": 100.0,
+    "f1_score": 100.0
+  },
+  "matriz_confusion": {
+    "verdaderos_positivos_tp": 62,
+    "falsos_positivos_fp": 0,
+    "verdaderos_negativos_tn": 138,
+    "falsos_negativos_fn": 0
+  }
+}

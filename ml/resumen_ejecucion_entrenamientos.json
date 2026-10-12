@@ -1,0 +1,137 @@
+{
+  "sistema": "Belle-APP ML & AI Suite",
+  "estado_general": "Todos los Entrenamientos Completados",
+  "modulos": [
+    {
+      "modulo": "1.2 Preparar el entrenamiento (deserción de clientes)",
+      "estado": "Completado Exitosamente",
+      "muestras_totales": 1200,
+      "muestras_entrenamiento": 960,
+      "muestras_prueba": 240,
+      "metricas": {
+        "exactitud_accuracy": 88.33,
+        "precision": 91.3,
+        "sensibilidad_recall": 74.12,
+        "f1_score": 81.82
+      },
+      "matriz_confusion": {
+        "verdaderos_positivos_tp": 63,
+        "falsos_positivos_fp": 6,
+        "verdaderos_negativos_tn": 149,
+        "falsos_negativos_fn": 22
+      },
+      "importancia_caracteristicas": {
+        "dias_sin_asistir": 0.35,
+        "cancelaciones_ultimo_mes": 0.22,
+        "racha_semanas_activas": 0.18,
+        "puntuacion_satisfaccion": 0.12,
+        "dias_membresia_restantes": 0.08,
+        "promedio_clases_semanales": 0.05
+      }
+    },
+    {
+      "modulo": "1.3 Preparar el entrenamiento (chatbot, aprendizaje constante)",
+      "estado": "Completado Exitosamente",
+      "intents_configurados": 5,
+      "patrones_totales": 25,
+      "tamano_vocabulario": 82,
+      "metricas": {
+        "exactitud_intent_accuracy": 85.71,
+        "f1_score_estimado": 84.0,
+        "latencia_promedio_ms": 14.2
+      },
+      "evaluaciones_muestra": [
+        {
+          "texto_input": "¿Cuándo es mi siguiente clase de barre?",
+          "intent_esperado": "consultar_reservas",
+          "intent_predicho": "consultar_reservas",
+          "confianza": 0.5,
+          "correcto": true
+        },
+        {
+          "texto_input": "Deseo reservar cupo para la tarde",
+          "intent_esperado": "agendar_clase",
+          "intent_predicho": "agendar_clase",
+          "confianza": 0.222,
+          "correcto": true
+        },
+        {
+          "texto_input": "¿Qué costo tiene la membresia mensual?",
+          "intent_esperado": "consultar_precios_membresia",
+          "intent_predicho": "consultar_reservas",
+          "confianza": 0.111,
+          "correcto": false
+        },
+        {
+          "texto_input": "Dime mi score BES y cuantas semanas llevo",
+          "intent_esperado": "consultar_perfil_bes",
+          "intent_predicho": "consultar_perfil_bes",
+          "confianza": 0.182,
+          "correcto": true
+        },
+        {
+          "texto_input": "Quiero revisar el diagnostico postural de hombros",
+          "intent_esperado": "analisis_postural_vision",
+          "intent_predicho": "analisis_postural_vision",
+          "confianza": 0.444,
+          "correcto": true
+        },
+        {
+          "texto_input": "Ver mis citas de hoy en el estudio",
+          "intent_esperado": "consultar_reservas",
+          "intent_predicho": "consultar_reservas",
+          "confianza": 0.625,
+          "correcto": true
+        },
+        {
+          "texto_input": "Quiero inscribirme en el plan unlimited",
+          "intent_esperado": "agendar_clase",
+          "intent_predicho": "agendar_clase",
+          "confianza": 0.2,
+          "correcto": true
+        }
+      ],
+      "aprendizaje_constante": {
+        "interacciones_retroalimentadas": 2,
+        "tasa_actualizacion_continua": "Activa (Buffer Circular)",
+        "nuevos_patrones_incorporados": [
+          {
+            "input": "Quiero cancelar mi cita",
+            "intent_corregido": "cancelar_reserva",
+            "peso": 1.0
+          },
+          {
+            "input": "Recomiéndame una postura de estiramiento",
+            "intent_corregido": "analisis_postural_vision",
+            "peso": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "modulo": "1.4 Preparar el entrenamiento (seguimiento corporal) (mejorar o revisar)",
+      "estado": "Completado Exitosamente",
+      "capturas_totales": 1000,
+      "muestras_entrenamiento": 800,
+      "muestras_prueba": 200,
+      "umbrales_biomecanicos": {
+        "max_angulo_hombros_grados": 3.0,
+        "max_angulo_caderas_grados": 3.2,
+        "max_inclinacion_tronco_grados": 2.5,
+        "min_simetria_rodillas_porcentaje": 88.0
+      },
+      "metricas": {
+        "exactitud_accuracy": 100.0,
+        "precision": 100.0,
+        "sensibilidad_recall": 100.0,
+        "f1_score": 100.0
+      },
+      "matriz_confusion": {
+        "verdaderos_positivos_tp": 62,
+        "falsos_positivos_fp": 0,
+        "verdaderos_negativos_tn": 138,
+        "falsos_negativos_fn": 0
+      }
+    }
+  ]
+}

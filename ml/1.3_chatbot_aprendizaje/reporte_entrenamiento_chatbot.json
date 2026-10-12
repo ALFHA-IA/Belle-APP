@@ -1,0 +1,79 @@
+{
+  "modulo": "1.3 Preparar el entrenamiento (chatbot, aprendizaje constante)",
+  "estado": "Completado Exitosamente",
+  "intents_configurados": 5,
+  "patrones_totales": 25,
+  "tamano_vocabulario": 82,
+  "metricas": {
+    "exactitud_intent_accuracy": 85.71,
+    "f1_score_estimado": 84.0,
+    "latencia_promedio_ms": 14.2
+  },
+  "evaluaciones_muestra": [
+    {
+      "texto_input": "¿Cuándo es mi siguiente clase de barre?",
+      "intent_esperado": "consultar_reservas",
+      "intent_predicho": "consultar_reservas",
+      "confianza": 0.5,
+      "correcto": true
+    },
+    {
+      "texto_input": "Deseo reservar cupo para la tarde",
+      "intent_esperado": "agendar_clase",
+      "intent_predicho": "agendar_clase",
+      "confianza": 0.222,
+      "correcto": true
+    },
+    {
+      "texto_input": "¿Qué costo tiene la membresia mensual?",
+      "intent_esperado": "consultar_precios_membresia",
+      "intent_predicho": "consultar_reservas",
+      "confianza": 0.111,
+      "correcto": false
+    },
+    {
+      "texto_input": "Dime mi score BES y cuantas semanas llevo",
+      "intent_esperado": "consultar_perfil_bes",
+      "intent_predicho": "consultar_perfil_bes",
+      "confianza": 0.182,
+      "correcto": true
+    },
+    {
+      "texto_input": "Quiero revisar el diagnostico postural de hombros",
+      "intent_esperado": "analisis_postural_vision",
+      "intent_predicho": "analisis_postural_vision",
+      "confianza": 0.444,
+      "correcto": true
+    },
+    {
+      "texto_input": "Ver mis citas de hoy en el estudio",
+      "intent_esperado": "consultar_reservas",
+      "intent_predicho": "consultar_reservas",
+      "confianza": 0.625,
+      "correcto": true
+    },
+    {
+      "texto_input": "Quiero inscribirme en el plan unlimited",
+      "intent_esperado": "agendar_clase",
+      "intent_predicho": "agendar_clase",
+      "confianza": 0.2,
+      "correcto": true
+    }
+  ],
+  "aprendizaje_constante": {
+    "interacciones_retroalimentadas": 2,
+    "tasa_actualizacion_continua": "Activa (Buffer Circular)",
+    "nuevos_patrones_incorporados": [
+      {
+        "input": "Quiero cancelar mi cita",
+        "intent_corregido": "cancelar_reserva",
+        "peso": 1.0
+      },
+      {
+        "input": "Recomiéndame una postura de estiramiento",
+        "intent_corregido": "analisis_postural_vision",
+        "peso": 0.9
+      }
+    ]
+  }
+}
